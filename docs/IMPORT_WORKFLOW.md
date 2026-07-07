@@ -48,3 +48,7 @@ until identity and safety are checked.
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.
+
+The HIU/Stanford border crossing batch imports stable historical reference
+points only. Do not use it to publish live opening hours, current accessibility,
+or operational status.

@@ -11,6 +11,8 @@ Preferred source families:
 - UN/LOCODE for transport and trade location codes,
 - Wikidata for public identifiers and cross-checking,
 - GeoNames for names, coordinates, and public gazetteer references,
+- HIU/Stanford public-domain border crossing data for stable crossing
+  reference points,
 - official public sources with clear reuse terms.
 
 Do not import from:
@@ -37,6 +39,7 @@ The first canonical seed uses:
   records.
 - Wikidata for exact airport identifier enrichment when existing records match
   by both IATA and ICAO code.
+- HIU/Stanford public-domain data for stable border crossing reference records.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.

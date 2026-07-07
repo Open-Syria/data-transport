@@ -1,0 +1,29 @@
+{
+  "sourceId": "hiu-syria-border-crossings",
+  "sourceTitle": "Border Crossings, Syria, March 2014",
+  "sourceUrl": "https://geodata.lib.berkeley.edu/catalog/stanford-mp665hn0245",
+  "license": "Public Domain",
+  "accessedAt": "2026-07-07T23:04:31.920Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "stanford-border-crossings-metadata.json",
+      "sha256": "17ba02bbbd782e7874afb0652f7651cc2e8ad25db30bc37b43d838ee97d1b78d",
+      "notes": "Stanford Cocina metadata downloaded from https://purl.stanford.edu/mp665hn0245.json."
+    },
+    {
+      "name": "stanford-border-crossings-mp665hn0245.zip",
+      "sha256": "0cf186e8c8735ddb308f1eef42c41689ede75ed79d96be0fb5353c32cb377215",
+      "notes": "Zipped Stanford object downloaded from https://stacks.stanford.edu/object/mp665hn0245."
+    }
+  ],
+  "importedFields": ["border crossing names", "coordinates", "source issue date"],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Parse the public-domain point shapefile from the Stanford object.",
+    "Create stable border_crossing records with border and road transport modes.",
+    "Set operationalStatus to unknown because the source is historical reference data, not live crossing status.",
+    "Hold tower-style rows for later safety and identity review."
+  ],
+  "reviewNotes": "Imported 30 stable named border crossing reference records from the March 12, 2014 HIU dataset. Held 2 tower-style rows, Hadallat (Tower 30/31) and Tower 22, because they need additional identity and safety review before publication."
+}

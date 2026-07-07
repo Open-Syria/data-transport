@@ -90,5 +90,14 @@
       "alternate locality spellings"
     ],
     "notes": "Used to cross-link transport records to reviewed OpenSyria geography localities. Do not use locality names as facility names unless the transport record itself represents that locality."
+  },
+  {
+    "id": "hiu-syria-border-crossings",
+    "title": "Border Crossings, Syria, March 2014",
+    "url": "https://geodata.lib.berkeley.edu/catalog/stanford-mp665hn0245",
+    "license": "Public Domain",
+    "status": "approved",
+    "fields": ["border crossing names", "coordinates", "source issue date"],
+    "notes": "Compiled by the U.S. Department of State Humanitarian Information Unit and mirrored by Stanford/UC Berkeley GeoData. Use as stable public reference data only; do not infer live crossing status."
   }
 ]

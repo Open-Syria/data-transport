@@ -17,3 +17,5 @@
   records.
 - Removed Al Thaurah Airport (`SOR`) from canonical data pending status,
   identity, and safety review.
+- Added 30 stable public border crossing reference records from the
+  public-domain HIU/Stanford border crossings dataset.

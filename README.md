@@ -41,7 +41,7 @@ Out of scope:
 This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
-The canonical `data/locations.json` file currently contains 41 reviewed seed
+The canonical `data/locations.json` file currently contains 71 reviewed seed
 records from the first transport import:
 
 - 6 public civil/reference airport records from OurAirports,
@@ -50,6 +50,8 @@ records from the first transport import:
 - 28 active railroad station records from GeoNames.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 6 GeoNames airport identifier enrichments for existing public airport records.
+- 30 stable border crossing reference records from the public-domain HIU/Stanford
+  border crossings dataset.
 - 13 reviewed administrative locality links from OpenSyria Data Geography.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
   code.
@@ -118,10 +120,11 @@ Use `sourceIds` for the approved source list and `sourceReferences` for dated
 source evidence such as access timestamps, source row identifiers, and upstream
 row dates.
 
-Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, and
-official public sources with clear reuse terms. OpenStreetMap-derived data may
-be useful, but ODbL share-alike requirements must be reviewed before it is mixed
-into default release artifacts.
+Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames,
+HIU/Stanford public-domain border crossing data, and official public sources
+with clear reuse terms. OpenStreetMap-derived data may be useful, but ODbL
+share-alike requirements must be reviewed before it is mixed into default
+release artifacts.
 
 See [docs/SOURCES.md](docs/SOURCES.md).
 

@@ -41,5 +41,9 @@ accepted only reviewed matches to existing public airport records.
 Wikidata airport identifier enrichment used exact IATA and ICAO matches accessed
 at `2026-07-07T22:44:40.220Z`.
 
+HIU/Stanford border crossing records use a public-domain source issued on
+`2014-03-12` and accessed at `2026-07-07T23:04:31.920Z`. They are stable
+reference points only and must not be read as current crossing operating status.
+
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

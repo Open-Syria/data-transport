@@ -30,18 +30,20 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 41 locations:
+The first seed contains 71 locations:
 
 - 6 airport-typed records,
+- 30 border crossing records,
 - 5 seaport-typed records,
 - 6 road terminal records,
 - 30 rail terminal records,
 - 1 oil terminal record.
-- 41 records with dated source references.
-- 41 records with upstream source-row dates.
+- 71 records with dated source references.
+- 71 records with upstream source-row dates.
 - 37 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
 
 The current contribution focus is Arabic facility names for records that still
-lack them, source review for held ambiguous GeoNames and Wikidata rows, and
-official-source cross-checks.
+lack them, administrative geography links for border crossings and rail records,
+source review for held ambiguous GeoNames and Wikidata rows, and official-source
+cross-checks.

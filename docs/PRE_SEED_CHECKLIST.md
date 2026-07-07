@@ -12,5 +12,5 @@
 - [x] `pnpm run coverage:data` reviewed.
 
 First seed completed from OurAirports, the DataHub UN/LOCODE codelist,
-OpenSyria Data Geography, and GeoNames Syria. Held rows remain in local
-maintainer review outputs.
+OpenSyria Data Geography, GeoNames Syria, Wikidata, and HIU/Stanford border
+crossing data. Held rows remain in local maintainer review outputs.
