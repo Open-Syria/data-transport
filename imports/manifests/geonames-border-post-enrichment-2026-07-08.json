@@ -1,0 +1,34 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-07T22:24:22.381Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "GeoNames Syria country dump cached under data-automation outputs."
+    }
+  ],
+  "importedFields": [
+    "Arabic names",
+    "aliases",
+    "feature codes",
+    "coordinates for review",
+    "externalIds",
+    "sourceIds",
+    "sourceReferences"
+  ],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Reviewed held GeoNames border-post feature rows against existing canonical border crossings.",
+    "Accepted the Nasib PSTB row as an enrichment because its name matches the existing Nasib Border Crossing record and its coordinates are within about 210 meters of the HIU/HDX point.",
+    "Added the GeoNames identifier, Arabic facility name, transliteration alias, and dated GeoNames source reference to the existing Nasib record.",
+    "Kept At Tanf held because the GeoNames point is about 7.9 kilometers from the existing HIU/HDX crossing point.",
+    "Kept the Nasib customs-building CSTM row held because it describes a customs/banking/insurance building rather than a distinct crossing record."
+  ],
+  "reviewNotes": "Enriched 1 existing border crossing record (Nasib) with GeoNames border-post evidence. No new border crossing records were added, and no coordinates were replaced."
+}

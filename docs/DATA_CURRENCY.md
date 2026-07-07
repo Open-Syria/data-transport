@@ -35,6 +35,9 @@ OpenSyria Data Geography locality links were reviewed against the local
 GeoNames rail, inactive abandoned rail, and port expansion rows used the Syria
 country dump accessed at `2026-07-07T22:24:22.381Z`.
 
+GeoNames border-post enrichment for Nasib reused the same Syria country dump and
+stored the GeoNames day-level modification date as the source-row date.
+
 GeoNames airport identifier enrichment reused the same Syria country dump and
 accepted only reviewed matches to existing public airport records.
 

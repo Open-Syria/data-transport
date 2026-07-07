@@ -3056,13 +3056,19 @@
   {
     "id": "sy-nasib-border-crossing",
     "name": {
-      "en": "Nasib Border Crossing"
+      "en": "Nasib Border Crossing",
+      "ar": "معبر نصيب الحدودي"
     },
     "aliases": [
       {
         "value": "Jabir Border Crossing",
         "language": "en",
         "type": "alias"
+      },
+      {
+        "value": "Ma`bar Nasib al Hududi",
+        "language": "en",
+        "type": "transliteration"
       }
     ],
     "locationTypes": ["border_crossing"],
@@ -3082,14 +3088,23 @@
         "ar": "نصيب"
       }
     },
-    "externalIds": {},
+    "externalIds": {
+      "geonames": "8506624"
+    },
     "sourceIds": [
+      "geonames-sy",
       "hdx-syria-border-crossings-2015",
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8506624",
+        "sourceRecordDate": "2013-04-06"
+      },
       {
         "sourceId": "hdx-syria-border-crossings-2015",
         "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:08",

@@ -54,6 +54,8 @@ records from the first transport import:
 - 6 GeoNames public maritime terminal subfacility records for wharves and
   piers.
 - 6 GeoNames airport identifier enrichments for existing public airport records.
+- 1 GeoNames border-post enrichment for the existing Nasib Border Crossing
+  record.
 - 30 stable border crossing reference records from public-domain HIU datasets.
 - 27 border crossing records cross-checked against the HDX 2015 HIU release,
   with Syrian-side names preferred over neighboring-country crossing names.

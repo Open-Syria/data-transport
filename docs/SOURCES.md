@@ -36,8 +36,8 @@ The first canonical seed uses:
 - OpenSyria Data Geography for reviewed locality and parent administrative
   cross-links.
 - GeoNames for active railroad stations, inactive abandoned railroad station
-  references, broad harbor/port identifiers, and reviewed public maritime
-  terminal subfacilities.
+  references, broad harbor/port identifiers, reviewed public maritime terminal
+  subfacilities, and reviewed Nasib border-post enrichment.
 - GeoNames for exact airport identifier enrichment on existing public airport
   records.
 - Wikidata for exact airport identifier enrichment when existing records match

@@ -54,6 +54,11 @@ inactive historical rail references. Do not use these rows as evidence of
 current rail service, and do not infer exact locality links from nearest
 coordinates without a reviewed geography match.
 
+GeoNames border-post rows may enrich existing border crossings only when the
+identity and coordinates align with stronger border-crossing sources. Keep rows
+held when coordinates diverge materially or the feature describes a building
+rather than a crossing identity.
+
 The HIU/Stanford and HDX border crossing batches import stable historical
 reference points only. Do not use them to publish live opening hours, current
 accessibility, or operational status. When a source separates the Syrian

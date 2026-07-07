@@ -29,3 +29,5 @@
   piers around Tartus, Arwad, and Latakia.
 - Added 5 inactive GeoNames abandoned railroad station records with dated
   source-row references.
+- Enriched Nasib Border Crossing with a reviewed GeoNames border-post identifier
+  and Arabic facility name.

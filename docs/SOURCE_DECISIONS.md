@@ -71,6 +71,14 @@ points, not current-service evidence. They use governorate-level administrative
 links from the GeoNames admin code only; exact locality links were not inferred
 from nearest coordinates.
 
+A follow-up border-post review accepted the GeoNames `PSTB` row for Nasib as an
+enrichment of the existing Nasib Border Crossing record because its name matches
+and its point is within about 210 meters of the HIU/HDX point. The At Tanf
+`PSTB` row remains held because its point is about 7.9 kilometers from the
+existing HIU/HDX crossing point. The Nasib `CSTM` customs-building row remains
+held because it describes a customs/banking/insurance building rather than a
+distinct crossing identity.
+
 ## NGA World Port Index
 
 Status: approved and imported for public maritime identifiers and coordinates.
