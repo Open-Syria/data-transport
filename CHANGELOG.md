@@ -11,3 +11,5 @@
 - Expanded the seed with 28 active railroad stations and 3 GeoNames harbor/port
   identifier merges.
 - Added dated `sourceReferences` to every location record and release artifact.
+- Added 6 Wikidata airport identifier enrichments matched by exact IATA and
+  ICAO codes.

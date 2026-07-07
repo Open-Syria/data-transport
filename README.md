@@ -50,6 +50,8 @@ records from the first transport import:
 - 28 active railroad station records from GeoNames.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 13 reviewed administrative locality links from OpenSyria Data Geography.
+- 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
+  code.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
 

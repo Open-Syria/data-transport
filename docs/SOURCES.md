@@ -33,6 +33,8 @@ The first canonical seed uses:
 - OpenSyria Data Geography for reviewed locality and parent administrative
   cross-links.
 - GeoNames for active railroad stations and broad harbor/port identifiers.
+- Wikidata for exact airport identifier enrichment when existing records match
+  by both IATA and ICAO code.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.

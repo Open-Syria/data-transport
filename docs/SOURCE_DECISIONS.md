@@ -34,6 +34,11 @@ Status: approved for public identifiers, names, coordinates, and cross-checking.
 
 Use them as supporting sources, not as a shortcut around scope or safety review.
 
+Wikidata was imported for exact airport identifier enrichment only. The import
+accepted 6 existing airport records whose Wikidata item matched by both IATA and
+ICAO code. It held city/locality, port, single-code airport, and
+military-looking matches for later review.
+
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,

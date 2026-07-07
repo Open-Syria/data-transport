@@ -110,6 +110,9 @@ function buildLocationCoverage(data) {
       unLocode: fieldMetric('UN/LOCODE', 'low', data.locations, (record) =>
         Boolean(record.externalIds.unLocode),
       ),
+      wikidata: fieldMetric('Wikidata ID', 'low', data.locations, (record) =>
+        Boolean(record.externalIds.wikidata),
+      ),
     },
   };
 }

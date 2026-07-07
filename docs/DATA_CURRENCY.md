@@ -35,6 +35,8 @@ OpenSyria Data Geography locality links were reviewed against the local
 GeoNames rail and port expansion rows used the Syria country dump accessed at
 `2026-07-07T22:24:22.381Z`.
 
-Every canonical record currently has at least one dated source reference. The
-only records without `sourceRecordDate` values are supported by source rows that
-do not expose row-level dates.
+Wikidata airport identifier enrichment used exact IATA and ICAO matches accessed
+at `2026-07-07T22:44:40.220Z`.
+
+Every canonical record currently has at least one dated source reference and at
+least one upstream source-row date.
