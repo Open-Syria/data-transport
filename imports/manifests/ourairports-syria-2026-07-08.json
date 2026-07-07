@@ -4,12 +4,13 @@
   "sourceUrl": "https://ourairports.com/data/",
   "license": "Public Domain",
   "licenseUrl": "https://github.com/davidmegginson/ourairports-data/blob/main/LICENSE",
-  "accessedAt": "2026-07-08T00:00:00.000Z",
-  "status": "planned",
+  "accessedAt": "2026-07-07T21:51:07.081Z",
+  "status": "imported",
   "rawFiles": [
     {
-      "name": "airports.csv",
-      "notes": "Download from the current OurAirports data repository before the first import batch."
+      "name": "ourairports-airports.csv",
+      "sha256": "3fa3cbc6058661554187f9d1a2664c044ed88eab4ad5ac7ea60fd65b79251a91",
+      "notes": "Downloaded by data-automation collect-transport-sources into an ignored local output directory."
     }
   ],
   "importedFields": [
@@ -27,5 +28,5 @@
     "Exclude military-only, tactical, and operationally sensitive records unless explicitly approved.",
     "Map public airport identifiers into externalIds."
   ],
-  "reviewNotes": "Planned source review for the first public civil airport and airfield seed."
+  "reviewNotes": "Imported 7 public civil/reference airport seed records. Held 53 Syria rows for review, including military-only, heliport, unsupported, and small unverified airport rows."
 }

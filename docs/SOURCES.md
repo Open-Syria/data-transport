@@ -21,3 +21,14 @@ Do not import from:
 OpenStreetMap-derived data requires an explicit ODbL review before use in
 default release artifacts.
 
+## Current Seed Sources
+
+The first canonical seed uses:
+
+- OurAirports for public civil/reference airport records,
+- DataHub UN/LOCODE codelist for public transport and trade location codes.
+- OpenSyria Data Geography for reviewed locality and parent administrative
+  cross-links.
+
+Wikidata, GeoNames, and official public sources remain supporting cross-check
+sources for later batches.

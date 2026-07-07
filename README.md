@@ -38,16 +38,19 @@ Out of scope:
 
 ## Current Status
 
-This repository is in initial scaffold status. Canonical files, schemas,
-validation scripts, release tooling, and source-review manifests are in place.
-The canonical `data/locations.json` file is intentionally empty until the first
-maintainer-reviewed import batch.
+This repository is in seed status. Canonical files, schemas, validation scripts,
+release tooling, and source-review manifests are in place.
 
-Planned first source reviews:
+The canonical `data/locations.json` file currently contains 14 reviewed seed
+records from the first transport import:
 
-- OurAirports public-domain airport data,
-- UN/LOCODE transport and trade locations,
-- Wikidata and GeoNames cross-checks.
+- 7 public civil/reference airport records from OurAirports,
+- 7 standalone UN/LOCODE transport and trade locations,
+- 6 UN/LOCODE identifier merges into accepted airport records.
+- 13 reviewed administrative locality links from OpenSyria Data Geography.
+
+Held source rows remain in local maintainer review outputs and are not part of
+the canonical dataset.
 
 ## Repository Layout
 
@@ -144,4 +147,3 @@ Start with:
 ## License
 
 See [LICENSE.md](LICENSE.md).
-

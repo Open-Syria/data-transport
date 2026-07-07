@@ -28,3 +28,17 @@ Validation fails on:
 Completeness targets vary by field. Missing coordinates, Arabic names, and
 external IDs are acceptable when no approved public source supports them.
 
+## Current Seed Snapshot
+
+As of the first seed import:
+
+- 14 transport location records pass schema and source validation.
+- 14 records have source-backed coordinates.
+- 14 records have external IDs.
+- 7 records have OurAirports identifiers.
+- 13 records have UN/LOCODE identifiers.
+- 13 records have reviewed OpenSyria geography locality IDs.
+- 6 standalone locality-style transport/trade records have Arabic names.
+
+Operational status is currently `unknown` for every record because this dataset
+does not publish live operating conditions.

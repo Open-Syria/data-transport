@@ -4,12 +4,13 @@
   "sourceUrl": "https://datahub.io/core/un-locode",
   "license": "ODC-PDDL-1.0",
   "licenseUrl": "https://opendatacommons.org/licenses/pddl/1-0/",
-  "accessedAt": "2026-07-08T00:00:00.000Z",
-  "status": "planned",
+  "accessedAt": "2026-07-07T21:51:07.081Z",
+  "status": "imported",
   "rawFiles": [
     {
-      "name": "code-list.csv",
-      "notes": "Download current DataHub UN/LOCODE codelist before import and cross-check against UNECE."
+      "name": "datahub-un-locode-code-list.csv",
+      "sha256": "014d5139df76894a89f7eeb529723417e790129a5c7ea3b3dac38c34a03455c1",
+      "notes": "Downloaded by data-automation collect-transport-sources into an ignored local output directory."
     }
   ],
   "importedFields": [
@@ -26,5 +27,5 @@
     "Map UN/LOCODE function codes to transportModes and locationTypes.",
     "Hold ambiguous or suspicious rows for manual review."
   ],
-  "reviewNotes": "Planned source review for public transport and trade location identifiers."
+  "reviewNotes": "Imported 13 accepted Syria rows: 7 standalone public transport/trade locations and 6 airport identifier merges into accepted OurAirports records. Held 6 rows for review due out-of-country coordinates, unknown function codes, airport-only rows without accepted public airport confirmation, or mixed airport/ground functions that risk duplicate identity."
 }

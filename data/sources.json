@@ -75,5 +75,20 @@
       "administrative relationships"
     ],
     "notes": "Useful for cross-checking coordinates and names against the geography dataset."
+  },
+  {
+    "id": "opensyria-data-geography",
+    "title": "OpenSyria Data Geography",
+    "url": "https://github.com/Open-Syria/data-geography",
+    "license": "OpenSyria dataset compilation; upstream source licenses apply",
+    "status": "approved",
+    "fields": [
+      "OpenSyria locality identifiers",
+      "parent administrative identifiers",
+      "English locality names",
+      "Arabic locality names",
+      "alternate locality spellings"
+    ],
+    "notes": "Used to cross-link transport records to reviewed OpenSyria geography localities. Do not use locality names as facility names unless the transport record itself represents that locality."
   }
 ]

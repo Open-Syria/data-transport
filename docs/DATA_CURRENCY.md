@@ -18,3 +18,10 @@ Before each release:
 3. Keep uncertain live status as `unknown`.
 4. Do not publish live route availability or tactical operational status.
 
+## Current Source Access
+
+The first seed used OurAirports and the DataHub UN/LOCODE codelist accessed at
+`2026-07-07T21:51:07.081Z`.
+
+OpenSyria Data Geography locality links were reviewed against the local
+`../data-geography/data/localities.json` file on `2026-07-08`.

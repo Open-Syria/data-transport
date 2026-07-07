@@ -1,1 +1,458 @@
-[]
+[
+  {
+    "id": "sy-al-ladhiqiyah",
+    "name": {
+      "en": "Al Ladhiqiyah",
+      "ar": "اللاذقية"
+    },
+    "aliases": [
+      {
+        "value": "Lattakia",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Latakia",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["seaport", "rail_terminal", "road_terminal"],
+    "transportModes": ["maritime", "rail", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.516667,
+      "longitude": 35.783333
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-latakia",
+      "subdistrictId": "sy-latakia-latakia-lattakia",
+      "localityId": "sy-latakia-latakia-lattakia-lattakia",
+      "localityName": {
+        "en": "Lattakia",
+        "ar": "اللاذقية"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYALD"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-thaurah-airport",
+    "name": {
+      "en": "Al Thaurah Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.390394,
+      "longitude": 40.15256
+    },
+    "administrativeLocation": {
+      "localityName": {
+        "en": "T2"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "SOR",
+      "iata": "SOR",
+      "unLocode": "SYSOR"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-international-airport",
+    "name": {
+      "en": "Aleppo International Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.181262,
+      "longitude": 37.226869
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-mount-simeon",
+      "subdistrictId": "sy-aleppo-mount-simeon-jebel-saman",
+      "localityId": "sy-aleppo-mount-simeon-jebel-saman-aleppo",
+      "localityName": {
+        "en": "Aleppo",
+        "ar": "حلب"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSAP",
+      "iata": "ALP",
+      "icao": "OSAP",
+      "unLocode": "SYALP"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-arwad",
+    "name": {
+      "en": "Arwad",
+      "ar": "أرواد"
+    },
+    "aliases": [],
+    "locationTypes": ["seaport", "road_terminal"],
+    "transportModes": ["maritime", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.85,
+      "longitude": 35.85
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-arwad",
+      "localityId": "sy-tartus-tartus-arwad-arwad",
+      "localityName": {
+        "en": "Arwad",
+        "ar": "أرواد"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYARW"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-baniyas",
+    "name": {
+      "en": "Baniyas",
+      "ar": "بانياس"
+    },
+    "aliases": [
+      {
+        "value": "Banyas",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["seaport", "road_terminal"],
+    "transportModes": ["maritime", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.183333,
+      "longitude": 35.95
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-baniyas",
+      "subdistrictId": "sy-tartus-baniyas-banyas",
+      "localityId": "sy-tartus-baniyas-banyas-banyas",
+      "localityName": {
+        "en": "Banyas",
+        "ar": "بانياس"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYBAN"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-damascus-international-airport",
+    "name": {
+      "en": "Damascus International Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.4114990234375,
+      "longitude": 36.51559829711914
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-damascus",
+      "districtId": "sy-damascus-damascus",
+      "subdistrictId": "sy-damascus-damascus-damascus",
+      "localityId": "sy-damascus-damascus-damascus-damascus",
+      "localityName": {
+        "en": "Damascus",
+        "ar": "دمشق"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSDI",
+      "iata": "DAM",
+      "icao": "OSDI",
+      "unLocode": "SYDAM"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor-airport",
+    "name": {
+      "en": "Deir ez-Zor Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.2854,
+      "longitude": 40.175999
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-deir-ez-zor",
+      "districtId": "sy-deir-ez-zor-deir-ez-zor",
+      "subdistrictId": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor",
+      "localityId": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor-deir-ez-zor",
+      "localityName": {
+        "en": "Deir-ez-Zor",
+        "ar": "دير الزور"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSDZ",
+      "iata": "DEZ",
+      "icao": "OSDZ",
+      "unLocode": "SYDEZ"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs",
+    "name": {
+      "en": "Homs",
+      "ar": "حمص"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal", "road_terminal"],
+    "transportModes": ["rail", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.733333,
+      "longitude": 36.716667
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-homs",
+      "subdistrictId": "sy-homs-homs-homs",
+      "localityId": "sy-homs-homs-homs-homs",
+      "localityName": {
+        "en": "Homs",
+        "ar": "حمص"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYHMS",
+      "iata": "QHS"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia-international-airport",
+    "name": {
+      "en": "Latakia International Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.4011,
+      "longitude": 35.9487
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-latakia",
+      "subdistrictId": "sy-latakia-latakia-lattakia",
+      "localityId": "sy-latakia-latakia-lattakia-lattakia",
+      "localityName": {
+        "en": "Lattakia",
+        "ar": "اللاذقية"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSLK",
+      "iata": "LTK",
+      "icao": "OSLK"
+    },
+    "sourceIds": ["ourairports", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-palmyra-airport",
+    "name": {
+      "en": "Palmyra Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.5574,
+      "longitude": 38.316898
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-tadmur",
+      "subdistrictId": "sy-homs-tadmur-tadmor",
+      "localityId": "sy-homs-tadmur-tadmor-tadmor",
+      "localityName": {
+        "en": "Tadmor",
+        "ar": "تدمر"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSPR",
+      "iata": "PMS",
+      "icao": "OSPR",
+      "unLocode": "SYPMS"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-qamishli-international-airport",
+    "name": {
+      "en": "Qamishli International Airport"
+    },
+    "aliases": [],
+    "locationTypes": ["airport"],
+    "transportModes": ["air"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 37.020599,
+      "longitude": 41.191399
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah",
+      "districtId": "sy-al-hasakah-al-qamishli",
+      "subdistrictId": "sy-al-hasakah-al-qamishli-quamishli",
+      "localityId": "sy-al-hasakah-al-qamishli-quamishli-quamishli",
+      "localityName": {
+        "en": "Quamishli",
+        "ar": "القامشلي"
+      }
+    },
+    "externalIds": {
+      "ourairportsIdent": "OSKL",
+      "iata": "KAC",
+      "icao": "OSKL",
+      "unLocode": "SYKAC"
+    },
+    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus",
+    "name": {
+      "en": "Tartus",
+      "ar": "طرطوس"
+    },
+    "aliases": [
+      {
+        "value": "Tartous",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["seaport", "road_terminal"],
+    "transportModes": ["maritime", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.9,
+      "longitude": 35.9
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-tartous",
+      "localityId": "sy-tartus-tartus-tartous-tartous",
+      "localityName": {
+        "en": "Tartous",
+        "ar": "طرطوس"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYTTS"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-oil-terminal",
+    "name": {
+      "en": "Tartus Oil Terminal"
+    },
+    "aliases": [],
+    "locationTypes": ["seaport", "oil_terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.966667,
+      "longitude": 35.883333
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-tartous",
+      "localityId": "sy-tartus-tartus-tartous-tartous",
+      "localityName": {
+        "en": "Tartous",
+        "ar": "طرطوس"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYTAO"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-yabrud",
+    "name": {
+      "en": "Yabrud",
+      "ar": "يبرود"
+    },
+    "aliases": [
+      {
+        "value": "Yabroud",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.966667,
+      "longitude": 36.65
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-rif-dimashq",
+      "districtId": "sy-rif-dimashq-yabrud",
+      "subdistrictId": "sy-rif-dimashq-yabrud-yabroud",
+      "localityId": "sy-rif-dimashq-yabrud-yabroud-yabroud",
+      "localityName": {
+        "en": "Yabroud",
+        "ar": "يبرود"
+      }
+    },
+    "externalIds": {
+      "unLocode": "SYYBD"
+    },
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  }
+]
