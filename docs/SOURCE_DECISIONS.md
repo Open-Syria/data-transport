@@ -65,6 +65,10 @@ parent administrative IDs. Locality Arabic names are copied only when the
 transport record represents a locality-style transport/trade location, not a
 specific airport or terminal facility.
 
+A follow-up border crossing review added 17 administrative links where the
+crossing name had an exact or obvious nearby locality match. Ambiguous border
+records remain unlinked rather than using nearest-place inference.
+
 ## HIU Border Crossings
 
 Status: approved and imported for stable public border crossing reference

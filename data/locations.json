@@ -18,9 +18,22 @@
       "latitude": 34.398,
       "longitude": 40.976
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-deir-ez-zor",
+      "districtId": "sy-deir-ez-zor-abu-kamal",
+      "subdistrictId": "sy-deir-ez-zor-abu-kamal-abu-kamal",
+      "localityId": "sy-deir-ez-zor-abu-kamal-abu-kamal-abu-kamal",
+      "localityName": {
+        "en": "Abu Kamal",
+        "ar": "البوكمال"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -34,6 +47,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:7",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-deir-ez-zor-abu-kamal-abu-kamal-abu-kamal"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -67,9 +85,22 @@
       "latitude": 36.9,
       "longitude": 38.35
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-ayn-al-arab",
+      "subdistrictId": "sy-aleppo-ayn-al-arab-ain-al-arab",
+      "localityId": "sy-aleppo-ayn-al-arab-ain-al-arab-ain-al-arab",
+      "localityName": {
+        "en": "Ain Al Arab",
+        "ar": "عين العرب"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -83,6 +114,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:2",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-aleppo-ayn-al-arab-ain-al-arab-ain-al-arab"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -210,9 +246,22 @@
       "latitude": 36.63512071,
       "longitude": 37.47578066
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-al-bab",
+      "subdistrictId": "sy-aleppo-al-bab-ar-ra-ee",
+      "localityId": "sy-aleppo-al-bab-ar-ra-ee-ar-raee",
+      "localityName": {
+        "en": "Ar-Ra'ee",
+        "ar": "الراعي - الراعي"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -226,6 +275,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:8",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-aleppo-al-bab-ar-ra-ee-ar-raee"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -434,9 +488,22 @@
       "latitude": 36.32548349,
       "longitude": 36.66188551
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-idlib",
+      "districtId": "sy-idlib-harem",
+      "subdistrictId": "sy-idlib-harem-dana",
+      "localityId": "sy-idlib-harem-dana-atma",
+      "localityName": {
+        "en": "Atma",
+        "ar": "اطمه"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -450,6 +517,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:10",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-idlib-harem-dana-atma"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -478,9 +550,22 @@
       "latitude": 36.23,
       "longitude": 36.692
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-idlib",
+      "districtId": "sy-idlib-harem",
+      "subdistrictId": "sy-idlib-harem-dana",
+      "localityId": "sy-idlib-harem-dana-bab-el-hawa",
+      "localityName": {
+        "en": "Bab El Hawa",
+        "ar": "باب الهوى - دانا"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -494,6 +579,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:11",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-idlib-harem-dana-bab-el-hawa"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -527,9 +617,22 @@
       "latitude": 35.905,
       "longitude": 36.009
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-latakia",
+      "subdistrictId": "sy-latakia-latakia-kasab",
+      "localityId": "sy-latakia-latakia-kasab-kasab",
+      "localityName": {
+        "en": "Kasab",
+        "ar": "كسب"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -543,6 +646,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:1",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia-kasab-kasab"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -566,9 +674,22 @@
       "latitude": 36.646,
       "longitude": 37.085
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-azaz",
+      "subdistrictId": "sy-aleppo-azaz-a-zaz",
+      "localityId": "sy-aleppo-azaz-a-zaz-bab-alsalameh",
+      "localityName": {
+        "en": "Bab Alsalameh",
+        "ar": "باب السلامة"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -582,6 +703,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:12",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-aleppo-azaz-a-zaz-bab-alsalameh"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -764,9 +890,22 @@
       "latitude": 32.603,
       "longitude": 36.081
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-dar-a",
+      "localityId": "sy-daraa-daraa-dar-a-dara",
+      "localityName": {
+        "en": "Dar'a",
+        "ar": "درعا"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -780,6 +919,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:9",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-dar-a-dara"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -808,9 +952,22 @@
       "latitude": 37.078,
       "longitude": 40.645
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah",
+      "districtId": "sy-al-hasakah-ras-al-ayn",
+      "subdistrictId": "sy-al-hasakah-ras-al-ayn-darbasiyah",
+      "localityId": "sy-al-hasakah-ras-al-ayn-darbasiyah-darbasiyah",
+      "localityName": {
+        "en": "Darbasiyah",
+        "ar": "الدرباسية"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -824,6 +981,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:14",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-ras-al-ayn-darbasiyah-darbasiyah"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -1059,9 +1221,22 @@
       "latitude": 36.831,
       "longitude": 37.999
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-jarabulus",
+      "subdistrictId": "sy-aleppo-jarabulus-jarablus",
+      "localityId": "sy-aleppo-jarabulus-jarablus-jarablus",
+      "localityName": {
+        "en": "Jarablus",
+        "ar": "جرابلس"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1075,6 +1250,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:20",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-aleppo-jarabulus-jarablus-jarablus"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -1098,9 +1278,22 @@
       "latitude": 33.66,
       "longitude": 35.977
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-rif-dimashq",
+      "districtId": "sy-rif-dimashq-al-zabadani",
+      "subdistrictId": "sy-rif-dimashq-al-zabadani-dimas",
+      "localityId": "sy-rif-dimashq-al-zabadani-dimas-jdidet-yabus",
+      "localityName": {
+        "en": "Jdidet Yabus",
+        "ar": "جديدة يابوس"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1114,6 +1307,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:5",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-al-zabadani-dimas-jdidet-yabus"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2240,9 +2438,22 @@
       "latitude": 36.82806948,
       "longitude": 36.67492401
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-afrin",
+      "subdistrictId": "sy-aleppo-afrin-raju",
+      "localityId": "sy-aleppo-afrin-raju-meidan-ekbis",
+      "localityName": {
+        "en": "Meidan Ekbis",
+        "ar": "ميدان أكبس"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2256,6 +2467,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:21",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-aleppo-afrin-raju-meidan-ekbis"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2279,9 +2495,22 @@
       "latitude": 32.543,
       "longitude": 36.202
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-dar-a",
+      "localityId": "sy-daraa-daraa-dar-a-nasib",
+      "localityName": {
+        "en": "Nasib",
+        "ar": "نصيب"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2295,6 +2524,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:19",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-dar-a-nasib"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2442,9 +2676,22 @@
       "latitude": 37.061,
       "longitude": 41.219
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah",
+      "districtId": "sy-al-hasakah-al-qamishli",
+      "subdistrictId": "sy-al-hasakah-al-qamishli-quamishli",
+      "localityId": "sy-al-hasakah-al-qamishli-quamishli-quamishli",
+      "localityName": {
+        "en": "Quamishli",
+        "ar": "القامشلي"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2458,6 +2705,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:23",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-qamishli-quamishli-quamishli"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2561,9 +2813,22 @@
       "latitude": 36.843,
       "longitude": 40.053
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah",
+      "districtId": "sy-al-hasakah-ras-al-ayn",
+      "subdistrictId": "sy-al-hasakah-ras-al-ayn-ras-al-ain",
+      "localityId": "sy-al-hasakah-ras-al-ayn-ras-al-ain-ras-al-ain-ras-al-ain",
+      "localityName": {
+        "en": "Ras Al Ain (Ras Al Ain)",
+        "ar": "رأس العين - مركز رأس العين"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2577,6 +2842,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:25",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-ras-al-ayn-ras-al-ain-ras-al-ain-ras-al-ain"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2762,9 +3032,22 @@
       "latitude": 34.668012,
       "longitude": 36.303241
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-talkalakh",
+      "subdistrictId": "sy-homs-talkalakh-tall-kalakh",
+      "localityId": "sy-homs-talkalakh-tall-kalakh-tall-kalakh",
+      "localityName": {
+        "en": "Tall Kalakh",
+        "ar": "تلكلخ"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2778,6 +3061,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:28",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-homs-talkalakh-tall-kalakh-tall-kalakh"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -2904,9 +3192,22 @@
       "latitude": 36.703,
       "longitude": 38.959
     },
-    "administrativeLocation": null,
+    "administrativeLocation": {
+      "governorateId": "sy-raqqa",
+      "districtId": "sy-raqqa-tell-abyad",
+      "subdistrictId": "sy-raqqa-tell-abyad-tell-abiad",
+      "localityId": "sy-raqqa-tell-abyad-tell-abiad-tell-abiad",
+      "localityName": {
+        "en": "Tell Abiad",
+        "ar": "تل أبيض"
+      }
+    },
     "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceIds": [
+      "hdx-syria-border-crossings-2015",
+      "hiu-syria-border-crossings",
+      "opensyria-data-geography"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2920,6 +3221,11 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:29",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-07T23:35:00.000Z",
+        "sourceRecordId": "sy-raqqa-tell-abyad-tell-abiad-tell-abiad"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."

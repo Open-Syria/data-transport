@@ -42,10 +42,12 @@ As of the current seed snapshot:
 - 12 records have UN/LOCODE identifiers.
 - 37 records have GeoNames identifiers.
 - 6 records have Wikidata identifiers.
-- 13 records have reviewed OpenSyria geography locality IDs.
+- 30 records have reviewed OpenSyria geography locality IDs.
+- 57 records have administrative location data.
 - 26 records have Arabic names.
 - 30 records are border crossings from public-domain HIU reference data.
 - 27 border crossing records have a second dated HDX 2015 source reference.
+- 17 border crossing records have reviewed OpenSyria geography locality links.
 
 Operational status is currently `unknown` for every record because this dataset
 does not publish live operating conditions.

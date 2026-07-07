@@ -21,3 +21,5 @@
   public-domain HIU/Stanford border crossings dataset.
 - Cross-checked 27 border crossing records against the public-domain HDX 2015
   HIU CSV and corrected canonical names to prefer Syrian-side crossing names.
+- Added reviewed OpenSyria geography administrative links for 17 border
+  crossing records.

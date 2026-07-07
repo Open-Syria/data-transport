@@ -1,0 +1,39 @@
+{
+  "sourceId": "opensyria-data-geography",
+  "sourceTitle": "OpenSyria Data Geography",
+  "sourceUrl": "https://github.com/Open-Syria/data-geography",
+  "license": "OpenSyria dataset compilation; upstream source licenses apply",
+  "accessedAt": "2026-07-07T23:35:00.000Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "../data-geography/data/localities.json",
+      "sha256": "3081f1aa8d95621447dd13f0713a49c145f0b70b8cf9fc87604912dd9854b0b5",
+      "notes": "Local canonical OpenSyria geography locality file used for exact and reviewed near-name matches."
+    },
+    {
+      "name": "../data-geography/data/subdistricts.json",
+      "sha256": "f4b4b5d2c284065f489b5ff31aebb3d4eec92e10052c0fc0a73cd25b6fc9199d",
+      "notes": "Referenced through locality parent IDs."
+    },
+    {
+      "name": "../data-geography/data/districts.json",
+      "sha256": "80a7854c0c11c8614b80b119d278d70b1a3c7c973061f74b02bca34ee5d30ac0",
+      "notes": "Referenced through locality parent IDs."
+    },
+    {
+      "name": "../data-geography/data/governorates.json",
+      "sha256": "dee585be8eabf5608aeab6e29196baef56210286366cbaa0a3a47c285eba8fbd",
+      "notes": "Referenced through locality parent IDs."
+    }
+  ],
+  "importedFields": ["administrativeLocation", "sourceIds", "sourceReferences"],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Matched border crossing records to OpenSyria geography localities only when the crossing name had an exact or obvious nearby spelling match.",
+    "Copied locality parent IDs and locality names into administrativeLocation.",
+    "Added source references to the matched OpenSyria geography locality IDs.",
+    "Did not synthesize Arabic facility names from locality names."
+  ],
+  "reviewNotes": "Added reviewed OpenSyria geography administrative links to 17 border crossing records. Held 13 border crossing records without a safe exact or obvious locality match: sy-al-abbudiyah-border-crossing, sy-ash-shaykh-jabir-border-crossing, sy-at-tanf-border-crossing, sy-cizre-border-crossing, sy-gladeh-border-crossing, sy-hacipasa-border-crossing, sy-harem-border-crossing, sy-peshakapor-border-crossing, sy-riblah-border-crossing, sy-sahela-border-crossing, sy-sama-al-sarhan-border-crossing, sy-tall-kujik-border-crossing, sy-wadi-shallalah-border-crossing."
+}

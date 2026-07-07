@@ -53,7 +53,8 @@ records from the first transport import:
 - 30 stable border crossing reference records from public-domain HIU datasets.
 - 27 border crossing records cross-checked against the HDX 2015 HIU release,
   with Syrian-side names preferred over neighboring-country crossing names.
-- 13 reviewed administrative locality links from OpenSyria Data Geography.
+- 30 reviewed administrative locality links from OpenSyria Data Geography,
+  including 17 border crossing locality links.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
   code.
 - Dated source references on every record, including source access timestamps
