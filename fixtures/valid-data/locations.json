@@ -20,6 +20,14 @@
     },
     "externalIds": {},
     "sourceIds": ["fixture-source"],
+    "sourceReferences": [
+      {
+        "sourceId": "fixture-source",
+        "sourceRecordId": "fixture-location",
+        "sourceRecordDate": "2026",
+        "accessedAt": "2026-07-08T00:00:00.000Z"
+      }
+    ],
     "sourceStatus": "seed"
   }
 ]

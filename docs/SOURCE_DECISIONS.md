@@ -9,6 +9,8 @@ must still review Syria rows for scope and safety before importing.
 
 The first seed imported 7 public airport records. Military-only, heliport,
 unsupported, and small unverified airport rows were held for review.
+OurAirports does not expose source-row dates in the airport CSV, so canonical
+records store source access timestamps and OurAirports identifiers.
 
 ## UN/LOCODE
 
@@ -23,6 +25,8 @@ The first seed imported 7 standalone public transport/trade locations and merged
 out-of-country coordinates, unknown function codes, airport-only functions
 without accepted public airport confirmation, or mixed airport/ground functions
 that risk duplicate identity were held.
+UN/LOCODE `Date` values are normalized into month-precision
+`sourceReferences[].sourceRecordDate` values.
 
 ## Wikidata and GeoNames
 
@@ -34,6 +38,8 @@ GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,
 customs rows, heliports, and port subfacilities for later review.
+GeoNames `modification_date` values are stored as day-precision
+`sourceReferences[].sourceRecordDate` values.
 
 ## OpenSyria Data Geography
 

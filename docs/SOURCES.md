@@ -1,6 +1,9 @@
 # Sources
 
 Every canonical record must cite approved reusable public sources.
+Each cited source must also appear in the record's `sourceReferences` with an
+access timestamp and, when available, a source row identifier and source row
+date.
 
 Preferred source families:
 

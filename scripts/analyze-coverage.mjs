@@ -95,6 +95,15 @@ function buildLocationCoverage(data) {
         data.locations,
         (record) => Object.keys(record.externalIds).length > 0,
       ),
+      sourceReferences: fieldMetric(
+        'Dated source references',
+        'high',
+        data.locations,
+        (record) => record.sourceReferences.length > 0,
+      ),
+      sourceRecordDate: fieldMetric('Source record date', 'low', data.locations, (record) =>
+        record.sourceReferences.some((reference) => reference.sourceRecordDate),
+      ),
       ourAirportsIdent: fieldMetric('OurAirports ident', 'low', data.locations, (record) =>
         Boolean(record.externalIds.ourairportsIdent),
       ),

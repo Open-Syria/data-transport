@@ -17,6 +17,7 @@
       "administrativeLocation",
       "externalIds",
       "sourceIds",
+      "sourceReferences",
       "sourceStatus"
     ],
     "properties": {
@@ -83,6 +84,13 @@
         },
         "minItems": 1,
         "uniqueItems": true
+      },
+      "sourceReferences": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/sourceReference"
+        },
+        "minItems": 1
       },
       "sourceStatus": {
         "type": "string",
@@ -223,6 +231,29 @@
         "website": {
           "type": "string",
           "format": "uri"
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "accessedAt"],
+      "properties": {
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordDate": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?$"
+        },
+        "accessedAt": {
+          "type": "string",
+          "format": "date-time"
         }
       }
     }

@@ -18,7 +18,8 @@ Each record has:
 - optional `administrativeLocation`,
 - optional `externalIds`,
 - approved `sourceIds`,
+- dated `sourceReferences` for source access time and row-level source dates
+  where available,
 - `sourceStatus`.
 
 Machine-readable JSON Schemas live in `schemas/`.
-

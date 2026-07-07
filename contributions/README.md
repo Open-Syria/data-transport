@@ -16,6 +16,7 @@ Check:
 
 - add or correct public names and aliases,
 - add approved source IDs,
+- add or update dated `sourceReferences` for the approved source IDs,
 - add source-backed coordinates,
 - add IATA, ICAO, UN/LOCODE, GeoNames, Wikidata, or OurAirports identifiers,
 - connect a record to an existing OpenSyria geography ID when the relationship
@@ -34,4 +35,3 @@ Run:
 ```bash
 pnpm run validate
 ```
-

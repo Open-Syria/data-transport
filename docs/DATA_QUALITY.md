@@ -21,6 +21,7 @@ Validation fails on:
 - duplicate source IDs on one record,
 - records that reference unknown sources,
 - records that reference non-approved sources,
+- records whose `sourceIds` and `sourceReferences` do not match,
 - duplicate aliases within a record,
 - aliases that duplicate canonical names,
 - duplicate external identifiers where uniqueness is expected.
@@ -35,6 +36,8 @@ As of the first seed import:
 - 42 transport location records pass schema and source validation.
 - 42 records have source-backed coordinates.
 - 42 records have external IDs.
+- 42 records have dated source references.
+- 41 records have upstream source-row dates.
 - 7 records have OurAirports identifiers.
 - 13 records have UN/LOCODE identifiers.
 - 31 records have GeoNames identifiers.

@@ -3,7 +3,7 @@
     "id": "sy-al-ladhiqiyah",
     "name": {
       "en": "Al Ladhiqiyah",
-      "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
+      "ar": "اللاذقية"
     },
     "aliases": [
       {
@@ -31,7 +31,7 @@
       "localityId": "sy-latakia-latakia-lattakia-lattakia",
       "localityName": {
         "en": "Lattakia",
-        "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
+        "ar": "اللاذقية"
       }
     },
     "externalIds": {
@@ -39,7 +39,26 @@
       "geonames": "8445254"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYALD",
+        "sourceRecordDate": "2006-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8445254",
+        "sourceRecordDate": "2013-01-12"
+      }
+    ]
   },
   {
     "id": "sy-al-thaurah-airport",
@@ -65,7 +84,20 @@
       "unLocode": "SYSOR"
     },
     "sourceIds": ["ourairports", "datahub-un-locode"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SOR"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYSOR",
+        "sourceRecordDate": "2000-01"
+      }
+    ]
   },
   {
     "id": "sy-aleppo-international-airport",
@@ -87,7 +119,7 @@
       "localityId": "sy-aleppo-mount-simeon-jebel-saman-aleppo",
       "localityName": {
         "en": "Aleppo",
-        "ar": "\u062d\u0644\u0628"
+        "ar": "حلب"
       }
     },
     "externalIds": {
@@ -97,13 +129,31 @@
       "unLocode": "SYALP"
     },
     "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSAP"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYALP",
+        "sourceRecordDate": "1996-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-mount-simeon-jebel-saman-aleppo"
+      }
+    ]
   },
   {
     "id": "sy-arwad",
     "name": {
       "en": "Arwad",
-      "ar": "\u0623\u0631\u0648\u0627\u062f"
+      "ar": "أرواد"
     },
     "aliases": [],
     "locationTypes": ["seaport", "road_terminal"],
@@ -120,20 +170,33 @@
       "localityId": "sy-tartus-tartus-arwad-arwad",
       "localityName": {
         "en": "Arwad",
-        "ar": "\u0623\u0631\u0648\u0627\u062f"
+        "ar": "أرواد"
       }
     },
     "externalIds": {
       "unLocode": "SYARW"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYARW",
+        "sourceRecordDate": "2011-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
+      }
+    ]
   },
   {
     "id": "sy-baniyas",
     "name": {
       "en": "Baniyas",
-      "ar": "\u0628\u0627\u0646\u064a\u0627\u0633"
+      "ar": "بانياس"
     },
     "aliases": [
       {
@@ -156,7 +219,7 @@
       "localityId": "sy-tartus-baniyas-banyas-banyas",
       "localityName": {
         "en": "Banyas",
-        "ar": "\u0628\u0627\u0646\u064a\u0627\u0633"
+        "ar": "بانياس"
       }
     },
     "externalIds": {
@@ -164,7 +227,26 @@
       "geonames": "11876552"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYBAN",
+        "sourceRecordDate": "2011-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-baniyas-banyas-banyas"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "11876552",
+        "sourceRecordDate": "2018-06-10"
+      }
+    ]
   },
   {
     "id": "sy-damascus-international-airport",
@@ -186,7 +268,7 @@
       "localityId": "sy-damascus-damascus-damascus-damascus",
       "localityName": {
         "en": "Damascus",
-        "ar": "\u062f\u0645\u0634\u0642"
+        "ar": "دمشق"
       }
     },
     "externalIds": {
@@ -196,7 +278,25 @@
       "unLocode": "SYDAM"
     },
     "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSDI"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYDAM",
+        "sourceRecordDate": "1996-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-damascus-damascus-damascus-damascus"
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-airport",
@@ -218,7 +318,7 @@
       "localityId": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor-deir-ez-zor",
       "localityName": {
         "en": "Deir-ez-Zor",
-        "ar": "\u062f\u064a\u0631 \u0627\u0644\u0632\u0648\u0631"
+        "ar": "دير الزور"
       }
     },
     "externalIds": {
@@ -228,13 +328,31 @@
       "unLocode": "SYDEZ"
     },
     "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSDZ"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYDEZ",
+        "sourceRecordDate": "1996-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor-deir-ez-zor"
+      }
+    ]
   },
   {
     "id": "sy-homs",
     "name": {
       "en": "Homs",
-      "ar": "\u062d\u0645\u0635"
+      "ar": "حمص"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal", "road_terminal"],
@@ -251,7 +369,7 @@
       "localityId": "sy-homs-homs-homs-homs",
       "localityName": {
         "en": "Homs",
-        "ar": "\u062d\u0645\u0635"
+        "ar": "حمص"
       }
     },
     "externalIds": {
@@ -259,7 +377,20 @@
       "iata": "QHS"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYHMS",
+        "sourceRecordDate": "2003-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-homs-homs-homs"
+      }
+    ]
   },
   {
     "id": "sy-latakia-international-airport",
@@ -281,7 +412,7 @@
       "localityId": "sy-latakia-latakia-lattakia-lattakia",
       "localityName": {
         "en": "Lattakia",
-        "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
+        "ar": "اللاذقية"
       }
     },
     "externalIds": {
@@ -290,7 +421,19 @@
       "icao": "OSLK"
     },
     "sourceIds": ["ourairports", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSLK"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-akkari",
@@ -328,13 +471,21 @@
       "geonames": "174111"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "174111",
+        "sourceRecordDate": "2017-02-03"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-hamdaniyah",
     "name": {
       "en": "Mahattat al Hamdaniyah",
-      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u0645\u062f\u0627\u0646\u064a\u0629"
+      "ar": "محطة الحمدانية"
     },
     "aliases": [
       {
@@ -357,13 +508,21 @@
       "geonames": "173844"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173844",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-hamidah",
     "name": {
       "en": "Mahattat al Hamidah",
-      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u0645\u064a\u062f\u0629"
+      "ar": "محطة الحميدة"
     },
     "aliases": [
       {
@@ -386,13 +545,21 @@
       "geonames": "173840"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173840",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-hijaz",
     "name": {
       "en": "Mahattat al Hijaz",
-      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u062c\u0627\u0632"
+      "ar": "محطة الحجاز"
     },
     "aliases": [
       {
@@ -420,7 +587,15 @@
       "geonames": "173780"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173780",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-mazanat",
@@ -429,12 +604,12 @@
     },
     "aliases": [
       {
-        "value": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u0627\u0639",
+        "value": "محطة القاع",
         "language": "ar",
         "type": "alias"
       },
       {
-        "value": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0645\u0632\u0627\u0646\u0627\u062a",
+        "value": "محطة المزانات",
         "language": "ar",
         "type": "alias"
       }
@@ -451,13 +626,21 @@
       "geonames": "8052458"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8052458",
+        "sourceRecordDate": "2017-02-04"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-qadam",
     "name": {
       "en": "Mahattat al Qadam",
-      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u062f\u0645"
+      "ar": "محطة القدم"
     },
     "aliases": [
       {
@@ -480,13 +663,21 @@
       "geonames": "173393"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173393",
+        "sourceRecordDate": "2014-09-30"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-al-qusayr",
     "name": {
       "en": "Mahattat al Qusayr",
-      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u0635\u064a\u0631"
+      "ar": "محطة القصير"
     },
     "aliases": [
       {
@@ -509,13 +700,21 @@
       "geonames": "173319"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173319",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-bab-al-hadid",
     "name": {
       "en": "Mahattat Bab al Hadid",
-      "ar": "\u0645\u062d\u0637\u0629 \u0628\u0627\u0628 \u0627\u0644\u062d\u062f\u064a\u062f"
+      "ar": "محطة باب الحديد"
     },
     "aliases": [
       {
@@ -543,7 +742,15 @@
       "geonames": "170918"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "170918",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-baramikah",
@@ -576,13 +783,21 @@
       "geonames": "171794"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "171794",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-izra",
     "name": {
       "en": "Mahattat Izra`",
-      "ar": "\u0645\u062d\u0637\u0629 \u0625\u0632\u0631\u0639"
+      "ar": "محطة إزرع"
     },
     "aliases": [
       {
@@ -605,13 +820,21 @@
       "geonames": "169340"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "169340",
+        "sourceRecordDate": "2021-01-07"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-jibab",
     "name": {
       "en": "Mahattat Jibab",
-      "ar": "\u0645\u062d\u0637\u0629 \u062c\u0628\u0627\u0628"
+      "ar": "محطة جباب"
     },
     "aliases": [
       {
@@ -634,13 +857,21 @@
       "geonames": "173697"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173697",
+        "sourceRecordDate": "2016-10-07"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-kafr-aya",
     "name": {
       "en": "Mahattat Kafr `Aya",
-      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0641\u0631 \u0639\u0627\u064a\u0627"
+      "ar": "محطة كفر عايا"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal"],
@@ -657,13 +888,21 @@
       "geonames": "7637392"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7637392",
+        "sourceRecordDate": "2017-02-04"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-kawkab",
     "name": {
       "en": "Mahattat Kawkab",
-      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0648\u0643\u0628"
+      "ar": "محطة كوكب"
     },
     "aliases": [
       {
@@ -686,13 +925,21 @@
       "geonames": "168502"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "168502",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-kawm-gharz",
     "name": {
       "en": "Mahattat Kawm Gharz",
-      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0648\u0645 \u063a\u0631\u0632"
+      "ar": "محطة كوم غرز"
     },
     "aliases": [
       {
@@ -715,7 +962,15 @@
       "geonames": "168482"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "168482",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-khabab",
@@ -743,7 +998,15 @@
       "geonames": "168449"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "168449",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-khirbat-ghazalah",
@@ -771,7 +1034,15 @@
       "geonames": "168028"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "168028",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-mahajjah",
@@ -799,13 +1070,21 @@
       "geonames": "167500"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "167500",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-mismiyah",
     "name": {
       "en": "Mahattat Mismiyah",
-      "ar": "\u0645\u062d\u0637\u0629 \u0645\u0633\u0645\u064a\u0629"
+      "ar": "محطة مسمية"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal"],
@@ -822,7 +1101,15 @@
       "geonames": "11259682"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "11259682",
+        "sourceRecordDate": "2016-10-09"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qatimah",
@@ -831,12 +1118,12 @@
     },
     "aliases": [
       {
-        "value": "\u0645\u062d\u0637\u0629 \u0642\u0627\u0637\u0645\u0629",
+        "value": "محطة قاطمة",
         "language": "ar",
         "type": "alias"
       },
       {
-        "value": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0645\u0629",
+        "value": "محطة قطمة",
         "language": "ar",
         "type": "alias"
       },
@@ -860,13 +1147,21 @@
       "geonames": "165920"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "165920",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qattinah",
     "name": {
       "en": "Mahattat Qattinah",
-      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u064a\u0646\u0629"
+      "ar": "محطة قطينة"
     },
     "aliases": [
       {
@@ -894,13 +1189,21 @@
       "geonames": "165903"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "165903",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qitar-al-ladhiqiyah",
     "name": {
       "en": "Mahattat Qitar al Ladhiqiyah",
-      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0627\u0631 \u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
+      "ar": "محطة قطار اللاذقية"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal"],
@@ -917,13 +1220,21 @@
       "geonames": "8469663"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8469663",
+        "sourceRecordDate": "2013-03-06"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qitar-kafr-halab",
     "name": {
       "en": "Mahattat Qitar Kafr Halab",
-      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0627\u0631 \u0643\u0641\u0631 \u062d\u0644\u0628"
+      "ar": "محطة قطار كفر حلب"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal"],
@@ -940,13 +1251,21 @@
       "geonames": "11554422"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "11554422",
+        "sourceRecordDate": "2017-06-08"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qubur-al-bid",
     "name": {
       "en": "Mahattat Qubur al Bid",
-      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0628\u0648\u0631 \u0627\u0644\u0628\u064a\u0636"
+      "ar": "محطة قبور البيض"
     },
     "aliases": [
       {
@@ -969,13 +1288,21 @@
       "geonames": "165756"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "165756",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-qurt-qulaq",
     "name": {
       "en": "Mahattat Qurt Qulaq",
-      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0648\u0631\u062a \u0642\u0648\u0644\u0627\u0642"
+      "ar": "محطة قورت قولاق"
     },
     "aliases": [
       {
@@ -1008,13 +1335,21 @@
       "geonames": "165667"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "165667",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-tallbisah",
     "name": {
       "en": "Mahattat Tallbisah",
-      "ar": "\u0645\u062d\u0637\u0629 \u062a\u0644\u0628\u064a\u0633\u0629"
+      "ar": "محطة تلبيسة"
     },
     "aliases": [
       {
@@ -1042,13 +1377,21 @@
       "geonames": "163778"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "163778",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-thulayjinah",
     "name": {
       "en": "Mahattat Thulayjinah",
-      "ar": "\u0645\u062d\u0637\u0629 \u062b\u0644\u064a\u062c\u064a\u0646\u0629"
+      "ar": "محطة ثليجينة"
     },
     "aliases": [
       {
@@ -1081,13 +1424,21 @@
       "geonames": "163727"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "163727",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-mahattat-umm-ar-rajim",
     "name": {
       "en": "Mahattat Umm ar Rajim",
-      "ar": "\u0645\u062d\u0637\u0629 \u0623\u0645 \u0627\u0644\u0631\u062c\u064a\u0645"
+      "ar": "محطة أم الرجيم"
     },
     "aliases": [
       {
@@ -1120,7 +1471,15 @@
       "geonames": "162960"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "162960",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ]
   },
   {
     "id": "sy-palmyra-airport",
@@ -1142,7 +1501,7 @@
       "localityId": "sy-homs-tadmur-tadmor-tadmor",
       "localityName": {
         "en": "Tadmor",
-        "ar": "\u062a\u062f\u0645\u0631"
+        "ar": "تدمر"
       }
     },
     "externalIds": {
@@ -1152,7 +1511,25 @@
       "unLocode": "SYPMS"
     },
     "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSPR"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYPMS",
+        "sourceRecordDate": "2000-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-tadmur-tadmor-tadmor"
+      }
+    ]
   },
   {
     "id": "sy-qamishli-international-airport",
@@ -1174,7 +1551,7 @@
       "localityId": "sy-al-hasakah-al-qamishli-quamishli-quamishli",
       "localityName": {
         "en": "Quamishli",
-        "ar": "\u0627\u0644\u0642\u0627\u0645\u0634\u0644\u064a"
+        "ar": "القامشلي"
       }
     },
     "externalIds": {
@@ -1184,7 +1561,25 @@
       "unLocode": "SYKAC"
     },
     "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "ourairports",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "OSKL"
+      },
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYKAC",
+        "sourceRecordDate": "1996-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-qamishli-quamishli-quamishli"
+      }
+    ]
   },
   {
     "id": "sy-ruwayshd-juweif-railway-station",
@@ -1206,13 +1601,21 @@
       "geonames": "11694403"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "11694403",
+        "sourceRecordDate": "2017-09-08"
+      }
+    ]
   },
   {
     "id": "sy-tartus",
     "name": {
       "en": "Tartus",
-      "ar": "\u0637\u0631\u0637\u0648\u0633"
+      "ar": "طرطوس"
     },
     "aliases": [
       {
@@ -1235,7 +1638,7 @@
       "localityId": "sy-tartus-tartus-tartous-tartous",
       "localityName": {
         "en": "Tartous",
-        "ar": "\u0637\u0631\u0637\u0648\u0633"
+        "ar": "طرطوس"
       }
     },
     "externalIds": {
@@ -1243,7 +1646,26 @@
       "geonames": "7526649"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYTTS",
+        "sourceRecordDate": "2010-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7526649",
+        "sourceRecordDate": "2017-10-31"
+      }
+    ]
   },
   {
     "id": "sy-tartus-oil-terminal",
@@ -1265,20 +1687,33 @@
       "localityId": "sy-tartus-tartus-tartous-tartous",
       "localityName": {
         "en": "Tartous",
-        "ar": "\u0637\u0631\u0637\u0648\u0633"
+        "ar": "طرطوس"
       }
     },
     "externalIds": {
       "unLocode": "SYTAO"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYTAO",
+        "sourceRecordDate": "2009-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
+      }
+    ]
   },
   {
     "id": "sy-yabrud",
     "name": {
       "en": "Yabrud",
-      "ar": "\u064a\u0628\u0631\u0648\u062f"
+      "ar": "يبرود"
     },
     "aliases": [
       {
@@ -1301,13 +1736,26 @@
       "localityId": "sy-rif-dimashq-yabrud-yabroud-yabroud",
       "localityName": {
         "en": "Yabroud",
-        "ar": "\u064a\u0628\u0631\u0648\u062f"
+        "ar": "يبرود"
       }
     },
     "externalIds": {
       "unLocode": "SYYBD"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "datahub-un-locode",
+        "accessedAt": "2026-07-07T21:51:07.081Z",
+        "sourceRecordId": "SYYBD",
+        "sourceRecordDate": "2015-01"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-yabrud-yabroud-yabroud"
+      }
+    ]
   }
 ]

@@ -17,3 +17,5 @@ Rules:
 
 External IDs belong in `externalIds`, not in the OpenSyria `id`.
 
+Source row identifiers belong in `sourceReferences[].sourceRecordId`, not in
+the OpenSyria `id`.

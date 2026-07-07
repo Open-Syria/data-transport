@@ -27,6 +27,14 @@
     "unLocode": "SYXXX"
   },
   "sourceIds": ["example-source"],
+  "sourceReferences": [
+    {
+      "sourceId": "example-source",
+      "sourceRecordId": "EXAMPLE-001",
+      "sourceRecordDate": "2026",
+      "accessedAt": "2026-07-08T00:00:00.000Z"
+    }
+  ],
   "sourceStatus": "seed",
   "notes": "Example only."
 }

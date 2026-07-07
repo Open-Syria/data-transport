@@ -77,6 +77,10 @@ function summarizeLocations(locations) {
       .length,
     withExternalIds: locations.filter((record) => Object.keys(record.externalIds).length > 0)
       .length,
+    withSourceReferences: locations.filter((record) => record.sourceReferences.length > 0).length,
+    withSourceRecordDate: locations.filter((record) =>
+      record.sourceReferences.some((reference) => reference.sourceRecordDate),
+    ).length,
     withOurAirportsIdent: locations.filter((record) => Boolean(record.externalIds.ourairportsIdent))
       .length,
     withUnLocode: locations.filter((record) => Boolean(record.externalIds.unLocode)).length,

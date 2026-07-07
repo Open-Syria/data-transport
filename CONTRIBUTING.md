@@ -27,7 +27,8 @@ Do not add:
 1. Read `README.md`, `docs/FIELD_REFERENCE.md`, `docs/SOURCES.md`, and
    `contributions/README.md`.
 2. Keep the edit focused.
-3. Use approved public sources and include source IDs.
+3. Use approved public sources and include source IDs plus dated
+   `sourceReferences`.
 4. Run:
 
    ```bash
@@ -38,4 +39,3 @@ Do not add:
 
 Schema, source policy, release tooling, and dataset-scope changes require
 maintainer discussion before implementation.
-

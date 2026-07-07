@@ -50,6 +50,8 @@ records from the first transport import:
 - 28 active railroad station records from GeoNames.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 13 reviewed administrative locality links from OpenSyria Data Geography.
+- Dated source references on every record, including source access timestamps
+  and source-row dates where the upstream source provides them.
 
 Held source rows remain in local maintainer review outputs and are not part of
 the canonical dataset.
@@ -109,6 +111,9 @@ Generated files should not be edited directly.
 ## Source Policy
 
 Every canonical record must be traceable to approved reusable public sources.
+Use `sourceIds` for the approved source list and `sourceReferences` for dated
+source evidence such as access timestamps, source row identifiers, and upstream
+row dates.
 
 Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, and
 official public sources with clear reuse terms. OpenStreetMap-derived data may

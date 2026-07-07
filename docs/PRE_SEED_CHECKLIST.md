@@ -3,6 +3,7 @@
 - [x] Source licenses reviewed.
 - [x] Military-only and sensitive records excluded or held.
 - [x] Every canonical record has an approved source.
+- [x] Every canonical record has dated source references.
 - [x] IDs follow `docs/ID_POLICY.md`.
 - [x] Coordinates are source-backed or `null`.
 - [x] External IDs are checked for duplicate identity risk.

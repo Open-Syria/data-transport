@@ -20,6 +20,8 @@ The coverage analyzer currently checks:
 - coordinates,
 - administrative location links,
 - any external ID,
+- dated source references,
+- source-row dates,
 - OurAirports identifiers,
 - UN/LOCODE identifiers.
 
@@ -34,6 +36,8 @@ The first seed contains 42 locations:
 - 6 road terminal records,
 - 30 rail terminal records,
 - 1 oil terminal record.
+- 42 records with dated source references.
+- 41 records with upstream source-row dates.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, the unresolved Al Thaurah/T2 locality link, source review for held

@@ -51,6 +51,9 @@ const datasetConfigs = [
       'geonames_id',
       'website',
       'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
       'source_status',
       'notes',
     ],
@@ -160,6 +163,7 @@ function toLocationPublicRecord(record) {
     administrativeLocation: record.administrativeLocation,
     externalIds: record.externalIds,
     sourceIds: record.sourceIds,
+    sourceReferences: record.sourceReferences,
     sourceStatus: record.sourceStatus,
     notes: record.notes,
   });
@@ -190,9 +194,32 @@ function toLocationFlatRow(record) {
     geonames_id: record.externalIds.geonames ?? null,
     website: record.externalIds.website ?? null,
     source_ids_json: stringifyCompactJson(record.sourceIds),
+    source_references_json: stringifyCompactJson(record.sourceReferences),
+    latest_source_accessed_at: latestSourceAccessedAt(record),
+    latest_source_record_date: latestSourceRecordDate(record),
     source_status: record.sourceStatus,
     notes: record.notes ?? null,
   };
+}
+
+function latestSourceAccessedAt(record) {
+  return latestStringValue(record.sourceReferences.map((reference) => reference.accessedAt));
+}
+
+function latestSourceRecordDate(record) {
+  return latestStringValue(
+    record.sourceReferences
+      .map((reference) => reference.sourceRecordDate)
+      .filter((value) => value !== undefined),
+  );
+}
+
+function latestStringValue(values) {
+  if (values.length === 0) {
+    return null;
+  }
+
+  return values.toSorted().at(-1);
 }
 
 function formatTextArtifact(content) {
@@ -462,6 +489,9 @@ function buildReleaseReadiness() {
   const locationCount = locations.length;
   const englishNameCount = locations.filter((record) => record.name.en).length;
   const sourcedCount = locations.filter((record) => record.sourceIds.length > 0).length;
+  const sourceReferenceCount = locations.filter(
+    (record) => record.sourceReferences.length === record.sourceIds.length,
+  ).length;
   const typedCount = locations.filter(
     (record) => record.locationTypes.length > 0 && record.transportModes.length > 0,
   ).length;
@@ -502,6 +532,12 @@ function buildReleaseReadiness() {
         status: sourcedCount === locationCount ? 'passed' : 'blocked',
         expected: locationCount,
         actual: sourcedCount,
+      },
+      {
+        name: 'dated_source_references',
+        status: sourceReferenceCount === locationCount ? 'passed' : 'blocked',
+        expected: locationCount,
+        actual: sourceReferenceCount,
       },
       {
         name: 'typed_locations',

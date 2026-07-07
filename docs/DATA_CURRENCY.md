@@ -11,12 +11,18 @@ Fields most likely to change:
 - coordinates and source corrections,
 - closed or renamed locations.
 
+Use `sourceReferences[].accessedAt` to see when the source data was collected or
+reviewed for a record. Use `sourceReferences[].sourceRecordDate` to see the
+upstream row date when the source provides one, such as UN/LOCODE month-level
+dates or GeoNames day-level modification dates.
+
 Before each release:
 
 1. Recheck source access dates.
 2. Recheck whether OurAirports or UN/LOCODE published newer data.
-3. Keep uncertain live status as `unknown`.
-4. Do not publish live route availability or tactical operational status.
+3. Update record-level `sourceReferences` when imports are refreshed.
+4. Keep uncertain live status as `unknown`.
+5. Do not publish live route availability or tactical operational status.
 
 ## Current Source Access
 
@@ -28,3 +34,7 @@ OpenSyria Data Geography locality links were reviewed against the local
 
 GeoNames rail and port expansion rows used the Syria country dump accessed at
 `2026-07-07T22:24:22.381Z`.
+
+Every canonical record currently has at least one dated source reference. The
+only records without `sourceRecordDate` values are supported by source rows that
+do not expose row-level dates.

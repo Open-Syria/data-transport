@@ -4,8 +4,9 @@
 2. Store ignored raw files under `imports/raw/`.
 3. Normalize records into `data/locations.json`.
 4. Add or update source entries in `data/sources.json`.
-5. Run validation and reports.
-6. Document source decisions and known gaps.
+5. Add dated `sourceReferences` for every `sourceIds` entry.
+6. Run validation and reports.
+7. Document source decisions and known gaps.
 
 Never import all rows blindly. Filter by scope, license, and safety.
 
@@ -35,3 +36,7 @@ opensyria-automation export-transport-geonames-seed \
 ```
 
 The local gaps files are the review queues for held source rows.
+
+Transport automation exports dated `sourceReferences` from candidate artifact
+timestamps and source-row metadata. Refresh these references whenever raw source
+downloads are refreshed.

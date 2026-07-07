@@ -4,6 +4,7 @@ Transport records must pass:
 
 - schema validation,
 - approved-source validation,
+- dated source-reference validation,
 - licensing review,
 - scope review,
 - safety review.
@@ -25,4 +26,3 @@ pnpm run validate
 pnpm run report:data
 pnpm run coverage:data
 ```
-

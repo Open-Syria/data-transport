@@ -10,3 +10,4 @@
 - Added reviewed OpenSyria geography locality links for the first seed.
 - Expanded the seed with 28 active railroad stations and 3 GeoNames harbor/port
   identifier merges.
+- Added dated `sourceReferences` to every location record and release artifact.

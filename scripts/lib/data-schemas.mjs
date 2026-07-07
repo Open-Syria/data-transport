@@ -101,6 +101,18 @@ export const administrativeLocationSchema = z
   })
   .strict();
 
+export const sourceReferenceSchema = z
+  .object({
+    sourceId: z.string().trim().min(1),
+    sourceRecordId: z.string().trim().min(1).optional(),
+    sourceRecordDate: z
+      .string()
+      .regex(/^[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?$/)
+      .optional(),
+    accessedAt: z.string().datetime(),
+  })
+  .strict();
+
 export const sourceRecordSchema = z
   .object({
     id: z.string().trim().min(1),
@@ -126,6 +138,7 @@ export const locationRecordSchema = z
     administrativeLocation: administrativeLocationSchema.nullable(),
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
     sourceStatus: sourceStatusSchema,
     notes: z.string().trim().min(1).optional(),
   })
@@ -358,6 +371,16 @@ export function ensureKnownSources(records, sources, label) {
       seenSourceIds.add(sourceId);
       ensureApprovedSource(sourceById, sourceId, `${label} ${record.id}`);
     }
+
+    for (const reference of record.sourceReferences) {
+      ensureApprovedSource(sourceById, reference.sourceId, `${label} ${record.id}`);
+
+      if (!seenSourceIds.has(reference.sourceId)) {
+        throw new Error(
+          `${label} ${record.id} sourceReferences contains source not listed in sourceIds: ${reference.sourceId}`,
+        );
+      }
+    }
   }
 }
 
@@ -427,6 +450,32 @@ export function ensureLocationQuality(records) {
       }
 
       seen.set(value, record.id);
+    }
+  }
+
+  ensureSourceReferenceQuality(records);
+}
+
+function ensureSourceReferenceQuality(records) {
+  for (const record of records) {
+    const referenceSourceIds = new Set();
+
+    for (const reference of record.sourceReferences) {
+      if (referenceSourceIds.has(reference.sourceId)) {
+        throw new Error(
+          `locations ${record.id} contains duplicate source reference: ${reference.sourceId}`,
+        );
+      }
+
+      referenceSourceIds.add(reference.sourceId);
+    }
+
+    for (const sourceId of record.sourceIds) {
+      if (!referenceSourceIds.has(sourceId)) {
+        throw new Error(
+          `locations ${record.id} sourceIds contains source without sourceReferences entry: ${sourceId}`,
+        );
+      }
     }
   }
 }
