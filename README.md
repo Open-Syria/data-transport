@@ -49,6 +49,7 @@ records from the first transport import:
 - 6 UN/LOCODE identifier merges into accepted airport records.
 - 28 active railroad station records from GeoNames.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
+- 6 GeoNames airport identifier enrichments for existing public airport records.
 - 13 reviewed administrative locality links from OpenSyria Data Geography.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
   code.

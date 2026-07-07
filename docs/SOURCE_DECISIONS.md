@@ -46,6 +46,10 @@ customs rows, heliports, and port subfacilities for later review.
 GeoNames `modification_date` values are stored as day-precision
 `sourceReferences[].sourceRecordDate` values.
 
+A follow-up GeoNames review accepted 6 airport identifier enrichments for
+existing public airport records only. Ambiguous or military-looking airport rows
+remain held.
+
 ## OpenSyria Data Geography
 
 Status: approved and imported for administrative locality cross-links.

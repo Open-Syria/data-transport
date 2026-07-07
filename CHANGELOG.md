@@ -13,3 +13,5 @@
 - Added dated `sourceReferences` to every location record and release artifact.
 - Added 6 Wikidata airport identifier enrichments matched by exact IATA and
   ICAO codes.
+- Added 6 GeoNames airport identifier enrichments for existing public airport
+  records.

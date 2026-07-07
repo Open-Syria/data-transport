@@ -40,7 +40,7 @@ As of the first seed import:
 - 42 records have upstream source-row dates.
 - 7 records have OurAirports identifiers.
 - 13 records have UN/LOCODE identifiers.
-- 31 records have GeoNames identifiers.
+- 37 records have GeoNames identifiers.
 - 6 records have Wikidata identifiers.
 - 13 records have reviewed OpenSyria geography locality IDs.
 - 26 records have Arabic names.

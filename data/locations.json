@@ -127,9 +127,16 @@
       "iata": "ALP",
       "icao": "OSAP",
       "unLocode": "SYALP",
-      "wikidata": "Q1420222"
+      "wikidata": "Q1420222",
+      "geonames": "6300127"
     },
-    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography", "wikidata"],
+    "sourceIds": [
+      "ourairports",
+      "datahub-un-locode",
+      "opensyria-data-geography",
+      "wikidata",
+      "geonames-sy"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -153,6 +160,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q1420222",
         "sourceRecordDate": "2026-06-06"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300127",
+        "sourceRecordDate": "2023-05-29"
       }
     ]
   },
@@ -283,9 +296,16 @@
       "iata": "DAM",
       "icao": "OSDI",
       "unLocode": "SYDAM",
-      "wikidata": "Q570873"
+      "wikidata": "Q570873",
+      "geonames": "6300128"
     },
-    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography", "wikidata"],
+    "sourceIds": [
+      "ourairports",
+      "datahub-un-locode",
+      "opensyria-data-geography",
+      "wikidata",
+      "geonames-sy"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -309,6 +329,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q570873",
         "sourceRecordDate": "2026-07-07"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300128",
+        "sourceRecordDate": "2023-12-20"
       }
     ]
   },
@@ -340,9 +366,16 @@
       "iata": "DEZ",
       "icao": "OSDZ",
       "unLocode": "SYDEZ",
-      "wikidata": "Q1369165"
+      "wikidata": "Q1369165",
+      "geonames": "6300129"
     },
-    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography", "wikidata"],
+    "sourceIds": [
+      "ourairports",
+      "datahub-un-locode",
+      "opensyria-data-geography",
+      "wikidata",
+      "geonames-sy"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -366,6 +399,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q1369165",
         "sourceRecordDate": "2025-04-24"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300129",
+        "sourceRecordDate": "2013-05-24"
       }
     ]
   },
@@ -440,9 +479,10 @@
       "ourairportsIdent": "OSLK",
       "iata": "LTK",
       "icao": "OSLK",
-      "wikidata": "Q1357851"
+      "wikidata": "Q1357851",
+      "geonames": "6300131"
     },
-    "sourceIds": ["ourairports", "opensyria-data-geography", "wikidata"],
+    "sourceIds": ["ourairports", "opensyria-data-geography", "wikidata", "geonames-sy"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -460,6 +500,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q1357851",
         "sourceRecordDate": "2026-06-25"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300131",
+        "sourceRecordDate": "2023-05-29"
       }
     ]
   },
@@ -1537,9 +1583,16 @@
       "iata": "PMS",
       "icao": "OSPR",
       "unLocode": "SYPMS",
-      "wikidata": "Q3496771"
+      "wikidata": "Q3496771",
+      "geonames": "6300132"
     },
-    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography", "wikidata"],
+    "sourceIds": [
+      "ourairports",
+      "datahub-un-locode",
+      "opensyria-data-geography",
+      "wikidata",
+      "geonames-sy"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1563,6 +1616,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q3496771",
         "sourceRecordDate": "2026-05-10"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300132",
+        "sourceRecordDate": "2023-05-29"
       }
     ]
   },
@@ -1594,9 +1653,16 @@
       "iata": "KAC",
       "icao": "OSKL",
       "unLocode": "SYKAC",
-      "wikidata": "Q1432529"
+      "wikidata": "Q1432529",
+      "geonames": "6300130"
     },
-    "sourceIds": ["ourairports", "datahub-un-locode", "opensyria-data-geography", "wikidata"],
+    "sourceIds": [
+      "ourairports",
+      "datahub-un-locode",
+      "opensyria-data-geography",
+      "wikidata",
+      "geonames-sy"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1620,6 +1686,12 @@
         "accessedAt": "2026-07-07T22:44:40.220Z",
         "sourceRecordId": "Q1432529",
         "sourceRecordDate": "2026-07-07"
+      },
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "6300130",
+        "sourceRecordDate": "2023-05-29"
       }
     ]
   },

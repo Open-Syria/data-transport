@@ -44,3 +44,7 @@ downloads are refreshed.
 The Wikidata airport enrichment batch accepted only exact IATA+ICAO matches on
 existing airport records. Broader Wikidata matches should stay in review outputs
 until identity and safety are checked.
+
+The GeoNames airport enrichment batch accepted only exact matches to existing
+public airport records. Ambiguous airport rows and military-looking rows stay in
+review outputs.

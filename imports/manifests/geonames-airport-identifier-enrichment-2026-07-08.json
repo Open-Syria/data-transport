@@ -1,0 +1,32 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-07T22:24:22.381Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "Same GeoNames Syria country dump used by the rail and port expansion import."
+    }
+  ],
+  "importedFields": [
+    "GeoNames identifiers",
+    "names",
+    "alternate names",
+    "feature codes",
+    "coordinates",
+    "modification dates"
+  ],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Review GeoNames airport rows held by the first GeoNames transport import.",
+    "Accept only existing public airport records whose GeoNames row identity is clear from airport name and public airport codes.",
+    "Add GeoNames identifiers and dated source references to accepted airport records.",
+    "Keep ambiguous, duplicate-name, and military-looking airport rows out of the canonical dataset."
+  ],
+  "reviewNotes": "Imported 6 GeoNames airport identifier enrichments for existing public airport records: Aleppo International Airport, Damascus International Airport, Deir ez-Zor Airport, Qamishli International Airport, Latakia International Airport, and Palmyra Airport. Held Khafr Bu at Tahta, Al Thaurah/SOR, and Mezzeh Military Airport for identity or safety review."
+}

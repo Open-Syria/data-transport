@@ -84,6 +84,7 @@ function summarizeLocations(locations) {
     withOurAirportsIdent: locations.filter((record) => Boolean(record.externalIds.ourairportsIdent))
       .length,
     withUnLocode: locations.filter((record) => Boolean(record.externalIds.unLocode)).length,
+    withGeoNames: locations.filter((record) => Boolean(record.externalIds.geonames)).length,
     withWikidata: locations.filter((record) => Boolean(record.externalIds.wikidata)).length,
   };
 }

@@ -39,8 +39,9 @@ The first seed contains 42 locations:
 - 1 oil terminal record.
 - 42 records with dated source references.
 - 42 records with upstream source-row dates.
+- 37 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, the unresolved Al Thaurah/T2 locality link, source review for held
-GeoNames and Wikidata rows, and official-source cross-checks.
+ambiguous GeoNames and Wikidata rows, and official-source cross-checks.
