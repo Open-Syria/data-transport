@@ -33,13 +33,13 @@ external IDs are acceptable when no approved public source supports them.
 
 As of the first seed import:
 
-- 42 transport location records pass schema and source validation.
-- 42 records have source-backed coordinates.
-- 42 records have external IDs.
-- 42 records have dated source references.
-- 42 records have upstream source-row dates.
-- 7 records have OurAirports identifiers.
-- 13 records have UN/LOCODE identifiers.
+- 41 transport location records pass schema and source validation.
+- 41 records have source-backed coordinates.
+- 41 records have external IDs.
+- 41 records have dated source references.
+- 41 records have upstream source-row dates.
+- 6 records have OurAirports identifiers.
+- 12 records have UN/LOCODE identifiers.
 - 37 records have GeoNames identifiers.
 - 6 records have Wikidata identifiers.
 - 13 records have reviewed OpenSyria geography locality IDs.

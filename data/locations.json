@@ -61,45 +61,6 @@
     ]
   },
   {
-    "id": "sy-al-thaurah-airport",
-    "name": {
-      "en": "Al Thaurah Airport"
-    },
-    "aliases": [],
-    "locationTypes": ["airport"],
-    "transportModes": ["air"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 34.390394,
-      "longitude": 40.15256
-    },
-    "administrativeLocation": {
-      "localityName": {
-        "en": "T2"
-      }
-    },
-    "externalIds": {
-      "ourairportsIdent": "SOR",
-      "iata": "SOR",
-      "unLocode": "SYSOR"
-    },
-    "sourceIds": ["ourairports", "datahub-un-locode"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "ourairports",
-        "accessedAt": "2026-07-07T21:51:07.081Z",
-        "sourceRecordId": "SOR"
-      },
-      {
-        "sourceId": "datahub-un-locode",
-        "accessedAt": "2026-07-07T21:51:07.081Z",
-        "sourceRecordId": "SYSOR",
-        "sourceRecordDate": "2000-01"
-      }
-    ]
-  },
-  {
     "id": "sy-aleppo-international-airport",
     "name": {
       "en": "Aleppo International Airport"

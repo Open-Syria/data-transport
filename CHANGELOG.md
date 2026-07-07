@@ -15,3 +15,5 @@
   ICAO codes.
 - Added 6 GeoNames airport identifier enrichments for existing public airport
   records.
+- Removed Al Thaurah Airport (`SOR`) from canonical data pending status,
+  identity, and safety review.

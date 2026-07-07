@@ -30,18 +30,18 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 42 locations:
+The first seed contains 41 locations:
 
-- 7 airport-typed records,
+- 6 airport-typed records,
 - 5 seaport-typed records,
 - 6 road terminal records,
 - 30 rail terminal records,
 - 1 oil terminal record.
-- 42 records with dated source references.
-- 42 records with upstream source-row dates.
+- 41 records with dated source references.
+- 41 records with upstream source-row dates.
 - 37 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
 
 The current contribution focus is Arabic facility names for records that still
-lack them, the unresolved Al Thaurah/T2 locality link, source review for held
-ambiguous GeoNames and Wikidata rows, and official-source cross-checks.
+lack them, source review for held ambiguous GeoNames and Wikidata rows, and
+official-source cross-checks.

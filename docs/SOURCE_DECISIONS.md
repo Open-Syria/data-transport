@@ -7,10 +7,16 @@ Status: approved and imported for public civil/reference records.
 OurAirports publishes open data downloads under public-domain terms. Maintainers
 must still review Syria rows for scope and safety before importing.
 
-The first seed imported 7 public airport records. Military-only, heliport,
+The first seed imported 6 public airport records. Military-only, heliport,
 unsupported, and small unverified airport rows were held for review.
 OurAirports does not expose source-row dates in the airport CSV, so canonical
 records store source access timestamps and OurAirports identifiers.
+
+A follow-up status review removed Al Thaurah Airport (`SOR`) from canonical
+data. OurAirports and UN/LOCODE list public identifiers, but another public
+airport directory labels it closed and the matching Wikidata IATA item describes
+Tabqa Military Airbase. Keep it held until an approved source resolves identity,
+status, and safety.
 
 ## UN/LOCODE
 
