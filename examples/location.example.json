@@ -1,0 +1,32 @@
+{
+  "id": "sy-example-transport-location",
+  "name": {
+    "en": "Example Transport Location"
+  },
+  "aliases": [
+    {
+      "value": "Example Terminal",
+      "language": "en",
+      "type": "alias"
+    }
+  ],
+  "locationTypes": ["terminal"],
+  "transportModes": ["multimodal"],
+  "operationalStatus": "unknown",
+  "coordinates": {
+    "latitude": 35.0,
+    "longitude": 37.0
+  },
+  "administrativeLocation": {
+    "governorateId": "sy-example-governorate",
+    "localityName": {
+      "en": "Example Locality"
+    }
+  },
+  "externalIds": {
+    "unLocode": "SYXXX"
+  },
+  "sourceIds": ["example-source"],
+  "sourceStatus": "seed",
+  "notes": "Example only."
+}

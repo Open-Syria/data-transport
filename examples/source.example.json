@@ -1,0 +1,9 @@
+{
+  "id": "example-source",
+  "title": "Example transport source",
+  "url": "https://example.com/transport-source",
+  "license": "CC0-1.0",
+  "status": "approved",
+  "fields": ["names", "coordinates", "identifiers"],
+  "notes": "Example only."
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sy-fixture-transport-location",
+    "name": {
+      "en": "Fixture Transport Location"
+    },
+    "aliases": [],
+    "locationTypes": ["trade_location"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.5,
+      "longitude": 36.3
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-damascus",
+      "localityName": {
+        "en": "Damascus"
+      }
+    },
+    "externalIds": {},
+    "sourceIds": ["fixture-source"],
+    "sourceStatus": "seed"
+  }
+]

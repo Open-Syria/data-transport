@@ -1,0 +1,20 @@
+name: Missing data
+description: Suggest a missing transport location within the approved scope.
+title: "Missing transport location: "
+labels: ["missing-data"]
+body:
+  - type: textarea
+    id: record
+    attributes:
+      label: Missing record
+      description: Which public transport or trade location is missing?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Include reusable public sources that support adding it.
+    validations:
+      required: true
+

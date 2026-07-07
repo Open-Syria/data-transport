@@ -1,0 +1,21 @@
+{
+  "sourceId": "example-source",
+  "sourceTitle": "Example transport source",
+  "sourceUrl": "https://example.com/transport-source",
+  "license": "CC0-1.0",
+  "accessedAt": "2026-07-08T00:00:00.000Z",
+  "status": "planned",
+  "rawFiles": [
+    {
+      "name": "example.csv",
+      "notes": "Template only."
+    }
+  ],
+  "importedFields": ["names", "coordinates", "identifiers"],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Normalize source identifiers into OpenSyria externalIds.",
+    "Keep coordinates null unless a reusable public source supports them."
+  ],
+  "reviewNotes": "Template only. Replace with source-specific review notes before importing."
+}

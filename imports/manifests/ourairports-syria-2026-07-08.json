@@ -1,0 +1,31 @@
+{
+  "sourceId": "ourairports",
+  "sourceTitle": "OurAirports open data downloads",
+  "sourceUrl": "https://ourairports.com/data/",
+  "license": "Public Domain",
+  "licenseUrl": "https://github.com/davidmegginson/ourairports-data/blob/main/LICENSE",
+  "accessedAt": "2026-07-08T00:00:00.000Z",
+  "status": "planned",
+  "rawFiles": [
+    {
+      "name": "airports.csv",
+      "notes": "Download from the current OurAirports data repository before the first import batch."
+    }
+  ],
+  "importedFields": [
+    "airport identifiers",
+    "airport names",
+    "airport types",
+    "coordinates",
+    "municipality",
+    "IATA codes",
+    "ICAO codes"
+  ],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Filter to Syria rows.",
+    "Exclude military-only, tactical, and operationally sensitive records unless explicitly approved.",
+    "Map public airport identifiers into externalIds."
+  ],
+  "reviewNotes": "Planned source review for the first public civil airport and airfield seed."
+}

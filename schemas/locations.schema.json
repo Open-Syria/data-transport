@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-transport/locations.schema.json",
+  "title": "OpenSyria Transport Locations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "aliases",
+      "locationTypes",
+      "transportModes",
+      "operationalStatus",
+      "coordinates",
+      "administrativeLocation",
+      "externalIds",
+      "sourceIds",
+      "sourceStatus"
+    ],
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/id"
+      },
+      "name": {
+        "$ref": "#/$defs/localizedText"
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/alias"
+        }
+      },
+      "locationTypes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/locationType"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "transportModes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/transportMode"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "operationalStatus": {
+        "type": "string",
+        "enum": ["active", "inactive", "closed", "unknown"]
+      },
+      "coordinates": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/geographicPoint"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "administrativeLocation": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/administrativeLocation"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "externalIds": {
+        "$ref": "#/$defs/externalIds"
+      },
+      "sourceIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "sourceStatus": {
+        "type": "string",
+        "enum": ["pending_release", "seed", "released", "deprecated"]
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^sy-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ar": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "alias": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "type": "string",
+          "enum": ["ar", "en", "und"]
+        },
+        "type": {
+          "type": "string",
+          "enum": ["alias", "formal", "transliteration", "historical", "alternate_spelling"]
+        }
+      }
+    },
+    "locationType": {
+      "type": "string",
+      "enum": [
+        "airport",
+        "airfield",
+        "heliport",
+        "seaport",
+        "oil_terminal",
+        "rail_terminal",
+        "road_terminal",
+        "postal_exchange",
+        "trade_location",
+        "border_crossing",
+        "terminal",
+        "other"
+      ]
+    },
+    "transportMode": {
+      "type": "string",
+      "enum": ["air", "maritime", "rail", "road", "postal", "multimodal", "border", "other"]
+    },
+    "geographicPoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["latitude", "longitude"],
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "administrativeLocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "governorateId": {
+          "$ref": "#/$defs/id"
+        },
+        "districtId": {
+          "$ref": "#/$defs/id"
+        },
+        "subdistrictId": {
+          "$ref": "#/$defs/id"
+        },
+        "localityId": {
+          "$ref": "#/$defs/id"
+        },
+        "localityName": {
+          "$ref": "#/$defs/localizedText"
+        }
+      }
+    },
+    "externalIds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ourairportsIdent": {
+          "type": "string",
+          "minLength": 1
+        },
+        "iata": {
+          "type": "string",
+          "pattern": "^[A-Z0-9]{3}$"
+        },
+        "icao": {
+          "type": "string",
+          "pattern": "^[A-Z0-9]{4}$"
+        },
+        "unLocode": {
+          "type": "string",
+          "pattern": "^SY[A-Z0-9]{3}$"
+        },
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "geonames": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ourairports",
+    "title": "OurAirports open data downloads",
+    "url": "https://ourairports.com/data/",
+    "license": "Public Domain",
+    "licenseUrl": "https://github.com/davidmegginson/ourairports-data/blob/main/LICENSE",
+    "status": "approved",
+    "fields": [
+      "airport identifiers",
+      "airport names",
+      "airport types",
+      "coordinates",
+      "municipality",
+      "IATA codes",
+      "ICAO codes"
+    ],
+    "notes": "Use only public civil/reference records in the default dataset. Military-only, tactical, or operationally sensitive rows require maintainer review before publication."
+  },
+  {
+    "id": "un-locode",
+    "title": "UN/LOCODE Code List",
+    "url": "https://unece.org/trade/cefact/unlocode-code-list-country-and-territory",
+    "license": "UNECE UN/LOCODE public code list; redistribution review required",
+    "status": "proposed",
+    "fields": [
+      "UN/LOCODE identifiers",
+      "transport functions",
+      "location names",
+      "subdivision codes",
+      "coordinates",
+      "status indicators"
+    ],
+    "notes": "Primary official source. Review current edition licensing and attribution before importing canonical records."
+  },
+  {
+    "id": "datahub-un-locode",
+    "title": "DataHub UN/LOCODE codelist",
+    "url": "https://datahub.io/core/un-locode",
+    "license": "ODC-PDDL-1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/pddl/1-0/",
+    "status": "approved",
+    "fields": [
+      "UN/LOCODE identifiers",
+      "transport functions",
+      "location names",
+      "subdivision codes",
+      "coordinates",
+      "status indicators"
+    ],
+    "notes": "Convenience mirror of UNECE UN/LOCODE data. Prefer cross-checking against the official UNECE page before release."
+  },
+  {
+    "id": "wikidata",
+    "title": "Wikidata",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "status": "approved",
+    "fields": ["external IDs", "names", "aliases", "coordinates", "public identifiers"],
+    "notes": "Use for public identifiers and cross-checking, not as the only source for sensitive or ambiguous transport locations."
+  },
+  {
+    "id": "geonames-sy",
+    "title": "GeoNames Syrian Arab Republic Gazetteer Extract",
+    "url": "https://download.geonames.org/export/dump/SY.zip",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "status": "approved",
+    "fields": [
+      "names",
+      "alternate names",
+      "feature codes",
+      "coordinates",
+      "administrative relationships"
+    ],
+    "notes": "Useful for cross-checking coordinates and names against the geography dataset."
+  }
+]

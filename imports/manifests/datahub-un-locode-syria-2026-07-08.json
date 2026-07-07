@@ -1,0 +1,30 @@
+{
+  "sourceId": "datahub-un-locode",
+  "sourceTitle": "DataHub UN/LOCODE codelist",
+  "sourceUrl": "https://datahub.io/core/un-locode",
+  "license": "ODC-PDDL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/pddl/1-0/",
+  "accessedAt": "2026-07-08T00:00:00.000Z",
+  "status": "planned",
+  "rawFiles": [
+    {
+      "name": "code-list.csv",
+      "notes": "Download current DataHub UN/LOCODE codelist before import and cross-check against UNECE."
+    }
+  ],
+  "importedFields": [
+    "UN/LOCODE identifiers",
+    "transport functions",
+    "location names",
+    "subdivision codes",
+    "coordinates",
+    "status indicators"
+  ],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Filter to country code SY.",
+    "Map UN/LOCODE function codes to transportModes and locationTypes.",
+    "Hold ambiguous or suspicious rows for manual review."
+  ],
+  "reviewNotes": "Planned source review for public transport and trade location identifiers."
+}
