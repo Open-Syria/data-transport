@@ -26,7 +26,8 @@
   "transforms": [
     "Filter to Syria rows.",
     "Exclude military-only, tactical, and operationally sensitive records unless explicitly approved.",
-    "Map public airport identifiers into externalIds."
+    "Map public airport identifiers into externalIds.",
+    "Remove Al Thaurah Airport (SOR) after follow-up identity, status, and safety review."
   ],
-  "reviewNotes": "Imported 7 public civil/reference airport seed records. Held 53 Syria rows for review, including military-only, heliport, unsupported, and small unverified airport rows."
+  "reviewNotes": "Imported 6 public civil/reference airport seed records. Held 53 Syria rows for review, including military-only, heliport, unsupported, and small unverified airport rows. Al Thaurah Airport (SOR) was removed from canonical data after follow-up review because public references conflict on civil identity and status."
 }

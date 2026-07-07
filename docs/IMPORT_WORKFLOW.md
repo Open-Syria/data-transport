@@ -49,6 +49,11 @@ The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.
 
+The GeoNames abandoned railroad station review accepts `RSTNQ` rows only as
+inactive historical rail references. Do not use these rows as evidence of
+current rail service, and do not infer exact locality links from nearest
+coordinates without a reviewed geography match.
+
 The HIU/Stanford and HDX border crossing batches import stable historical
 reference points only. Do not use them to publish live opening hours, current
 accessibility, or operational status. When a source separates the Syrian

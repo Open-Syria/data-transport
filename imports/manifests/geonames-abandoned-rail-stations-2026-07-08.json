@@ -1,0 +1,36 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-07T22:24:22.381Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "GeoNames Syria country dump cached under data-automation outputs."
+    }
+  ],
+  "importedFields": [
+    "names",
+    "aliases",
+    "feature codes",
+    "coordinates",
+    "administrative governorate",
+    "operationalStatus",
+    "externalIds",
+    "sourceIds",
+    "sourceReferences",
+    "notes"
+  ],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Accepted held GeoNames RSTNQ feature rows as public abandoned railroad station references after review.",
+    "Used rail_terminal location type and rail transport mode for each accepted station.",
+    "Set operationalStatus to inactive because GeoNames RSTNQ denotes an abandoned railroad station.",
+    "Mapped GeoNames admin1 codes only to governorate-level OpenSyria identifiers; no exact locality link was inferred from nearest coordinates."
+  ],
+  "reviewNotes": "Imported 5 held GeoNames abandoned railroad station rows as inactive historical rail terminal records. These records improve historical rail coverage but do not represent current rail service."
+}

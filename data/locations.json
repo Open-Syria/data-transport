@@ -1773,6 +1773,54 @@
     ]
   },
   {
+    "id": "sy-mahattat-al-maqarin",
+    "name": {
+      "en": "Mahattat al Maqarin",
+      "ar": "محطة المقارن"
+    },
+    "aliases": [
+      {
+        "value": "Al Maqarin",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "El Makarene Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Maqarin Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "inactive",
+    "coordinates": {
+      "latitude": 32.7243,
+      "longitude": 35.88122
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "167307"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "167307",
+        "sourceRecordDate": "2026-03-10"
+      }
+    ],
+    "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
+  },
+  {
     "id": "sy-mahattat-al-mazanat",
     "name": {
       "en": "Mahattat al Mazanat"
@@ -1810,6 +1858,54 @@
         "sourceRecordDate": "2017-02-04"
       }
     ]
+  },
+  {
+    "id": "sy-mahattat-al-muzayrib",
+    "name": {
+      "en": "Mahattat al Muzayrib",
+      "ar": "محطة المزيريب"
+    },
+    "aliases": [
+      {
+        "value": "Al Muzayrib",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Mezerib",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station de Mzairib",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "inactive",
+    "coordinates": {
+      "latitude": 32.68936,
+      "longitude": 36.01348
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "173397"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "173397",
+        "sourceRecordDate": "2022-04-17"
+      }
+    ],
+    "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
   },
   {
     "id": "sy-mahattat-al-qadam",
@@ -1884,6 +1980,54 @@
         "sourceRecordDate": "2020-06-10"
       }
     ]
+  },
+  {
+    "id": "sy-mahattat-ash-shajarah",
+    "name": {
+      "en": "Mahattat ash Shajarah",
+      "ar": "محطة الشجرة"
+    },
+    "aliases": [
+      {
+        "value": "Ash Shajarah",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Chajara Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Shajara Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "inactive",
+    "coordinates": {
+      "latitude": 32.72916,
+      "longitude": 35.83763
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "172827"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "172827",
+        "sourceRecordDate": "2021-06-09"
+      }
+    ],
+    "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
   },
   {
     "id": "sy-mahattat-bab-al-hadid",
@@ -2437,6 +2581,44 @@
     ]
   },
   {
+    "id": "sy-mahattat-qizlakhir",
+    "name": {
+      "en": "Mahattat Qizlakhir",
+      "ar": "محطة قزلاخر"
+    },
+    "aliases": [
+      {
+        "value": "Qizlakhir",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "inactive",
+    "coordinates": {
+      "latitude": 34.6784,
+      "longitude": 36.44678
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "8051652"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8051652",
+        "sourceRecordDate": "2026-03-11"
+      }
+    ],
+    "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
+  },
+  {
     "id": "sy-mahattat-qubur-al-bid",
     "name": {
       "en": "Mahattat Qubur al Bid",
@@ -2655,6 +2837,54 @@
         "sourceRecordDate": "2020-06-10"
       }
     ]
+  },
+  {
+    "id": "sy-mahattat-uwayja",
+    "name": {
+      "en": "Mahattat Uwayja",
+      "ar": "محطة عويجا"
+    },
+    "aliases": [
+      {
+        "value": "Mahattat `Uwayja",
+        "language": "en",
+        "type": "transliteration"
+      },
+      {
+        "value": "El Awja",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station El Aaouje",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "inactive",
+    "coordinates": {
+      "latitude": 35.65,
+      "longitude": 37
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-idlib"
+    },
+    "externalIds": {
+      "geonames": "174024"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "174024",
+        "sourceRecordDate": "2020-06-10"
+      }
+    ],
+    "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
   },
   {
     "id": "sy-marfa-arwad-pier",

@@ -41,13 +41,15 @@ Out of scope:
 This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
-The canonical `data/locations.json` file currently contains 77 reviewed seed
+The canonical `data/locations.json` file currently contains 82 reviewed seed
 records from the first transport import:
 
 - 6 public civil/reference airport records from OurAirports,
 - 7 standalone UN/LOCODE transport and trade locations,
 - 5 UN/LOCODE identifier merges into accepted airport records.
 - 28 active railroad station records from GeoNames.
+- 5 inactive/abandoned railroad station records from reviewed GeoNames `RSTNQ`
+  rows.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 6 GeoNames public maritime terminal subfacility records for wharves and
   piers.
@@ -57,8 +59,9 @@ records from the first transport import:
   with Syrian-side names preferred over neighboring-country crossing names.
 - 3 NGA World Port Index identifier and coordinate enrichments for existing
   main seaport records.
-- 30 reviewed administrative locality links from OpenSyria Data Geography,
+- 36 reviewed administrative locality links from OpenSyria Data Geography,
   including 17 border crossing locality links.
+- 68 records with administrative location data.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
   code.
 - Dated source references on every record, including source access timestamps

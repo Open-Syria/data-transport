@@ -18,6 +18,10 @@ airport directory labels it closed and the matching Wikidata IATA item describes
 Tabqa Military Airbase. Keep it held until an approved source resolves identity,
 status, and safety.
 
+A 2026-07-08 recheck reached the same decision: `SOR` remains out of canonical
+public airport data because the row has conflicting public identity/status
+signals and overlaps a military-airbase identity.
+
 ## UN/LOCODE
 
 Status: DataHub mirror approved and imported for seed review; official UNECE
@@ -60,6 +64,12 @@ A follow-up maritime review accepted 6 public GeoNames `WHRF` and `PIER` rows as
 terminal records. These rows represent wharf/pier subfacilities around Tartus,
 Arwad, and Latakia, so they use `locationTypes: ["terminal"]` rather than
 duplicating main seaport identities.
+
+A follow-up rail review accepted 5 GeoNames abandoned railroad station `RSTNQ`
+rows as inactive rail terminal references. These rows are historical reference
+points, not current-service evidence. They use governorate-level administrative
+links from the GeoNames admin code only; exact locality links were not inferred
+from nearest coordinates.
 
 ## NGA World Port Index
 

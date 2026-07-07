@@ -27,3 +27,5 @@
   WPI identifiers and port-specific coordinates.
 - Added 6 public GeoNames maritime terminal subfacility records for wharves and
   piers around Tartus, Arwad, and Latakia.
+- Added 5 inactive GeoNames abandoned railroad station records with dated
+  source-row references.

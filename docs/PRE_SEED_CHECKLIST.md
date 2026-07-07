@@ -13,5 +13,6 @@
 
 First seed completed from OurAirports, the DataHub UN/LOCODE codelist,
 OpenSyria Data Geography, GeoNames Syria, Wikidata, NGA World Port Index, and
-HIU/Stanford/HDX border crossing data. Held rows remain in local maintainer
-review outputs.
+HIU/Stanford/HDX border crossing data. Reviewed GeoNames abandoned rail rows are
+included only as inactive historical references. Held rows remain in local
+maintainer review outputs.
