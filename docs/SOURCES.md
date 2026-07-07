@@ -35,7 +35,8 @@ The first canonical seed uses:
 - DataHub UN/LOCODE codelist for public transport and trade location codes.
 - OpenSyria Data Geography for reviewed locality and parent administrative
   cross-links.
-- GeoNames for active railroad stations and broad harbor/port identifiers.
+- GeoNames for active railroad stations, broad harbor/port identifiers, and
+  reviewed public maritime terminal subfacilities.
 - GeoNames for exact airport identifier enrichment on existing public airport
   records.
 - Wikidata for exact airport identifier enrichment when existing records match

@@ -56,6 +56,11 @@ A follow-up GeoNames review accepted 6 airport identifier enrichments for
 existing public airport records only. Ambiguous or military-looking airport rows
 remain held.
 
+A follow-up maritime review accepted 6 public GeoNames `WHRF` and `PIER` rows as
+terminal records. These rows represent wharf/pier subfacilities around Tartus,
+Arwad, and Latakia, so they use `locationTypes: ["terminal"]` rather than
+duplicating main seaport identities.
+
 ## NGA World Port Index
 
 Status: approved and imported for public maritime identifiers and coordinates.

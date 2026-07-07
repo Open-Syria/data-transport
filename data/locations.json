@@ -229,6 +229,171 @@
     ]
   },
   {
+    "id": "sy-al-marfa-al-jadid-pier",
+    "name": {
+      "en": "Al Marfa' al Jadid Pier",
+      "ar": "?????? ??????"
+    },
+    "aliases": [
+      {
+        "value": "Al Marfa' al Jadid",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Al Marfa? al Jad?d",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.52792,
+      "longitude": 35.76779
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-latakia",
+      "subdistrictId": "sy-latakia-latakia-lattakia",
+      "localityId": "sy-latakia-latakia-lattakia-lattakia",
+      "localityName": {
+        "en": "Lattakia",
+        "ar": "اللاذقية"
+      }
+    },
+    "externalIds": {
+      "geonames": "7635197"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7635197",
+        "sourceRecordDate": "2013-01-12"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
+      }
+    ],
+    "notes": "GeoNames public maritime subfacility record (PIER); operational status is not live."
+  },
+  {
+    "id": "sy-al-marfa-al-qibli-wharf",
+    "name": {
+      "en": "Al Marfa' al Qibli Wharf",
+      "ar": "?????? ??????"
+    },
+    "aliases": [
+      {
+        "value": "Al Marfa' al Qibli",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Al Marfa? al Qibl?",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.85651,
+      "longitude": 35.86102
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-arwad",
+      "localityId": "sy-tartus-tartus-arwad-arwad",
+      "localityName": {
+        "en": "Arwad",
+        "ar": "أرواد"
+      }
+    },
+    "externalIds": {
+      "geonames": "8238898"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8238898",
+        "sourceRecordDate": "2012-09-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
+      }
+    ],
+    "notes": "GeoNames public maritime subfacility record (WHRF); operational status is not live."
+  },
+  {
+    "id": "sy-al-marfa-ash-shamaliyah-wharf",
+    "name": {
+      "en": "Al Marfa' ash Shamaliyah Wharf",
+      "ar": "?????? ????????"
+    },
+    "aliases": [
+      {
+        "value": "Al Marfa' ash Shamaliyah",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Al Marfa? ash Sham?l?yah",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.85808,
+      "longitude": 35.85944
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-arwad",
+      "localityId": "sy-tartus-tartus-arwad-arwad",
+      "localityName": {
+        "en": "Arwad",
+        "ar": "أرواد"
+      }
+    },
+    "externalIds": {
+      "geonames": "7526834"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7526834",
+        "sourceRecordDate": "2012-09-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
+      }
+    ],
+    "notes": "GeoNames public maritime subfacility record (WHRF); operational status is not live."
+  },
+  {
     "id": "sy-al-rai-border-crossing",
     "name": {
       "en": "Al Rai Border Crossing"
@@ -407,6 +572,56 @@
         "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
       }
     ]
+  },
+  {
+    "id": "sy-as-sansul-pier",
+    "name": {
+      "en": "As Sansul Pier",
+      "ar": "???????"
+    },
+    "aliases": [
+      {
+        "value": "As Sans?l",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.85719,
+      "longitude": 35.86022
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-arwad",
+      "localityId": "sy-tartus-tartus-arwad-arwad",
+      "localityName": {
+        "en": "Arwad",
+        "ar": "أرواد"
+      }
+    },
+    "externalIds": {
+      "geonames": "8238899"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8238899",
+        "sourceRecordDate": "2012-09-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
+      }
+    ],
+    "notes": "GeoNames public maritime subfacility record (PIER); operational status is not live."
   },
   {
     "id": "sy-ash-shaykh-jabir-border-crossing",
@@ -2440,6 +2655,116 @@
         "sourceRecordDate": "2020-06-10"
       }
     ]
+  },
+  {
+    "id": "sy-marfa-arwad-pier",
+    "name": {
+      "en": "Marfa' Arwad Pier",
+      "ar": "???? ?????"
+    },
+    "aliases": [
+      {
+        "value": "Marfa' Arwad",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Marfa? Arw?d",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.89013,
+      "longitude": 35.87485
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-tartous",
+      "localityId": "sy-tartus-tartus-tartous-tartous",
+      "localityName": {
+        "en": "Tartous",
+        "ar": "طرطوس"
+      }
+    },
+    "externalIds": {
+      "geonames": "7526652"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7526652",
+        "sourceRecordDate": "2012-01-21"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
+      }
+    ],
+    "notes": "GeoNames public pier record; name references Arwad but coordinates place the point near Tartous locality. Operational status is not live."
+  },
+  {
+    "id": "sy-marfa-tartus-wharf",
+    "name": {
+      "en": "Marfa' Tartus Wharf",
+      "ar": "???? ?????"
+    },
+    "aliases": [
+      {
+        "value": "Marfa' Tartus",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Marfa? ?ar??s",
+        "language": "en",
+        "type": "transliteration"
+      }
+    ],
+    "locationTypes": ["terminal"],
+    "transportModes": ["maritime"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.89931,
+      "longitude": 35.87182
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-tartus",
+      "districtId": "sy-tartus-tartus",
+      "subdistrictId": "sy-tartus-tartus-tartous",
+      "localityId": "sy-tartus-tartus-tartous-tartous",
+      "localityName": {
+        "en": "Tartous",
+        "ar": "طرطوس"
+      }
+    },
+    "externalIds": {
+      "geonames": "7526651"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7526651",
+        "sourceRecordDate": "2012-01-21"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
+      }
+    ],
+    "notes": "GeoNames public maritime subfacility record (WHRF); operational status is not live."
   },
   {
     "id": "sy-meidan-ekbis-border-crossing",

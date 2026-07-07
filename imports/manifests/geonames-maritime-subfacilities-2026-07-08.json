@@ -1,0 +1,39 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-07T22:24:22.381Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "GeoNames Syria country dump cached under data-automation outputs."
+    },
+    {
+      "name": "../data-geography/data/localities.json",
+      "sha256": "3081f1aa8d95621447dd13f0713a49c145f0b70b8cf9fc87604912dd9854b0b5",
+      "notes": "Used only for reviewed administrative locality links copied through existing canonical maritime records."
+    }
+  ],
+  "importedFields": [
+    "names",
+    "aliases",
+    "coordinates",
+    "administrativeLocation",
+    "externalIds",
+    "sourceIds",
+    "sourceReferences",
+    "notes"
+  ],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Accepted held GeoNames WHRF and PIER feature rows as public maritime terminal subfacilities after review.",
+    "Used terminal location type rather than seaport to avoid duplicating main port identities.",
+    "Copied administrative location links from reviewed nearby OpenSyria geography-backed maritime records.",
+    "Kept operational status unknown because GeoNames feature presence does not provide live status."
+  ],
+  "reviewNotes": "Imported 6 public maritime terminal subfacility records from held GeoNames WHRF/PIER rows. Tartus, Latakia, and Arwad-area subfacilities were added as terminal records; main seaport identities were left unchanged."
+}

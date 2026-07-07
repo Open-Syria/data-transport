@@ -41,7 +41,7 @@ Out of scope:
 This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
-The canonical `data/locations.json` file currently contains 71 reviewed seed
+The canonical `data/locations.json` file currently contains 77 reviewed seed
 records from the first transport import:
 
 - 6 public civil/reference airport records from OurAirports,
@@ -49,6 +49,8 @@ records from the first transport import:
 - 5 UN/LOCODE identifier merges into accepted airport records.
 - 28 active railroad station records from GeoNames.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
+- 6 GeoNames public maritime terminal subfacility records for wharves and
+  piers.
 - 6 GeoNames airport identifier enrichments for existing public airport records.
 - 30 stable border crossing reference records from public-domain HIU datasets.
 - 27 border crossing records cross-checked against the HDX 2015 HIU release,

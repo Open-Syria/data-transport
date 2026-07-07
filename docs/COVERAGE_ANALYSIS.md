@@ -30,18 +30,19 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 71 locations:
+The first seed contains 77 locations:
 
 - 6 airport-typed records,
 - 30 border crossing records,
 - 5 seaport-typed records,
+- 6 terminal records,
 - 6 road terminal records,
 - 30 rail terminal records,
 - 1 oil terminal record.
-- 71 records with dated source references.
-- 71 records with upstream source-row dates.
-- 57 records with administrative location data.
-- 37 records with GeoNames identifiers.
+- 77 records with dated source references.
+- 77 records with upstream source-row dates.
+- 63 records with administrative location data.
+- 43 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
 - 3 records with NGA World Port Index identifiers.
 - 27 border crossing records cross-checked against the HDX 2015 HIU source.
