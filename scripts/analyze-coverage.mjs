@@ -89,6 +89,12 @@ function buildLocationCoverage(data) {
         data.locations,
         (record) => Boolean(record.administrativeLocation),
       ),
+      administrativeLocality: fieldMetric(
+        'Administrative locality ID',
+        'medium',
+        data.locations,
+        (record) => Boolean(record.administrativeLocation?.localityId),
+      ),
       externalId: fieldMetric(
         'Any external ID',
         'medium',

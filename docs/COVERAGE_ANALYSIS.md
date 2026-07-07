@@ -19,6 +19,7 @@ The coverage analyzer currently checks:
 - Arabic names,
 - coordinates,
 - administrative location links,
+- administrative locality IDs,
 - any external ID,
 - dated source references,
 - source-row dates,

@@ -75,6 +75,9 @@ function summarizeLocations(locations) {
     withCoordinates: locations.filter((record) => Boolean(record.coordinates)).length,
     withAdministrativeLocation: locations.filter((record) => Boolean(record.administrativeLocation))
       .length,
+    withAdministrativeLocality: locations.filter((record) =>
+      Boolean(record.administrativeLocation?.localityId),
+    ).length,
     withExternalIds: locations.filter((record) => Object.keys(record.externalIds).length > 0)
       .length,
     withSourceReferences: locations.filter((record) => record.sourceReferences.length > 0).length,
@@ -88,6 +91,9 @@ function summarizeLocations(locations) {
     withWikidata: locations.filter((record) => Boolean(record.externalIds.wikidata)).length,
     withWorldPortIndex: locations.filter((record) => Boolean(record.externalIds.worldPortIndex))
       .length,
+    withOpenSyriaGeography: locations.filter((record) =>
+      record.sourceIds.includes('opensyria-data-geography'),
+    ).length,
   };
 }
 
