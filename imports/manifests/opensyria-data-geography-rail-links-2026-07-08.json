@@ -1,0 +1,30 @@
+{
+  "sourceId": "opensyria-data-geography",
+  "sourceTitle": "OpenSyria Data Geography",
+  "sourceUrl": "https://github.com/Open-Syria/data-geography",
+  "license": "OpenSyria dataset compilation; upstream source licenses apply",
+  "accessedAt": "2026-07-08T00:00:00.000Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "../data-geography/data/localities.json",
+      "sha256": "3081f1aa8d95621447dd13f0713a49c145f0b70b8cf9fc87604912dd9854b0b5",
+      "notes": "Local canonical geography file used for reviewed rail station locality cross-links."
+    }
+  ],
+  "importedFields": [
+    "OpenSyria locality identifiers",
+    "parent administrative identifiers",
+    "English locality names",
+    "Arabic locality names",
+    "alternate locality spellings"
+  ],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Matched GeoNames-backed rail terminal records to data-geography localities by exact or near-exact station place names, compatible governorate, and close coordinate distance.",
+    "Added full administrative hierarchy, locality name, source ID, and source reference to accepted rail records.",
+    "Held fuzzy or distant candidates such as Ash Shajarah, Bab al Hadid, Uwayja, Qurt Qulaq, and Damascus neighborhood-style station names for later review.",
+    "Did not change rail station coordinates or operational status."
+  ],
+  "reviewNotes": "Added 16 reviewed rail station locality links from OpenSyria Data Geography. This raises rail terminal records with locality-level administrative links from 2 to 18 while keeping ambiguous rail matches held."
+}

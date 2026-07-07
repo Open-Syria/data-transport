@@ -31,3 +31,5 @@
   source-row references.
 - Enriched Nasib Border Crossing with a reviewed GeoNames border-post identifier
   and Arabic facility name.
+- Added 16 reviewed OpenSyria geography locality links for rail terminal
+  records.

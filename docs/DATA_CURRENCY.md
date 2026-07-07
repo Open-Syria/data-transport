@@ -29,8 +29,9 @@ Before each release:
 The first seed used OurAirports and the DataHub UN/LOCODE codelist accessed at
 `2026-07-07T21:51:07.081Z`.
 
-OpenSyria Data Geography locality links were reviewed against the local
-`../data-geography/data/localities.json` file on `2026-07-08`.
+OpenSyria Data Geography locality links, including the rail terminal locality
+link batch, were reviewed against the local `../data-geography/data/localities.json`
+file on `2026-07-08`.
 
 GeoNames rail, inactive abandoned rail, and port expansion rows used the Syria
 country dump accessed at `2026-07-07T22:24:22.381Z`.

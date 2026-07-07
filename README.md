@@ -61,8 +61,9 @@ records from the first transport import:
   with Syrian-side names preferred over neighboring-country crossing names.
 - 3 NGA World Port Index identifier and coordinate enrichments for existing
   main seaport records.
-- 36 reviewed administrative locality links from OpenSyria Data Geography,
-  including 17 border crossing locality links.
+- 52 reviewed administrative locality links from OpenSyria Data Geography,
+  including 17 border crossing locality links and 18 rail terminal locality
+  links.
 - 68 records with administrative location data.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
   code.

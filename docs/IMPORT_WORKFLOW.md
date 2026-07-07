@@ -41,6 +41,11 @@ Transport automation exports dated `sourceReferences` from candidate artifact
 timestamps and source-row metadata. Refresh these references whenever raw source
 downloads are refreshed.
 
+Rail-to-geography links should use reviewed OpenSyria Data Geography locality
+matches. Accept exact or near-exact station place-name matches only when the
+governorate is compatible and the coordinate distance is small; keep fuzzy or
+distant matches held.
+
 The Wikidata airport enrichment batch accepted only exact IATA+ICAO matches on
 existing airport records. Broader Wikidata matches should stay in review outputs
 until identity and safety are checked.

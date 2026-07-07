@@ -105,6 +105,12 @@ A follow-up border crossing review added 17 administrative links where the
 crossing name had an exact or obvious nearby locality match. Ambiguous border
 records remain unlinked rather than using nearest-place inference.
 
+A follow-up rail review added 16 administrative locality links for GeoNames rail
+terminal records where station place names had exact or near-exact OpenSyria
+geography locality matches, compatible governorates, and close coordinate
+distance. Fuzzy or distant rail candidates remain held rather than using
+nearest-place inference.
+
 ## HIU Border Crossings
 
 Status: approved and imported for stable public border crossing reference

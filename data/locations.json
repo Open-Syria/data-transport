@@ -1640,12 +1640,19 @@
       "longitude": 36.18699
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-talkalakh",
+      "subdistrictId": "sy-homs-talkalakh-tall-kalakh",
+      "localityId": "sy-homs-talkalakh-tall-kalakh-akkari",
+      "localityName": {
+        "en": "Akkari",
+        "ar": "عكاري"
+      }
     },
     "externalIds": {
       "geonames": "174111"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1653,6 +1660,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "174111",
         "sourceRecordDate": "2017-02-03"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-talkalakh-tall-kalakh-akkari"
       }
     ]
   },
@@ -1890,12 +1902,19 @@
       "longitude": 36.01348
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-mzeireb",
+      "localityId": "sy-daraa-daraa-mzeireb-mzeireb-mzeireb",
+      "localityName": {
+        "en": "Mzeireb (Mzeireb)",
+        "ar": "مزيريب - مزيريب"
+      }
     },
     "externalIds": {
       "geonames": "173397"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1903,6 +1922,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "173397",
         "sourceRecordDate": "2022-04-17"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-mzeireb-mzeireb-mzeireb"
       }
     ],
     "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
@@ -1965,12 +1989,19 @@
       "longitude": 36.57728
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-al-qusayr",
+      "subdistrictId": "sy-homs-al-qusayr-al-qusayr",
+      "localityId": "sy-homs-al-qusayr-al-qusayr-al-qusayr-al-qusayr",
+      "localityName": {
+        "en": "Al-Qusayr (Al-Qusayr)",
+        "ar": "القصير - مركز القصير"
+      }
     },
     "externalIds": {
       "geonames": "173319"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1978,6 +2009,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "173319",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-al-qusayr-al-qusayr-al-qusayr-al-qusayr"
       }
     ]
   },
@@ -2133,12 +2169,19 @@
       "longitude": 36.24115
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-izra",
+      "subdistrictId": "sy-daraa-izra-izra",
+      "localityId": "sy-daraa-izra-izra-izra",
+      "localityName": {
+        "en": "Izra'",
+        "ar": "ازرع"
+      }
     },
     "externalIds": {
       "geonames": "169340"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2146,6 +2189,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "169340",
         "sourceRecordDate": "2021-01-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-izra-izra-izra"
       }
     ]
   },
@@ -2170,12 +2218,19 @@
       "longitude": 36.27847
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-al-sanamayn",
+      "subdistrictId": "sy-daraa-al-sanamayn-ghabagheb",
+      "localityId": "sy-daraa-al-sanamayn-ghabagheb-jbab-ghabagheb",
+      "localityName": {
+        "en": "Jbab (Ghabagheb)",
+        "ar": "جباب"
+      }
     },
     "externalIds": {
       "geonames": "173697"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2183,6 +2238,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "173697",
         "sourceRecordDate": "2016-10-07"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-al-sanamayn-ghabagheb-jbab-ghabagheb"
       }
     ]
   },
@@ -2201,12 +2261,19 @@
       "longitude": 36.68003
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-homs",
+      "subdistrictId": "sy-homs-homs-homs",
+      "localityId": "sy-homs-homs-homs-kafr-aaya",
+      "localityName": {
+        "en": "Kafr Aaya",
+        "ar": "كفر عايا"
+      }
     },
     "externalIds": {
       "geonames": "7637392"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2214,6 +2281,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "7637392",
         "sourceRecordDate": "2017-02-04"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-homs-homs-kafr-aaya"
       }
     ]
   },
@@ -2238,12 +2310,19 @@
       "longitude": 36.80229
     },
     "administrativeLocation": {
-      "governorateId": "sy-hama"
+      "governorateId": "sy-hama",
+      "districtId": "sy-hama-hama",
+      "subdistrictId": "sy-hama-hama-suran",
+      "localityId": "sy-hama-hama-suran-kawkab-suran",
+      "localityName": {
+        "en": "Kawkab (Suran)",
+        "ar": "كوكب - صوران"
+      }
     },
     "externalIds": {
       "geonames": "168502"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2251,6 +2330,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "168502",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-hama-suran-kawkab-suran"
       }
     ]
   },
@@ -2311,12 +2395,19 @@
       "longitude": 36.25089
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-al-sanamayn",
+      "subdistrictId": "sy-daraa-al-sanamayn-as-sanamayn",
+      "localityId": "sy-daraa-al-sanamayn-as-sanamayn-khebab",
+      "localityName": {
+        "en": "Khebab",
+        "ar": "خبب"
+      }
     },
     "externalIds": {
       "geonames": "168449"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2324,6 +2415,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "168449",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-al-sanamayn-as-sanamayn-khebab"
       }
     ]
   },
@@ -2347,12 +2443,19 @@
       "longitude": 36.2
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-kherbet-ghazala",
+      "localityId": "sy-daraa-daraa-kherbet-ghazala-kherbet-ghazala",
+      "localityName": {
+        "en": "Kherbet Ghazala",
+        "ar": "خربة غزالة - خربة غزالة"
+      }
     },
     "externalIds": {
       "geonames": "168028"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2360,6 +2463,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "168028",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-kherbet-ghazala-kherbet-ghazala"
       }
     ]
   },
@@ -2383,12 +2491,19 @@
       "longitude": 36.21667
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-izra",
+      "subdistrictId": "sy-daraa-izra-izra",
+      "localityId": "sy-daraa-izra-izra-mahjeh",
+      "localityName": {
+        "en": "Mahjeh",
+        "ar": "محجة"
+      }
     },
     "externalIds": {
       "geonames": "167500"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2396,6 +2511,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "167500",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-izra-izra-mahjeh"
       }
     ]
   },
@@ -2414,12 +2534,19 @@
       "longitude": 36.37345
     },
     "administrativeLocation": {
-      "governorateId": "sy-daraa"
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-al-sanamayn",
+      "subdistrictId": "sy-daraa-al-sanamayn-masmiyyeh",
+      "localityId": "sy-daraa-al-sanamayn-masmiyyeh-masmiyyeh",
+      "localityName": {
+        "en": "Masmiyyeh",
+        "ar": "المسمية"
+      }
     },
     "externalIds": {
       "geonames": "11259682"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2427,6 +2554,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "11259682",
         "sourceRecordDate": "2016-10-09"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-al-sanamayn-masmiyyeh-masmiyyeh"
       }
     ]
   },
@@ -2502,12 +2634,19 @@
       "longitude": 36.61687
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-homs",
+      "subdistrictId": "sy-homs-homs-homs",
+      "localityId": "sy-homs-homs-homs-qotniyeh-homs",
+      "localityName": {
+        "en": "Qotniyeh (Homs)",
+        "ar": "قطينة - مركز حمص"
+      }
     },
     "externalIds": {
       "geonames": "165903"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2515,6 +2654,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "165903",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-homs-homs-qotniyeh-homs"
       }
     ]
   },
@@ -2533,12 +2677,19 @@
       "longitude": 35.78725
     },
     "administrativeLocation": {
-      "governorateId": "sy-latakia"
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-latakia",
+      "subdistrictId": "sy-latakia-latakia-lattakia",
+      "localityId": "sy-latakia-latakia-lattakia-lattakia",
+      "localityName": {
+        "en": "Lattakia",
+        "ar": "اللاذقية"
+      }
     },
     "externalIds": {
       "geonames": "8469663"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2546,6 +2697,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "8469663",
         "sourceRecordDate": "2013-03-06"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
       }
     ]
   },
@@ -2564,12 +2720,19 @@
       "longitude": 36.88517
     },
     "administrativeLocation": {
-      "governorateId": "sy-aleppo"
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-mount-simeon",
+      "subdistrictId": "sy-aleppo-mount-simeon-atareb",
+      "localityId": "sy-aleppo-mount-simeon-atareb-kafr-aleppo",
+      "localityName": {
+        "en": "Kafr Aleppo",
+        "ar": "كفر حلب"
+      }
     },
     "externalIds": {
       "geonames": "11554422"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2577,6 +2740,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "11554422",
         "sourceRecordDate": "2017-06-08"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-mount-simeon-atareb-kafr-aleppo"
       }
     ]
   },
@@ -2601,12 +2769,19 @@
       "longitude": 36.44678
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-talkalakh",
+      "subdistrictId": "sy-homs-talkalakh-hadideh",
+      "localityId": "sy-homs-talkalakh-hadideh-khansaa-qazlakher",
+      "localityName": {
+        "en": "Khansaa - Qazlakher",
+        "ar": "خنساء-قزلاخر"
+      }
     },
     "externalIds": {
       "geonames": "8051652"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2614,6 +2789,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "8051652",
         "sourceRecordDate": "2026-03-11"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-talkalakh-hadideh-khansaa-qazlakher"
       }
     ],
     "notes": "GeoNames abandoned railroad station feature (RSTNQ); imported as an inactive historical rail reference, not evidence of current service."
@@ -2728,12 +2908,19 @@
       "longitude": 36.71231
     },
     "administrativeLocation": {
-      "governorateId": "sy-homs"
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-al-rastan",
+      "subdistrictId": "sy-homs-al-rastan-talbiseh",
+      "localityId": "sy-homs-al-rastan-talbiseh-talbiseh",
+      "localityName": {
+        "en": "Talbiseh",
+        "ar": "تلبيسة"
+      }
     },
     "externalIds": {
       "geonames": "163778"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2741,6 +2928,11 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "163778",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-al-rastan-talbiseh-talbiseh"
       }
     ]
   },

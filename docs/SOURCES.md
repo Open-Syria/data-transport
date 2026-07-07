@@ -34,7 +34,7 @@ The first canonical seed uses:
 - OurAirports for public civil/reference airport records,
 - DataHub UN/LOCODE codelist for public transport and trade location codes.
 - OpenSyria Data Geography for reviewed locality and parent administrative
-  cross-links.
+  cross-links, including rail terminal locality links.
 - GeoNames for active railroad stations, inactive abandoned railroad station
   references, broad harbor/port identifiers, reviewed public maritime terminal
   subfacilities, and reviewed Nasib border-post enrichment.

@@ -43,7 +43,7 @@ As of the current seed snapshot:
 - 49 records have GeoNames identifiers.
 - 6 records have Wikidata identifiers.
 - 3 records have NGA World Port Index identifiers.
-- 36 records have reviewed OpenSyria geography locality IDs.
+- 52 records have reviewed OpenSyria geography locality IDs.
 - 68 records have administrative location data.
 - 38 records have Arabic names.
 - 6 records are public maritime terminal subfacilities from GeoNames.
@@ -51,6 +51,7 @@ As of the current seed snapshot:
 - 30 records are border crossings from public-domain HIU reference data.
 - 27 border crossing records have a second dated HDX 2015 source reference.
 - 17 border crossing records have reviewed OpenSyria geography locality links.
+- 18 rail terminal records have reviewed OpenSyria geography locality links.
 - 1 border crossing record has a reviewed GeoNames border-post identifier.
 
 Operational status is currently `unknown` for 77 records and `inactive` for the
