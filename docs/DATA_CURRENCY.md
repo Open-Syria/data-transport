@@ -45,5 +45,10 @@ HIU/Stanford border crossing records use a public-domain source issued on
 `2014-03-12` and accessed at `2026-07-07T23:04:31.920Z`. They are stable
 reference points only and must not be read as current crossing operating status.
 
+HDX border crossing enrichment uses the archived public-domain HIU CSV dated
+`2015-06-11`, accessed at `2026-07-07T23:13:40.384Z`. HDX package metadata was
+modified in 2025, but the imported record facts remain historical 2015
+reference data, not live status.
+
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

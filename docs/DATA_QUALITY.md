@@ -44,7 +44,8 @@ As of the current seed snapshot:
 - 6 records have Wikidata identifiers.
 - 13 records have reviewed OpenSyria geography locality IDs.
 - 26 records have Arabic names.
-- 30 records are border crossings from public-domain HIU/Stanford reference data.
+- 30 records are border crossings from public-domain HIU reference data.
+- 27 border crossing records have a second dated HDX 2015 source reference.
 
 Operational status is currently `unknown` for every record because this dataset
 does not publish live operating conditions.

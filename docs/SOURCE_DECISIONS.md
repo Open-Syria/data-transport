@@ -65,7 +65,7 @@ parent administrative IDs. Locality Arabic names are copied only when the
 transport record represents a locality-style transport/trade location, not a
 specific airport or terminal facility.
 
-## HIU/Stanford Border Crossings
+## HIU Border Crossings
 
 Status: approved and imported for stable public border crossing reference
 points.
@@ -75,6 +75,13 @@ Unit point dataset mirrored by Stanford/UC Berkeley GeoData. It was issued on
 2014-03-12, so records imported from it must keep `operationalStatus` as
 `unknown` and must not be interpreted as live border status.
 
-The first border crossing batch imported 30 named crossing records. Tower-style
-rows (`Hadallat (Tower 30/31)` and `Tower 22`) were held for identity and safety
-review before publication.
+The first border crossing batch imported 30 named crossing records from the
+Stanford/UC Berkeley mirror. Tower-style rows (`Hadallat (Tower 30/31)` and
+`Tower 22`) were held for identity and safety review before publication.
+
+The HDX archived 2015 CSV was then used to cross-check 27 existing border
+crossing records. Where HDX separated a Syrian-side crossing name from the
+neighboring-country crossing name, the Syrian-side name became canonical. The
+neighboring-country name was kept only as an alias for search continuity.
+
+The HDX 2015 rows for `Hadallat (Tower 30/31)` and `Tower 22` remain held.

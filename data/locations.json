@@ -1,5 +1,44 @@
 [
   {
+    "id": "sy-abu-kamal-border-crossing",
+    "name": {
+      "en": "Abu Kamal Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Al Qaim Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.398,
+      "longitude": 40.976
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:01",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:7",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
     "id": "sy-ain-al-arab-border-crossing",
     "name": {
       "en": "Ain al-Arab Border Crossing"
@@ -9,20 +48,36 @@
         "value": "Ain Al Arab",
         "language": "en",
         "type": "alias"
+      },
+      {
+        "value": "Ayn al Arab Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Mursitpinar Border Crossing",
+        "language": "en",
+        "type": "alias"
       }
     ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.899618,
-      "longitude": 38.349511
+      "latitude": 36.9,
+      "longitude": 38.35
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:19",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -30,7 +85,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-al-abbudiyah-border-crossing",
@@ -42,14 +97,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 34.63886,
-      "longitude": 36.11916
+      "latitude": 34.642,
+      "longitude": 36.12
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:14",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -57,34 +118,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
-    "id": "sy-al-aridah-border-crossing",
-    "name": {
-      "en": "Al Aridah Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 34.6345,
-      "longitude": 35.976315
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:4",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-al-ladhiqiyah",
@@ -148,87 +182,6 @@
     ]
   },
   {
-    "id": "sy-al-masna-border-crossing",
-    "name": {
-      "en": "Al Masna Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 33.67416,
-      "longitude": 35.96493
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:5",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
-    "id": "sy-al-qa-border-crossing",
-    "name": {
-      "en": "Al Qa Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 34.421764,
-      "longitude": 36.543339
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:6",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
-    "id": "sy-al-qaim-border-crossing",
-    "name": {
-      "en": "Al Qaim Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 34.397693,
-      "longitude": 40.977238
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:7",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
     "id": "sy-al-rai-border-crossing",
     "name": {
       "en": "Al Rai Border Crossing"
@@ -238,20 +191,36 @@
         "value": "Al Ra'-ee",
         "language": "en",
         "type": "alias"
+      },
+      {
+        "value": "Ar Ra'-ee Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Çobanbey Border Crossing",
+        "language": "en",
+        "type": "alias"
       }
     ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.635121,
-      "longitude": 37.475781
+      "latitude": 36.63512071,
+      "longitude": 37.47578066
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:17",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -259,7 +228,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-aleppo-international-airport",
@@ -332,33 +301,6 @@
     ]
   },
   {
-    "id": "sy-ar-ramtha-border-crossing",
-    "name": {
-      "en": "Ar Ramtha Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 32.584776,
-      "longitude": 36.051203
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:9",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
     "id": "sy-arwad",
     "name": {
       "en": "Arwad",
@@ -402,6 +344,84 @@
     ]
   },
   {
+    "id": "sy-ash-shaykh-jabir-border-crossing",
+    "name": {
+      "en": "Ash Shaykh Jabir Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Al Aridah Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.636,
+      "longitude": 35.976
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:10",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:4",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-at-tanf-border-crossing",
+    "name": {
+      "en": "At Tanf Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Waleed Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.434,
+      "longitude": 38.921
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:02",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:32",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
     "id": "sy-atmeh-border-crossing",
     "name": {
       "en": "Atmeh Border Crossing"
@@ -411,14 +431,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.325483,
-      "longitude": 36.661886
+      "latitude": 36.32548349,
+      "longitude": 36.66188551
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:18",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -426,26 +452,43 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-bab-al-hawa-border-crossing",
     "name": {
       "en": "Bab al-Hawa Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Bab al Hawa Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Cilvegozu Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.233738,
-      "longitude": 36.679994
+      "latitude": 36.23,
+      "longitude": 36.692
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:20",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -453,26 +496,87 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-bab-al-kasab-border-crossing",
+    "name": {
+      "en": "Bab al Kasab Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "(Bab al-) Kasab",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Kasab Border Crossing",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Yayladagi Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.905,
+      "longitude": 36.009
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:21",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:1",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-bab-al-salam-border-crossing",
     "name": {
       "en": "Bab al-Salam Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Oncupinar Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.634557,
-      "longitude": 37.085886
+      "latitude": 36.646,
+      "longitude": 37.085
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:22",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -480,7 +584,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-baniyas",
@@ -553,9 +657,15 @@
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:23",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -563,7 +673,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-damascus-international-airport",
@@ -636,23 +746,79 @@
     ]
   },
   {
-    "id": "sy-darbasiyah-border-crossing",
+    "id": "sy-dara-border-crossing",
     "name": {
-      "en": "Darbasiyah Border Crossing"
+      "en": "Dara Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Ar Ramtha Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 37.078003,
-      "longitude": 40.645225
+      "latitude": 32.603,
+      "longitude": 36.081
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:06",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:9",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-darbasiyah-border-crossing",
+    "name": {
+      "en": "Darbasiyah Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Ad Darbasiyah Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Senyurt Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 37.078,
+      "longitude": 40.645
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:15",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -660,7 +826,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-deir-ez-zor-airport",
@@ -769,14 +935,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.227561,
-      "longitude": 36.55766
+      "latitude": 36.22756079,
+      "longitude": 36.55766006
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:24",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -784,7 +956,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-harem-border-crossing",
@@ -796,14 +968,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.005796,
-      "longitude": 36.371556
+      "latitude": 36.0057964,
+      "longitude": 36.37155587
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:25",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -811,7 +989,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-homs",
@@ -858,67 +1036,18 @@
     ]
   },
   {
-    "id": "sy-jabir-border-crossing",
-    "name": {
-      "en": "Jabir Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 32.529544,
-      "longitude": 36.200956
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:19",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
     "id": "sy-jarablus-border-crossing",
     "name": {
       "en": "Jarablus Border Crossing"
     },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 36.829834,
-      "longitude": 38.000826
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:20",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
-    "id": "sy-kasab-border-crossing",
-    "name": {
-      "en": "Kasab Border Crossing"
-    },
     "aliases": [
       {
-        "value": "(Bab al-) Kasab",
+        "value": "Jarabulus Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Kargamis RR Yard Border Crossing",
         "language": "en",
         "type": "alias"
       }
@@ -927,22 +1056,67 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 35.904862,
-      "longitude": 36.010143
+      "latitude": 36.831,
+      "longitude": 37.999
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:26",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:1",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:20",
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-judaydat-yabus-border-crossing",
+    "name": {
+      "en": "Judaydat Yabus Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Al Masna Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.66,
+      "longitude": 35.977
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:11",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:5",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-latakia-international-airport",
@@ -2052,19 +2226,31 @@
     "name": {
       "en": "Meidan Ekbis Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "?slahiye Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.828069,
-      "longitude": 36.674924
+      "latitude": 36.82806948,
+      "longitude": 36.67492401
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:27",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2072,7 +2258,46 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-nasib-border-crossing",
+    "name": {
+      "en": "Nasib Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Jabir Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.543,
+      "longitude": 36.202
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:08",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:19",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-palmyra-airport",
@@ -2149,19 +2374,36 @@
     "name": {
       "en": "Peshakapor Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Faysh Khabur Border Crossing",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Peshkapor Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 37.089368,
-      "longitude": 42.349858
+      "latitude": 37.09,
+      "longitude": 42.348
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:03",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2169,7 +2411,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-qamishli-border-crossing",
@@ -2177,6 +2419,16 @@
       "en": "Qamishli Border Crossing"
     },
     "aliases": [
+      {
+        "value": "Al Qamishli Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Nusaybin Border Crossing",
+        "language": "en",
+        "type": "alias"
+      },
       {
         "value": "Quamishli",
         "language": "en",
@@ -2187,14 +2439,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 37.062153,
-      "longitude": 41.218262
+      "latitude": 37.061,
+      "longitude": 41.219
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:16",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2202,7 +2460,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-qamishli-international-airport",
@@ -2275,40 +2533,62 @@
     ]
   },
   {
-    "id": "sy-rabiah-border-crossing",
-    "name": {
-      "en": "Rabiah Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 36.805894,
-      "longitude": 42.075117
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:24",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
     "id": "sy-ras-al-ain-border-crossing",
     "name": {
       "en": "Ras al-Ain Border Crossing"
     },
     "aliases": [
       {
+        "value": "Ceylanpinar Border Crossing",
+        "language": "en",
+        "type": "alias"
+      },
+      {
         "value": "Ras Al Ain",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Ras al Ain Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.843,
+      "longitude": 40.053
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:28",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:25",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
+    "id": "sy-riblah-border-crossing",
+    "name": {
+      "en": "Riblah Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Al Qa Border Crossing",
         "language": "en",
         "type": "alias"
       }
@@ -2317,22 +2597,28 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.848562,
-      "longitude": 40.056917
+      "latitude": 34.423,
+      "longitude": 36.544
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:12",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:25",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:6",
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-ruwayshd-juweif-railway-station",
@@ -2374,14 +2660,20 @@
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 37.040369,
-      "longitude": 42.339283
+      "latitude": 37.0403693,
+      "longitude": 42.33928284
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:04",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2389,7 +2681,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-sama-al-sarhan-border-crossing",
@@ -2419,6 +2711,45 @@
     "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
   },
   {
+    "id": "sy-tall-kujik-border-crossing",
+    "name": {
+      "en": "Tall Kujik Border Crossing"
+    },
+    "aliases": [
+      {
+        "value": "Rabiah Border Crossing",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["border_crossing"],
+    "transportModes": ["border", "road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.806,
+      "longitude": 42.076
+    },
+    "administrativeLocation": null,
+    "externalIds": {},
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:05",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
+      {
+        "sourceId": "hiu-syria-border-crossings",
+        "accessedAt": "2026-07-07T23:04:31.920Z",
+        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:24",
+        "sourceRecordDate": "2014-03-12"
+      }
+    ],
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
+  },
+  {
     "id": "sy-tallkalakh-border-crossing",
     "name": {
       "en": "Tallkalakh Border Crossing"
@@ -2433,9 +2764,15 @@
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:13",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2443,7 +2780,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-tartus",
@@ -2548,19 +2885,36 @@
     "name": {
       "en": "Tell Abiad Border Crossing"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Akcakale Customs Border Crossing",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Tall Al Abyad Border Crossing",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
     "locationTypes": ["border_crossing"],
     "transportModes": ["border", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 36.705088,
-      "longitude": 38.958837
+      "latitude": 36.703,
+      "longitude": 38.959
     },
     "administrativeLocation": null,
     "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
     "sourceStatus": "seed",
     "sourceReferences": [
+      {
+        "sourceId": "hdx-syria-border-crossings-2015",
+        "sourceRecordId": "Syria_BorderCrossings_2015Jun11_HIU_USDoS:29",
+        "sourceRecordDate": "2015-06-11",
+        "accessedAt": "2026-07-07T23:13:40.384Z"
+      },
       {
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
@@ -2568,7 +2922,7 @@
         "sourceRecordDate": "2014-03-12"
       }
     ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
+    "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
     "id": "sy-wadi-shallalah-border-crossing",
@@ -2592,33 +2946,6 @@
         "sourceId": "hiu-syria-border-crossings",
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:31",
-        "sourceRecordDate": "2014-03-12"
-      }
-    ],
-    "notes": "Stable public border crossing reference point from the 2014 HIU dataset; operational status is not live and remains unknown."
-  },
-  {
-    "id": "sy-waleed-border-crossing",
-    "name": {
-      "en": "Waleed Border Crossing"
-    },
-    "aliases": [],
-    "locationTypes": ["border_crossing"],
-    "transportModes": ["border", "road"],
-    "operationalStatus": "unknown",
-    "coordinates": {
-      "latitude": 33.434263,
-      "longitude": 38.907891
-    },
-    "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
-    "sourceReferences": [
-      {
-        "sourceId": "hiu-syria-border-crossings",
-        "accessedAt": "2026-07-07T23:04:31.920Z",
-        "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:32",
         "sourceRecordDate": "2014-03-12"
       }
     ],

@@ -19,3 +19,5 @@
   identity, and safety review.
 - Added 30 stable public border crossing reference records from the
   public-domain HIU/Stanford border crossings dataset.
+- Cross-checked 27 border crossing records against the public-domain HDX 2015
+  HIU CSV and corrected canonical names to prefer Syrian-side crossing names.

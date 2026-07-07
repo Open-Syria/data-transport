@@ -99,5 +99,20 @@
     "status": "approved",
     "fields": ["border crossing names", "coordinates", "source issue date"],
     "notes": "Compiled by the U.S. Department of State Humanitarian Information Unit and mirrored by Stanford/UC Berkeley GeoData. Use as stable public reference data only; do not infer live crossing status."
+  },
+  {
+    "id": "hdx-syria-border-crossings-2015",
+    "title": "Syria Border Crossings (HDX, 2015)",
+    "url": "https://data.humdata.org/dataset/syria-border-crossings",
+    "license": "Public Domain / No restrictions (CC0)",
+    "status": "approved",
+    "fields": [
+      "Syrian-side border crossing names",
+      "neighboring-country crossing names",
+      "coordinates",
+      "dataset date",
+      "package metadata dates"
+    ],
+    "notes": "Archived HDX mirror of U.S. Department of State Humanitarian Information Unit border crossing data. Use as stable public reference data only; do not infer live crossing status."
   }
 ]

@@ -11,7 +11,7 @@ Preferred source families:
 - UN/LOCODE for transport and trade location codes,
 - Wikidata for public identifiers and cross-checking,
 - GeoNames for names, coordinates, and public gazetteer references,
-- HIU/Stanford public-domain border crossing data for stable crossing
+- HIU/Stanford and HDX public-domain border crossing data for stable crossing
   reference points,
 - official public sources with clear reuse terms.
 
@@ -40,6 +40,8 @@ The first canonical seed uses:
 - Wikidata for exact airport identifier enrichment when existing records match
   by both IATA and ICAO code.
 - HIU/Stanford public-domain data for stable border crossing reference records.
+- HDX's archived 2015 HIU border crossing CSV for Syrian-side crossing names,
+  coordinates, and dated source cross-checks.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.

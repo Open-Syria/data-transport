@@ -49,6 +49,9 @@ The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.
 
-The HIU/Stanford border crossing batch imports stable historical reference
-points only. Do not use it to publish live opening hours, current accessibility,
-or operational status.
+The HIU/Stanford and HDX border crossing batches import stable historical
+reference points only. Do not use them to publish live opening hours, current
+accessibility, or operational status. When a source separates the Syrian
+crossing name from the neighboring-country crossing name, prefer the
+Syrian-side name for the canonical record and keep the counterpart name only as
+an alias when useful for search continuity.

@@ -1,0 +1,30 @@
+{
+  "sourceId": "hdx-syria-border-crossings-2015",
+  "sourceTitle": "Syria Border Crossings (HDX, 2015)",
+  "sourceUrl": "https://data.humdata.org/dataset/syria-border-crossings",
+  "license": "Public Domain / No restrictions (CC0)",
+  "accessedAt": "2026-07-07T23:13:40.384Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "hdx-syria-border-crossings-package.json",
+      "sha256": "f764edd1e444d0fd005aba94b2de3fa8462e085d3e5af1da7c30b5758f6fe679",
+      "notes": "HDX CKAN package metadata fetched from package_show API."
+    },
+    {
+      "name": "hdx-syria-bordercrossings-2015jun11-hiu-usdos.csv",
+      "sha256": "a2762d96757b49dd5615c1f7398d14a30caecb2e39988b955a973b50148debcf",
+      "notes": "CSV resource downloaded from the HDX uploaded file resource."
+    }
+  ],
+  "importedFields": ["names", "aliases", "coordinates", "sourceIds", "sourceReferences", "notes"],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Parsed the CSV as Latin-1 to preserve neighboring-country crossing names from the HDX upload.",
+    "Matched HDX rows to existing canonical border crossing records by nearest coordinate within 5 kilometers.",
+    "Kept Syrian-side crossing names as canonical where the previous canonical name represented the neighboring-country crossing.",
+    "Added the HDX 2015 source as a second dated source reference to matched records and left operational status unknown.",
+    "Held rows that matched no current canonical record within 5 kilometers."
+  ],
+  "reviewNotes": "Matched 27 of 29 HDX 2015 rows to existing border crossing records. Held 2 rows (Hadallat (Tower 30/31), Tower 22) for identity and safety review. No live border status was imported."
+}

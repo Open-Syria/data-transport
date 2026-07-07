@@ -42,6 +42,7 @@ The first seed contains 71 locations:
 - 71 records with upstream source-row dates.
 - 37 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
+- 27 border crossing records cross-checked against the HDX 2015 HIU source.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, administrative geography links for border crossings and rail records,
