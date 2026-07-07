@@ -41,12 +41,14 @@ Out of scope:
 This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
-The canonical `data/locations.json` file currently contains 14 reviewed seed
+The canonical `data/locations.json` file currently contains 42 reviewed seed
 records from the first transport import:
 
 - 7 public civil/reference airport records from OurAirports,
 - 7 standalone UN/LOCODE transport and trade locations,
 - 6 UN/LOCODE identifier merges into accepted airport records.
+- 28 active railroad station records from GeoNames.
+- 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 13 reviewed administrative locality links from OpenSyria Data Geography.
 
 Held source rows remain in local maintainer review outputs and are not part of

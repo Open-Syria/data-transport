@@ -10,5 +10,6 @@
 - [x] `pnpm run report:data` reviewed.
 - [x] `pnpm run coverage:data` reviewed.
 
-First seed completed from OurAirports and the DataHub UN/LOCODE codelist. Held
-rows remain in local maintainer review outputs.
+First seed completed from OurAirports, the DataHub UN/LOCODE codelist,
+OpenSyria Data Geography, and GeoNames Syria. Held rows remain in local
+maintainer review outputs.

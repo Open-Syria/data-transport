@@ -27,13 +27,14 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 14 locations:
+The first seed contains 42 locations:
 
 - 7 airport-typed records,
 - 5 seaport-typed records,
 - 6 road terminal records,
-- 2 rail terminal records,
+- 30 rail terminal records,
 - 1 oil terminal record.
 
-The current contribution focus is Arabic facility names, the unresolved
-Al Thaurah/T2 locality link, and official-source cross-checks.
+The current contribution focus is Arabic facility names for records that still
+lack them, the unresolved Al Thaurah/T2 locality link, source review for held
+GeoNames rows, and official-source cross-checks.

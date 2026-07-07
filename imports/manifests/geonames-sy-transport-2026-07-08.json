@@ -1,0 +1,32 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-07T22:24:22.381Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "Downloaded by data-automation collect-transport-geonames into an ignored local output directory."
+    }
+  ],
+  "importedFields": [
+    "GeoNames identifiers",
+    "names",
+    "alternate names",
+    "feature codes",
+    "coordinates",
+    "administrative relationships"
+  ],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Filter to Syria GeoNames rows with active railroad station, harbor, or port feature codes.",
+    "Append active railroad stations as rail_terminal records.",
+    "Merge broad harbor and port rows into existing UN/LOCODE seaport records when identity is clear.",
+    "Hold abandoned rail stations, airport rows, border posts, customs rows, heliports, and port subfacilities for review."
+  ],
+  "reviewNotes": "Imported 28 active railroad station records and merged 3 broad harbor/port GeoNames identifiers into existing seaport records. Held 86 relevant rows for later review."
+}

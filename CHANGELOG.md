@@ -8,3 +8,5 @@
 - Added the first reviewed transport seed with 14 locations from OurAirports and
   DataHub UN/LOCODE.
 - Added reviewed OpenSyria geography locality links for the first seed.
+- Expanded the seed with 28 active railroad stations and 3 GeoNames harbor/port
+  identifier merges.

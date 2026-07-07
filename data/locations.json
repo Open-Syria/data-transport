@@ -3,7 +3,7 @@
     "id": "sy-al-ladhiqiyah",
     "name": {
       "en": "Al Ladhiqiyah",
-      "ar": "اللاذقية"
+      "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
     },
     "aliases": [
       {
@@ -31,13 +31,14 @@
       "localityId": "sy-latakia-latakia-lattakia-lattakia",
       "localityName": {
         "en": "Lattakia",
-        "ar": "اللاذقية"
+        "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
       }
     },
     "externalIds": {
-      "unLocode": "SYALD"
+      "unLocode": "SYALD",
+      "geonames": "8445254"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
     "sourceStatus": "seed"
   },
   {
@@ -86,7 +87,7 @@
       "localityId": "sy-aleppo-mount-simeon-jebel-saman-aleppo",
       "localityName": {
         "en": "Aleppo",
-        "ar": "حلب"
+        "ar": "\u062d\u0644\u0628"
       }
     },
     "externalIds": {
@@ -102,7 +103,7 @@
     "id": "sy-arwad",
     "name": {
       "en": "Arwad",
-      "ar": "أرواد"
+      "ar": "\u0623\u0631\u0648\u0627\u062f"
     },
     "aliases": [],
     "locationTypes": ["seaport", "road_terminal"],
@@ -119,7 +120,7 @@
       "localityId": "sy-tartus-tartus-arwad-arwad",
       "localityName": {
         "en": "Arwad",
-        "ar": "أرواد"
+        "ar": "\u0623\u0631\u0648\u0627\u062f"
       }
     },
     "externalIds": {
@@ -132,7 +133,7 @@
     "id": "sy-baniyas",
     "name": {
       "en": "Baniyas",
-      "ar": "بانياس"
+      "ar": "\u0628\u0627\u0646\u064a\u0627\u0633"
     },
     "aliases": [
       {
@@ -155,13 +156,14 @@
       "localityId": "sy-tartus-baniyas-banyas-banyas",
       "localityName": {
         "en": "Banyas",
-        "ar": "بانياس"
+        "ar": "\u0628\u0627\u0646\u064a\u0627\u0633"
       }
     },
     "externalIds": {
-      "unLocode": "SYBAN"
+      "unLocode": "SYBAN",
+      "geonames": "11876552"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
     "sourceStatus": "seed"
   },
   {
@@ -184,7 +186,7 @@
       "localityId": "sy-damascus-damascus-damascus-damascus",
       "localityName": {
         "en": "Damascus",
-        "ar": "دمشق"
+        "ar": "\u062f\u0645\u0634\u0642"
       }
     },
     "externalIds": {
@@ -216,7 +218,7 @@
       "localityId": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor-deir-ez-zor",
       "localityName": {
         "en": "Deir-ez-Zor",
-        "ar": "دير الزور"
+        "ar": "\u062f\u064a\u0631 \u0627\u0644\u0632\u0648\u0631"
       }
     },
     "externalIds": {
@@ -232,7 +234,7 @@
     "id": "sy-homs",
     "name": {
       "en": "Homs",
-      "ar": "حمص"
+      "ar": "\u062d\u0645\u0635"
     },
     "aliases": [],
     "locationTypes": ["rail_terminal", "road_terminal"],
@@ -249,7 +251,7 @@
       "localityId": "sy-homs-homs-homs-homs",
       "localityName": {
         "en": "Homs",
-        "ar": "حمص"
+        "ar": "\u062d\u0645\u0635"
       }
     },
     "externalIds": {
@@ -279,7 +281,7 @@
       "localityId": "sy-latakia-latakia-lattakia-lattakia",
       "localityName": {
         "en": "Lattakia",
-        "ar": "اللاذقية"
+        "ar": "\u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
       }
     },
     "externalIds": {
@@ -288,6 +290,836 @@
       "icao": "OSLK"
     },
     "sourceIds": ["ourairports", "opensyria-data-geography"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-akkari",
+    "name": {
+      "en": "Mahattat `Akkari"
+    },
+    "aliases": [
+      {
+        "value": "Aachari Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station d'Akkar",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station d'Akkare",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.66783,
+      "longitude": 36.18699
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "174111"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-hamdaniyah",
+    "name": {
+      "en": "Mahattat al Hamdaniyah",
+      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u0645\u062f\u0627\u0646\u064a\u0629"
+    },
+    "aliases": [
+      {
+        "value": "Hamdaniye Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.42225,
+      "longitude": 36.84819
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-idlib"
+    },
+    "externalIds": {
+      "geonames": "173844"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-hamidah",
+    "name": {
+      "en": "Mahattat al Hamidah",
+      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u0645\u064a\u062f\u0629"
+    },
+    "aliases": [
+      {
+        "value": "Hamidiye Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.97138,
+      "longitude": 37.12613
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "173840"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-hijaz",
+    "name": {
+      "en": "Mahattat al Hijaz",
+      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u062d\u062c\u0627\u0632"
+    },
+    "aliases": [
+      {
+        "value": "Gare du Hedjaz",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Hejaz Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.51119,
+      "longitude": 36.29502
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-damascus"
+    },
+    "externalIds": {
+      "geonames": "173780"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-mazanat",
+    "name": {
+      "en": "Mahattat al Mazanat"
+    },
+    "aliases": [
+      {
+        "value": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u0627\u0639",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0645\u0632\u0627\u0646\u0627\u062a",
+        "language": "ar",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.38093,
+      "longitude": 36.54488
+    },
+    "administrativeLocation": null,
+    "externalIds": {
+      "geonames": "8052458"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-qadam",
+    "name": {
+      "en": "Mahattat al Qadam",
+      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u062f\u0645"
+    },
+    "aliases": [
+      {
+        "value": "Gare d'El Qadem",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.47619,
+      "longitude": 36.29229
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-damascus"
+    },
+    "externalIds": {
+      "geonames": "173393"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-al-qusayr",
+    "name": {
+      "en": "Mahattat al Qusayr",
+      "ar": "\u0645\u062d\u0637\u0629 \u0627\u0644\u0642\u0635\u064a\u0631"
+    },
+    "aliases": [
+      {
+        "value": "Qoussair Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.49419,
+      "longitude": 36.57728
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "173319"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-bab-al-hadid",
+    "name": {
+      "en": "Mahattat Bab al Hadid",
+      "ar": "\u0645\u062d\u0637\u0629 \u0628\u0627\u0628 \u0627\u0644\u062d\u062f\u064a\u062f"
+    },
+    "aliases": [
+      {
+        "value": "Demir Kapou Railroad Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station de Demir Qapou",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.90775,
+      "longitude": 41.78088
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah"
+    },
+    "externalIds": {
+      "geonames": "170918"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-baramikah",
+    "name": {
+      "en": "Mahattat Baramikah"
+    },
+    "aliases": [
+      {
+        "value": "Baramkie Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Gare Baramke",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.51667,
+      "longitude": 36.28333
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-damascus"
+    },
+    "externalIds": {
+      "geonames": "171794"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-izra",
+    "name": {
+      "en": "Mahattat Izra`",
+      "ar": "\u0645\u062d\u0637\u0629 \u0625\u0632\u0631\u0639"
+    },
+    "aliases": [
+      {
+        "value": "Ezraa Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.85106,
+      "longitude": 36.24115
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "169340"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-jibab",
+    "name": {
+      "en": "Mahattat Jibab",
+      "ar": "\u0645\u062d\u0637\u0629 \u062c\u0628\u0627\u0628"
+    },
+    "aliases": [
+      {
+        "value": "Jebab Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.08887,
+      "longitude": 36.27847
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "173697"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-kafr-aya",
+    "name": {
+      "en": "Mahattat Kafr `Aya",
+      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0641\u0631 \u0639\u0627\u064a\u0627"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.69239,
+      "longitude": 36.68003
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "7637392"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-kawkab",
+    "name": {
+      "en": "Mahattat Kawkab",
+      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0648\u0643\u0628"
+    },
+    "aliases": [
+      {
+        "value": "Kaoukab Gare",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.31691,
+      "longitude": 36.80229
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-hama"
+    },
+    "externalIds": {
+      "geonames": "168502"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-kawm-gharz",
+    "name": {
+      "en": "Mahattat Kawm Gharz",
+      "ar": "\u0645\u062d\u0637\u0629 \u0643\u0648\u0645 \u063a\u0631\u0632"
+    },
+    "aliases": [
+      {
+        "value": "Koum Rharz Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.60252,
+      "longitude": 36.15355
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "168482"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-khabab",
+    "name": {
+      "en": "Mahattat Khabab"
+    },
+    "aliases": [
+      {
+        "value": "Khabab Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.03546,
+      "longitude": 36.25089
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "168449"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-khirbat-ghazalah",
+    "name": {
+      "en": "Mahattat Khirbat Ghazalah"
+    },
+    "aliases": [
+      {
+        "value": "Kheurbet Rhazale Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.73333,
+      "longitude": 36.2
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "168028"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-mahajjah",
+    "name": {
+      "en": "Mahattat Mahajjah"
+    },
+    "aliases": [
+      {
+        "value": "Station of Mouhajjei",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.96667,
+      "longitude": 36.21667
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "167500"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-mismiyah",
+    "name": {
+      "en": "Mahattat Mismiyah",
+      "ar": "\u0645\u062d\u0637\u0629 \u0645\u0633\u0645\u064a\u0629"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 33.13359,
+      "longitude": 36.37345
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa"
+    },
+    "externalIds": {
+      "geonames": "11259682"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qatimah",
+    "name": {
+      "en": "Mahattat Qatimah"
+    },
+    "aliases": [
+      {
+        "value": "\u0645\u062d\u0637\u0629 \u0642\u0627\u0637\u0645\u0629",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0645\u0629",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "Qatma Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.58409,
+      "longitude": 36.97569
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "165920"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qattinah",
+    "name": {
+      "en": "Mahattat Qattinah",
+      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u064a\u0646\u0629"
+    },
+    "aliases": [
+      {
+        "value": "Kattine Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Station de Qattine",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.62338,
+      "longitude": 36.61687
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "165903"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qitar-al-ladhiqiyah",
+    "name": {
+      "en": "Mahattat Qitar al Ladhiqiyah",
+      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0627\u0631 \u0627\u0644\u0644\u0627\u0630\u0642\u064a\u0629"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.51591,
+      "longitude": 35.78725
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia"
+    },
+    "externalIds": {
+      "geonames": "8469663"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qitar-kafr-halab",
+    "name": {
+      "en": "Mahattat Qitar Kafr Halab",
+      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0637\u0627\u0631 \u0643\u0641\u0631 \u062d\u0644\u0628"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.07348,
+      "longitude": 36.88517
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "11554422"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qubur-al-bid",
+    "name": {
+      "en": "Mahattat Qubur al Bid",
+      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0628\u0648\u0631 \u0627\u0644\u0628\u064a\u0636"
+    },
+    "aliases": [
+      {
+        "value": "Station de Qoubour el Bid",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.99322,
+      "longitude": 41.54134
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah"
+    },
+    "externalIds": {
+      "geonames": "165756"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-qurt-qulaq",
+    "name": {
+      "en": "Mahattat Qurt Qulaq",
+      "ar": "\u0645\u062d\u0637\u0629 \u0642\u0648\u0631\u062a \u0642\u0648\u0644\u0627\u0642"
+    },
+    "aliases": [
+      {
+        "value": "Kourt Koulak Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Qourt Qoulaq Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Qourte Qoulaq Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.56499,
+      "longitude": 36.8608
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "165667"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-tallbisah",
+    "name": {
+      "en": "Mahattat Tallbisah",
+      "ar": "\u0645\u062d\u0637\u0629 \u062a\u0644\u0628\u064a\u0633\u0629"
+    },
+    "aliases": [
+      {
+        "value": "Station de Tell Bisse",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Tell Bisseh Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.85836,
+      "longitude": 36.71231
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs"
+    },
+    "externalIds": {
+      "geonames": "163778"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-thulayjinah",
+    "name": {
+      "en": "Mahattat Thulayjinah",
+      "ar": "\u0645\u062d\u0637\u0629 \u062b\u0644\u064a\u062c\u064a\u0646\u0629"
+    },
+    "aliases": [
+      {
+        "value": "Station Tell Ejine",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Tallajine Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Tell Edjine Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.8458,
+      "longitude": 37.03851
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "163727"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-mahattat-umm-ar-rajim",
+    "name": {
+      "en": "Mahattat Umm ar Rajim",
+      "ar": "\u0645\u062d\u0637\u0629 \u0623\u0645 \u0627\u0644\u0631\u062c\u064a\u0645"
+    },
+    "aliases": [
+      {
+        "value": "Oum er Rjim Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Oumm er Rjim Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Oumm er Roujam Station",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.51683,
+      "longitude": 36.96445
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-idlib"
+    },
+    "externalIds": {
+      "geonames": "162960"
+    },
+    "sourceIds": ["geonames-sy"],
     "sourceStatus": "seed"
   },
   {
@@ -310,7 +1142,7 @@
       "localityId": "sy-homs-tadmur-tadmor-tadmor",
       "localityName": {
         "en": "Tadmor",
-        "ar": "تدمر"
+        "ar": "\u062a\u062f\u0645\u0631"
       }
     },
     "externalIds": {
@@ -342,7 +1174,7 @@
       "localityId": "sy-al-hasakah-al-qamishli-quamishli-quamishli",
       "localityName": {
         "en": "Quamishli",
-        "ar": "القامشلي"
+        "ar": "\u0627\u0644\u0642\u0627\u0645\u0634\u0644\u064a"
       }
     },
     "externalIds": {
@@ -355,10 +1187,32 @@
     "sourceStatus": "seed"
   },
   {
+    "id": "sy-ruwayshd-juweif-railway-station",
+    "name": {
+      "en": "Ruwayshd-Juweif railway station"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.53939,
+      "longitude": 40.26963
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-deir-ez-zor"
+    },
+    "externalIds": {
+      "geonames": "11694403"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
     "id": "sy-tartus",
     "name": {
       "en": "Tartus",
-      "ar": "طرطوس"
+      "ar": "\u0637\u0631\u0637\u0648\u0633"
     },
     "aliases": [
       {
@@ -381,13 +1235,14 @@
       "localityId": "sy-tartus-tartus-tartous-tartous",
       "localityName": {
         "en": "Tartous",
-        "ar": "طرطوس"
+        "ar": "\u0637\u0631\u0637\u0648\u0633"
       }
     },
     "externalIds": {
-      "unLocode": "SYTTS"
+      "unLocode": "SYTTS",
+      "geonames": "7526649"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
     "sourceStatus": "seed"
   },
   {
@@ -410,7 +1265,7 @@
       "localityId": "sy-tartus-tartus-tartous-tartous",
       "localityName": {
         "en": "Tartous",
-        "ar": "طرطوس"
+        "ar": "\u0637\u0631\u0637\u0648\u0633"
       }
     },
     "externalIds": {
@@ -423,7 +1278,7 @@
     "id": "sy-yabrud",
     "name": {
       "en": "Yabrud",
-      "ar": "يبرود"
+      "ar": "\u064a\u0628\u0631\u0648\u062f"
     },
     "aliases": [
       {
@@ -446,7 +1301,7 @@
       "localityId": "sy-rif-dimashq-yabrud-yabroud-yabroud",
       "localityName": {
         "en": "Yabroud",
-        "ar": "يبرود"
+        "ar": "\u064a\u0628\u0631\u0648\u062f"
       }
     },
     "externalIds": {

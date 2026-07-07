@@ -29,6 +29,7 @@ The first canonical seed uses:
 - DataHub UN/LOCODE codelist for public transport and trade location codes.
 - OpenSyria Data Geography for reviewed locality and parent administrative
   cross-links.
+- GeoNames for active railroad stations and broad harbor/port identifiers.
 
-Wikidata, GeoNames, and official public sources remain supporting cross-check
-sources for later batches.
+Wikidata and official public sources remain supporting cross-check sources for
+later batches.
