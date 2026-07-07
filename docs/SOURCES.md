@@ -42,6 +42,8 @@ The first canonical seed uses:
   records.
 - Wikidata for exact airport identifier enrichment when existing records match
   by both IATA and ICAO code.
+- Wikidata for exact GeoNames ID enrichment on existing reviewed transport
+  records.
 - NGA World Port Index for WPI identifiers and port-specific coordinates on
   existing main seaport records.
 - HIU/Stanford public-domain data for stable border crossing reference records.

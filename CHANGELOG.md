@@ -33,3 +33,5 @@
   and Arabic facility name.
 - Added 16 reviewed OpenSyria geography locality links for rail terminal
   records.
+- Added 2 Wikidata identifier enrichments from exact GeoNames ID matches for
+  Tartus and Nasib Border Crossing.

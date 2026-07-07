@@ -45,6 +45,9 @@ accepted only reviewed matches to existing public airport records.
 Wikidata airport identifier enrichment used exact IATA and ICAO matches accessed
 at `2026-07-07T22:44:40.220Z`.
 
+Wikidata exact GeoNames ID enrichment used a SPARQL query accessed at
+`2026-07-07T23:56:29.110Z`.
+
 NGA World Port Index enrichment used the official `UpdatedPub150.csv` download
 accessed at `2026-07-07T23:27:03.137Z`. The WPI CSV does not expose per-row
 dates, so record-level WPI references use source access timestamps and WPI

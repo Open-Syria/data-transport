@@ -50,6 +50,11 @@ The Wikidata airport enrichment batch accepted only exact IATA+ICAO matches on
 existing airport records. Broader Wikidata matches should stay in review outputs
 until identity and safety are checked.
 
+Wikidata GeoNames enrichment may add identifiers to existing reviewed records
+only when the Wikidata GeoNames ID exactly matches the canonical record's
+GeoNames ID and the item identity is compatible. Do not replace canonical
+coordinates, names, types, or status from Wikidata in this enrichment path.
+
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.

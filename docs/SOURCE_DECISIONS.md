@@ -44,10 +44,15 @@ Status: approved for public identifiers, names, coordinates, and cross-checking.
 
 Use them as supporting sources, not as a shortcut around scope or safety review.
 
-Wikidata was imported for exact airport identifier enrichment only. The import
-accepted 6 existing airport records whose Wikidata item matched by both IATA and
-ICAO code. It held city/locality, port, single-code airport, and
+The first Wikidata import accepted exact airport identifier enrichment only. The
+import accepted 6 existing airport records whose Wikidata item matched by both
+IATA and ICAO code. It held city/locality, port, single-code airport, and
 military-looking matches for later review.
+
+A follow-up Wikidata import accepted 2 exact GeoNames ID matches for existing
+canonical records: Tartus port and Nasib Border Crossing. The batch added only
+Wikidata identifiers and dated source references; it did not replace canonical
+coordinates, names, location types, or operational status.
 
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,

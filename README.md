@@ -65,8 +65,8 @@ records from the first transport import:
   including 17 border crossing locality links and 18 rail terminal locality
   links.
 - 68 records with administrative location data.
-- 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
-  code.
+- 8 Wikidata identifier enrichments, including 6 airports matched by both IATA
+  and ICAO code and 2 exact GeoNames ID matches.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
 

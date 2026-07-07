@@ -3281,13 +3281,15 @@
       }
     },
     "externalIds": {
-      "geonames": "8506624"
+      "geonames": "8506624",
+      "wikidata": "Q13576098"
     },
     "sourceIds": [
       "geonames-sy",
       "hdx-syria-border-crossings-2015",
       "hiu-syria-border-crossings",
-      "opensyria-data-geography"
+      "opensyria-data-geography",
+      "wikidata"
     ],
     "sourceStatus": "seed",
     "sourceReferences": [
@@ -3313,6 +3315,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-07T23:35:00.000Z",
         "sourceRecordId": "sy-daraa-daraa-dar-a-nasib"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-07T23:56:29.110Z",
+        "sourceRecordId": "Q13576098",
+        "sourceRecordDate": "2025-04-07"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -3887,12 +3895,14 @@
     "externalIds": {
       "unLocode": "SYTTS",
       "geonames": "7526649",
+      "wikidata": "Q21591617",
       "worldPortIndex": "45003"
     },
     "sourceIds": [
       "datahub-un-locode",
       "geonames-sy",
       "opensyria-data-geography",
+      "wikidata",
       "nga-world-port-index"
     ],
     "sourceStatus": "seed",
@@ -3913,6 +3923,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-07T23:56:29.110Z",
+        "sourceRecordId": "Q21591617",
+        "sourceRecordDate": "2026-01-15"
       },
       {
         "sourceId": "nga-world-port-index",
