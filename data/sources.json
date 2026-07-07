@@ -114,5 +114,20 @@
       "package metadata dates"
     ],
     "notes": "Archived HDX mirror of U.S. Department of State Humanitarian Information Unit border crossing data. Use as stable public reference data only; do not infer live crossing status."
+  },
+  {
+    "id": "nga-world-port-index",
+    "title": "NGA World Port Index (Pub 150)",
+    "url": "https://msi.nga.mil/Publications/WPI",
+    "license": "Public Domain (U.S. Government work)",
+    "status": "approved",
+    "fields": [
+      "World Port Index numbers",
+      "port names",
+      "UN/LOCODE identifiers",
+      "coordinates",
+      "maritime facility characteristics"
+    ],
+    "notes": "Use for stable public maritime identifiers, port coordinates, and cross-checking. Do not treat WPI facility fields as live operational status."
   }
 ]

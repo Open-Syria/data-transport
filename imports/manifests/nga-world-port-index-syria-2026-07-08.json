@@ -1,0 +1,30 @@
+{
+  "sourceId": "nga-world-port-index",
+  "sourceTitle": "NGA World Port Index (Pub 150)",
+  "sourceUrl": "https://msi.nga.mil/Publications/WPI",
+  "license": "Public Domain (U.S. Government work)",
+  "accessedAt": "2026-07-07T23:27:03.137Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "nga-wpi-updatedpub150-2026-07-08.csv",
+      "sha256": "5d3e6062373c3c61e1f6996c0a5eeead270dbf5787d10da6f224b612fab0cd52",
+      "notes": "Official UpdatedPub150.csv downloaded from NGA Maritime Safety Information."
+    },
+    {
+      "name": "nga-wpi-explanation-of-data-fields.pdf",
+      "sha256": "8ead35f32d2836fecbdf0b8ced1bc1de141cfcdf2597f7557aec617f028d9750",
+      "notes": "Official WPI field explanation document downloaded from NGA Maritime Safety Information."
+    }
+  ],
+  "importedFields": ["coordinates", "externalIds", "sourceIds", "sourceReferences"],
+  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "transforms": [
+    "Filtered the official WPI CSV to Syria rows by country and Syria UN/LOCODE values.",
+    "Matched WPI rows to existing maritime records by UN/LOCODE and port name.",
+    "Normalized WPI numbers by removing CSV decimal formatting.",
+    "Updated coordinates for matched records to WPI port-specific coordinates.",
+    "Did not import WPI facility characteristics as live operational status."
+  ],
+  "reviewNotes": "Imported WPI identifiers and port-specific coordinates for 3 existing maritime records: Tartus (45003), Baniyas (45005), and Al Ladhiqiyah/Latakia (45010). No new standalone records were added. The separate Tartus Oil Terminal record was not assigned WPI 45003 because WPI models Tartus as the main port with oil-terminal facilities rather than a separate terminal identity."
+}

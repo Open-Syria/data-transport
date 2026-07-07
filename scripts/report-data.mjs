@@ -86,6 +86,8 @@ function summarizeLocations(locations) {
     withUnLocode: locations.filter((record) => Boolean(record.externalIds.unLocode)).length,
     withGeoNames: locations.filter((record) => Boolean(record.externalIds.geonames)).length,
     withWikidata: locations.filter((record) => Boolean(record.externalIds.wikidata)).length,
+    withWorldPortIndex: locations.filter((record) => Boolean(record.externalIds.worldPortIndex))
+      .length,
   };
 }
 

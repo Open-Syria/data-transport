@@ -13,11 +13,11 @@
 | `operationalStatus` | Conservative public status: `active`, `inactive`, `closed`, or `unknown`. |
 | `coordinates` | WGS84 point from an approved reusable source, or `null`. |
 | `administrativeLocation` | Optional OpenSyria geography IDs or public locality names. |
-| `externalIds` | Public identifiers such as IATA, ICAO, UN/LOCODE, Wikidata, GeoNames, or OurAirports. |
+| `externalIds` | Public identifiers such as IATA, ICAO, UN/LOCODE, Wikidata, GeoNames, World Port Index, or OurAirports. |
 | `sourceIds` | Approved sources supporting the record. |
 | `sourceReferences` | Dated source evidence for each `sourceIds` entry, including source access time and source-row ID/date when available. |
 | `sourceReferences[].sourceId` | Approved source ID matching one entry in `sourceIds`. |
-| `sourceReferences[].sourceRecordId` | Source-specific row or feature identifier, such as an OurAirports ident, UN/LOCODE, GeoNames ID, or OpenSyria geography locality ID. |
+| `sourceReferences[].sourceRecordId` | Source-specific row or feature identifier, such as an OurAirports ident, UN/LOCODE, GeoNames ID, World Port Index number, or OpenSyria geography locality ID. |
 | `sourceReferences[].sourceRecordDate` | Source-provided row date when available. Precision may be year, month, or day, for example `2026`, `2006-01`, or `2020-06-10`. |
 | `sourceReferences[].accessedAt` | ISO timestamp for when the source data used by this record was accessed or reviewed. |
 | `sourceStatus` | Release lifecycle status for the record. |

@@ -56,6 +56,19 @@ A follow-up GeoNames review accepted 6 airport identifier enrichments for
 existing public airport records only. Ambiguous or military-looking airport rows
 remain held.
 
+## NGA World Port Index
+
+Status: approved and imported for public maritime identifiers and coordinates.
+
+The World Port Index batch accepted the 3 Syria rows from the official NGA
+`UpdatedPub150.csv` download: Tartus, Baniyas, and Al Ladhiqiyah. All 3 matched
+existing main seaport records by UN/LOCODE and name, so the batch enriched those
+records with `externalIds.worldPortIndex` and WPI port-specific coordinates.
+
+No new standalone maritime records were added from WPI. Tartus Oil Terminal was
+left as a separate UN/LOCODE-backed record because WPI models Tartus as the main
+port with oil-terminal facilities rather than a distinct terminal identity.
+
 ## OpenSyria Data Geography
 
 Status: approved and imported for administrative locality cross-links.

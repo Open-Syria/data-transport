@@ -43,6 +43,7 @@ The first seed contains 71 locations:
 - 57 records with administrative location data.
 - 37 records with GeoNames identifiers.
 - 6 records with Wikidata identifiers.
+- 3 records with NGA World Port Index identifiers.
 - 27 border crossing records cross-checked against the HDX 2015 HIU source.
 - 17 border crossing records with reviewed OpenSyria geography locality links.
 

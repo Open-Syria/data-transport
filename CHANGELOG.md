@@ -23,3 +23,5 @@
   HIU CSV and corrected canonical names to prefer Syrian-side crossing names.
 - Added reviewed OpenSyria geography administrative links for 17 border
   crossing records.
+- Added NGA World Port Index support and enriched 3 main seaport records with
+  WPI identifiers and port-specific coordinates.

@@ -87,6 +87,10 @@ export const externalIdsSchema = z
       .string()
       .regex(/^[0-9]+$/)
       .optional(),
+    worldPortIndex: z
+      .string()
+      .regex(/^[0-9]+$/)
+      .optional(),
     website: z.string().url().optional(),
   })
   .strict();
@@ -429,6 +433,7 @@ export function ensureLocationQuality(records) {
     ['unLocode', 'UN/LOCODE'],
     ['wikidata', 'Wikidata ID'],
     ['geonames', 'GeoNames ID'],
+    ['worldPortIndex', 'World Port Index number'],
   ];
 
   for (const [field, label] of uniqueExternalIds) {

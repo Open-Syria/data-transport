@@ -42,6 +42,7 @@ As of the current seed snapshot:
 - 12 records have UN/LOCODE identifiers.
 - 37 records have GeoNames identifiers.
 - 6 records have Wikidata identifiers.
+- 3 records have NGA World Port Index identifiers.
 - 30 records have reviewed OpenSyria geography locality IDs.
 - 57 records have administrative location data.
 - 26 records have Arabic names.

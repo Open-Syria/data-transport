@@ -178,8 +178,8 @@
     "transportModes": ["maritime", "rail", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 35.516667,
-      "longitude": 35.783333
+      "latitude": 35.533333,
+      "longitude": 35.766667
     },
     "administrativeLocation": {
       "governorateId": "sy-latakia",
@@ -193,9 +193,15 @@
     },
     "externalIds": {
       "unLocode": "SYALD",
-      "geonames": "8445254"
+      "geonames": "8445254",
+      "worldPortIndex": "45010"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
+    "sourceIds": [
+      "datahub-un-locode",
+      "geonames-sy",
+      "opensyria-data-geography",
+      "nga-world-port-index"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -205,15 +211,20 @@
         "sourceRecordDate": "2006-01"
       },
       {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "8445254",
+        "sourceRecordDate": "2013-01-12"
+      },
+      {
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
       },
       {
-        "sourceId": "geonames-sy",
-        "accessedAt": "2026-07-07T22:24:22.381Z",
-        "sourceRecordId": "8445254",
-        "sourceRecordDate": "2013-01-12"
+        "sourceId": "nga-world-port-index",
+        "sourceRecordId": "45010",
+        "accessedAt": "2026-07-07T23:27:03.137Z"
       }
     ]
   },
@@ -729,8 +740,8 @@
     "transportModes": ["maritime", "road"],
     "operationalStatus": "unknown",
     "coordinates": {
-      "latitude": 35.183333,
-      "longitude": 35.95
+      "latitude": 35.188333,
+      "longitude": 35.943333
     },
     "administrativeLocation": {
       "governorateId": "sy-tartus",
@@ -744,9 +755,15 @@
     },
     "externalIds": {
       "unLocode": "SYBAN",
-      "geonames": "11876552"
+      "geonames": "11876552",
+      "worldPortIndex": "45005"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
+    "sourceIds": [
+      "datahub-un-locode",
+      "geonames-sy",
+      "opensyria-data-geography",
+      "nga-world-port-index"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -756,15 +773,20 @@
         "sourceRecordDate": "2011-01"
       },
       {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "11876552",
+        "sourceRecordDate": "2018-06-10"
+      },
+      {
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-tartus-baniyas-banyas-banyas"
       },
       {
-        "sourceId": "geonames-sy",
-        "accessedAt": "2026-07-07T22:24:22.381Z",
-        "sourceRecordId": "11876552",
-        "sourceRecordDate": "2018-06-10"
+        "sourceId": "nga-world-port-index",
+        "sourceRecordId": "45005",
+        "accessedAt": "2026-07-07T23:27:03.137Z"
       }
     ]
   },
@@ -3088,7 +3110,7 @@
     "operationalStatus": "unknown",
     "coordinates": {
       "latitude": 34.9,
-      "longitude": 35.9
+      "longitude": 35.866667
     },
     "administrativeLocation": {
       "governorateId": "sy-tartus",
@@ -3102,9 +3124,15 @@
     },
     "externalIds": {
       "unLocode": "SYTTS",
-      "geonames": "7526649"
+      "geonames": "7526649",
+      "worldPortIndex": "45003"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "geonames-sy"],
+    "sourceIds": [
+      "datahub-un-locode",
+      "geonames-sy",
+      "opensyria-data-geography",
+      "nga-world-port-index"
+    ],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -3114,15 +3142,20 @@
         "sourceRecordDate": "2010-01"
       },
       {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-07-07T22:24:22.381Z",
+        "sourceRecordId": "7526649",
+        "sourceRecordDate": "2017-10-31"
+      },
+      {
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-tartus-tartus-tartous-tartous"
       },
       {
-        "sourceId": "geonames-sy",
-        "accessedAt": "2026-07-07T22:24:22.381Z",
-        "sourceRecordId": "7526649",
-        "sourceRecordDate": "2017-10-31"
+        "sourceId": "nga-world-port-index",
+        "sourceRecordId": "45003",
+        "accessedAt": "2026-07-07T23:27:03.137Z"
       }
     ]
   },

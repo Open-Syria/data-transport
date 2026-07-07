@@ -53,6 +53,8 @@ records from the first transport import:
 - 30 stable border crossing reference records from public-domain HIU datasets.
 - 27 border crossing records cross-checked against the HDX 2015 HIU release,
   with Syrian-side names preferred over neighboring-country crossing names.
+- 3 NGA World Port Index identifier and coordinate enrichments for existing
+  main seaport records.
 - 30 reviewed administrative locality links from OpenSyria Data Geography,
   including 17 border crossing locality links.
 - 6 Wikidata identifier enrichments for airports matched by both IATA and ICAO
@@ -122,11 +124,11 @@ Use `sourceIds` for the approved source list and `sourceReferences` for dated
 source evidence such as access timestamps, source row identifiers, and upstream
 row dates.
 
-Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames,
-HIU/Stanford and HDX public-domain border crossing data, and official public
-sources with clear reuse terms. OpenStreetMap-derived data may be useful, but
-ODbL share-alike requirements must be reviewed before it is mixed into default
-release artifacts.
+Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, NGA
+World Port Index, HIU/Stanford and HDX public-domain border crossing data, and
+official public sources with clear reuse terms. OpenStreetMap-derived data may
+be useful, but ODbL share-alike requirements must be reviewed before it is mixed
+into default release artifacts.
 
 See [docs/SOURCES.md](docs/SOURCES.md).
 

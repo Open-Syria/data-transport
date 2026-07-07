@@ -228,6 +228,10 @@
           "type": "string",
           "pattern": "^[0-9]+$"
         },
+        "worldPortIndex": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
         "website": {
           "type": "string",
           "format": "uri"
