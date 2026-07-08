@@ -55,6 +55,12 @@ only when the Wikidata GeoNames ID exactly matches the canonical record's
 GeoNames ID and the item identity is compatible. Do not replace canonical
 coordinates, names, types, or status from Wikidata in this enrichment path.
 
+Wikidata UN/LOCODE enrichment may add identifiers to existing locality-style
+transport and trade records only when the Wikidata UN/LOCODE exactly matches
+the canonical `externalIds.unLocode` value and the item identity is compatible.
+Do not use this path for specific facilities such as oil terminals unless the
+Wikidata item directly represents the same facility.
+
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.

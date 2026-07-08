@@ -194,12 +194,14 @@
     "externalIds": {
       "unLocode": "SYALD",
       "geonames": "8445254",
+      "wikidata": "Q200030",
       "worldPortIndex": "45010"
     },
     "sourceIds": [
       "datahub-un-locode",
       "geonames-sy",
       "opensyria-data-geography",
+      "wikidata",
       "nga-world-port-index"
     ],
     "sourceStatus": "seed",
@@ -220,6 +222,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:00:28.469Z",
+        "sourceRecordId": "Q200030",
+        "sourceRecordDate": "2026-07-01"
       },
       {
         "sourceId": "nga-world-port-index",
@@ -555,9 +563,10 @@
       }
     },
     "externalIds": {
-      "unLocode": "SYARW"
+      "unLocode": "SYARW",
+      "wikidata": "Q377802"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -570,6 +579,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-tartus-tartus-arwad-arwad"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:00:28.469Z",
+        "sourceRecordId": "Q377802",
+        "sourceRecordDate": "2026-04-27"
       }
     ]
   },
@@ -971,12 +986,14 @@
     "externalIds": {
       "unLocode": "SYBAN",
       "geonames": "11876552",
+      "wikidata": "Q263922",
       "worldPortIndex": "45005"
     },
     "sourceIds": [
       "datahub-un-locode",
       "geonames-sy",
       "opensyria-data-geography",
+      "wikidata",
       "nga-world-port-index"
     ],
     "sourceStatus": "seed",
@@ -997,6 +1014,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-tartus-baniyas-banyas-banyas"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:00:28.469Z",
+        "sourceRecordId": "Q263922",
+        "sourceRecordDate": "2026-07-04"
       },
       {
         "sourceId": "nga-world-port-index",
@@ -1416,9 +1439,10 @@
     },
     "externalIds": {
       "unLocode": "SYHMS",
-      "iata": "QHS"
+      "iata": "QHS",
+      "wikidata": "Q131301"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1431,6 +1455,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-homs-homs-homs-homs"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:00:28.469Z",
+        "sourceRecordId": "Q131301",
+        "sourceRecordDate": "2026-07-01"
       }
     ]
   },
@@ -4099,9 +4129,10 @@
       }
     },
     "externalIds": {
-      "unLocode": "SYYBD"
+      "unLocode": "SYYBD",
+      "wikidata": "Q172251"
     },
-    "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
+    "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -4114,6 +4145,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-rif-dimashq-yabrud-yabroud-yabroud"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:00:28.469Z",
+        "sourceRecordId": "Q172251",
+        "sourceRecordDate": "2026-05-26"
       }
     ]
   }

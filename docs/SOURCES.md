@@ -44,6 +44,8 @@ The first canonical seed uses:
   by both IATA and ICAO code.
 - Wikidata for exact GeoNames ID enrichment on existing reviewed transport
   records.
+- Wikidata for exact UN/LOCODE enrichment on existing locality-style transport
+  and trade records.
 - NGA World Port Index for WPI identifiers and port-specific coordinates on
   existing main seaport records.
 - HIU/Stanford public-domain data for stable border crossing reference records.

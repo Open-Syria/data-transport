@@ -41,7 +41,7 @@ As of the current seed snapshot:
 - 6 records have OurAirports identifiers.
 - 12 records have UN/LOCODE identifiers.
 - 49 records have GeoNames identifiers.
-- 8 records have Wikidata identifiers.
+- 13 records have Wikidata identifiers.
 - 3 records have NGA World Port Index identifiers.
 - 52 records have reviewed OpenSyria geography locality IDs.
 - 68 records have administrative location data.

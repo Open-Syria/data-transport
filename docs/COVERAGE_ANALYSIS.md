@@ -45,7 +45,7 @@ The first seed contains 82 locations:
 - 68 records with administrative location data.
 - 52 records with reviewed OpenSyria geography locality IDs.
 - 49 records with GeoNames identifiers.
-- 8 records with Wikidata identifiers.
+- 13 records with Wikidata identifiers.
 - 3 records with NGA World Port Index identifiers.
 - 5 inactive abandoned railroad station references from GeoNames.
 - 27 border crossing records cross-checked against the HDX 2015 HIU source.

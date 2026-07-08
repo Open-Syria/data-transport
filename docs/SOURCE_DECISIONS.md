@@ -54,6 +54,13 @@ canonical records: Tartus port and Nasib Border Crossing. The batch added only
 Wikidata identifiers and dated source references; it did not replace canonical
 coordinates, names, location types, or operational status.
 
+A follow-up Wikidata import accepted 5 exact UN/LOCODE matches for existing
+locality-style transport and trade records: Al Ladhiqiyah, Arwad, Baniyas,
+Homs, and Yabrud. The batch added only Wikidata identifiers and dated source
+references; it did not replace canonical coordinates, names, location types, or
+operational status. Tartus Oil Terminal was left unchanged because no exact
+Wikidata UN/LOCODE match was found for that facility-specific record.
+
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,

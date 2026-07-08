@@ -35,3 +35,5 @@
   records.
 - Added 2 Wikidata identifier enrichments from exact GeoNames ID matches for
   Tartus and Nasib Border Crossing.
+- Added 5 Wikidata identifier enrichments from exact UN/LOCODE matches for
+  locality-style transport and trade records.
