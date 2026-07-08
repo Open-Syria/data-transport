@@ -43,11 +43,12 @@ Out of scope:
 
 ## Current Status
 
-This repository is in seed status. Canonical files, schemas, validation scripts,
-release tooling, and source-review manifests are in place.
+This repository publishes a released reference dataset. Canonical files,
+schemas, validation scripts, release tooling, and source-review manifests are
+in place.
 
-The canonical `data/locations.json` file currently contains 90 reviewed seed
-location records from the first transport import:
+The canonical `data/locations.json` file currently contains 90 reviewed
+released location records:
 
 - 6 public civil/reference airport records from OurAirports,
 - 7 standalone UN/LOCODE transport and trade locations,
@@ -139,7 +140,7 @@ pnpm run validate
 pnpm run report:data
 pnpm run coverage:data
 pnpm run release:build
-pnpm run release:prepare -- --version v0.1.0 --status seed
+pnpm run release:prepare -- --version v0.1.1 --status released
 ```
 
 Generated release files are written to:
@@ -184,11 +185,11 @@ stable location identity unless a maintainer explicitly approves a
 location-level status change. Route snapshots must remain high-level,
 source-dated, and geometry-free.
 
-Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, NGA
-World Port Index, HIU/Stanford and HDX public-domain border crossing data, and
-official public sources with clear reuse terms. OpenStreetMap-derived data may
-be useful, but ODbL share-alike requirements must be reviewed before it is mixed
-into default release artifacts.
+Preferred public release sources include OurAirports, UN/LOCODE, Wikidata,
+GeoNames, NGA World Port Index, HIU/Stanford and HDX public-domain border
+crossing data, and official public sources with clear reuse terms.
+OpenStreetMap-derived data may be useful, but ODbL share-alike requirements
+must be reviewed before it is mixed into default release artifacts.
 
 See [docs/SOURCES.md](docs/SOURCES.md).
 

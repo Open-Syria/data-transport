@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.1
+
+- Promoted the transport dataset from seed to released after API, website,
+  source, schema, and release artifact validation.
+- Marked canonical transport locations, status snapshots, and route snapshots
+  as released source-backed records while preserving dated snapshot semantics.
+- Updated release documentation and workflow defaults for the released
+  transport dataset lifecycle.
+
 ## v0.1.0
 
 - Initial transport dataset repository scaffold.

@@ -37,8 +37,8 @@ Before each release:
 
 ## Current Source Access
 
-The first seed used OurAirports and the DataHub UN/LOCODE codelist accessed at
-`2026-07-07T21:51:07.081Z`.
+The current released snapshot used OurAirports and the DataHub UN/LOCODE
+codelist accessed at `2026-07-07T21:51:07.081Z`.
 
 Official UNECE UN/LOCODE currentness was reviewed on
 `2026-07-08T00:10:25.317Z` against the 2025-1 production package and the

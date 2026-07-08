@@ -28,7 +28,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-route-turkiye-caucasus-northwest-syria-status-2026-05-25-logistics-cluster",
@@ -59,7 +59,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-route-lebanon-syria-corridor-status-2026-05-25-logistics-cluster",
@@ -90,7 +90,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-route-jordan-syria-corridor-status-2026-05-25-logistics-cluster",
@@ -121,7 +121,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-route-europe-syria-mediterranean-status-2026-05-25-logistics-cluster",
@@ -152,6 +152,6 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   }
 ]

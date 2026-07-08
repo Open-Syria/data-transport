@@ -17,7 +17,7 @@ const dataDirectory = path.resolve(root, getCliOption('--data-dir') ?? 'data');
 const releaseDirectory = path.resolve(root, getCliOption('--release-dir') ?? 'dist/release');
 const packageJson = await readJson(path.join(root, 'package.json'));
 const releaseVersion = process.env.RELEASE_VERSION ?? `v${packageJson.version}`;
-const releaseStatus = datasetReleaseStatusSchema.parse(process.env.RELEASE_STATUS ?? 'seed');
+const releaseStatus = datasetReleaseStatusSchema.parse(process.env.RELEASE_STATUS ?? 'released');
 const releasePublishedAt = process.env.RELEASE_PUBLISHED_AT ?? null;
 const assetBaseUrl = process.env.RELEASE_ASSET_BASE_URL;
 
@@ -753,7 +753,7 @@ function buildReleaseReadiness() {
         recordCount: locationCount,
         notes:
           locationCount > 0
-            ? 'Canonical transport location records pass the configured seed requirements.'
+            ? 'Canonical transport location records pass the configured public release requirements.'
             : 'The canonical location file is schema-ready but not populated yet.',
       },
       {
@@ -775,7 +775,7 @@ function buildReleaseReadiness() {
             : 'No dated route snapshots are published yet.',
       },
     ],
-    blockers: hardRequirementsPassed ? [] : ['canonical_location_seed_empty_or_incomplete'],
+    blockers: hardRequirementsPassed ? [] : ['canonical_location_release_empty_or_incomplete'],
   };
 }
 

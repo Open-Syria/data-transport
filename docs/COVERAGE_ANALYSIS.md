@@ -38,7 +38,7 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 90 locations:
+The current released snapshot contains 90 locations:
 
 - 6 airport-typed records,
 - 30 border crossing records,

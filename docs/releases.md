@@ -11,26 +11,26 @@ release pin and dataset documentation in the same integration pass.
 Prepare a release:
 
 ```bash
-pnpm run release:prepare -- --version v0.1.0 --status seed
+pnpm run release:prepare -- --version v0.1.1 --status released
 ```
 
 Publish the prepared release assets:
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
-The release workflow prepares artifacts with `--status seed` by default. Set the
-repository variable `DATASET_RELEASE_STATUS` to another valid release status
-when promoting a later release.
+The release workflow prepares artifacts with `--status released` by default.
+Set the repository variable `DATASET_RELEASE_STATUS` to another valid release
+status only when publishing a planned, seed, or deprecated release.
 
 To publish manually instead of using the tag workflow:
 
 ```bash
 GITHUB_REPOSITORY=Open-Syria/data-transport \
 GITHUB_TOKEN=<token> \
-pnpm run release:publish:github -- --tag v0.1.0
+pnpm run release:publish:github -- --tag v0.1.1
 ```
 
 Build only:
@@ -48,5 +48,5 @@ After the GitHub Release exists, verify the API integration from the sibling
 
 ```bash
 pnpm run datasets:sync
-TRANSPORT_RELEASE_DIR=data/releases/transport/v0.1.0 pnpm run smoke:transport
+TRANSPORT_RELEASE_DIR=data/releases/transport/v0.1.1 pnpm run smoke:transport
 ```

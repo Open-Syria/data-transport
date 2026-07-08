@@ -16,7 +16,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-ash-shaykh-jabir-border-crossing-status-2026-03-09-logistics-cluster",
@@ -35,7 +35,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-riblah-border-crossing-status-2026-03-09-logistics-cluster",
@@ -54,7 +54,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-bab-al-hawa-border-crossing-status-2026-03-09-logistics-cluster",
@@ -73,7 +73,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-bab-al-salam-border-crossing-status-2026-03-09-logistics-cluster",
@@ -92,7 +92,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-al-rai-border-crossing-status-2026-03-09-logistics-cluster",
@@ -111,7 +111,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-peshakapor-border-crossing-status-2026-03-09-logistics-cluster",
@@ -130,7 +130,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-abu-kamal-border-crossing-status-2026-03-09-logistics-cluster",
@@ -149,7 +149,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-nasib-border-crossing-status-2026-03-09-logistics-cluster",
@@ -168,7 +168,7 @@
         "accessedAt": "2026-07-08T09:25:11.490Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-judaydat-yabus-border-crossing-status-2026-04-30-logistics-cluster",
@@ -187,7 +187,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-riblah-border-crossing-status-2026-04-30-logistics-cluster",
@@ -206,7 +206,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-ash-shaykh-jabir-border-crossing-status-2026-04-30-logistics-cluster",
@@ -225,7 +225,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-al-abbudiyah-border-crossing-status-2026-04-30-logistics-cluster",
@@ -244,7 +244,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-peshakapor-border-crossing-status-2026-04-30-logistics-cluster",
@@ -263,7 +263,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-at-tanf-border-crossing-status-2026-04-30-logistics-cluster",
@@ -282,7 +282,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-al-ladhiqiyah-status-2026-04-30-logistics-cluster",
@@ -300,7 +300,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-tartus-status-2026-04-30-logistics-cluster",
@@ -318,7 +318,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-aleppo-international-airport-status-2026-04-30-logistics-cluster",
@@ -336,7 +336,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-damascus-international-airport-status-2026-04-30-logistics-cluster",
@@ -354,7 +354,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-qamishli-international-airport-status-2026-04-30-logistics-cluster",
@@ -372,7 +372,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-deir-ez-zor-airport-status-2026-04-30-logistics-cluster",
@@ -390,7 +390,7 @@
         "accessedAt": "2026-07-08T10:06:11.213Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-aleppo-international-airport-status-2026-05-21-logistics-cluster",
@@ -408,7 +408,7 @@
         "accessedAt": "2026-07-08T10:33:17.978Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-damascus-international-airport-status-2026-05-21-logistics-cluster",
@@ -426,7 +426,7 @@
         "accessedAt": "2026-07-08T10:33:17.978Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-nasib-border-crossing-status-2026-05-25-logistics-cluster",
@@ -445,7 +445,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-bab-al-hawa-border-crossing-status-2026-05-25-logistics-cluster",
@@ -464,7 +464,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-judaydat-yabus-border-crossing-status-2026-05-25-logistics-cluster",
@@ -483,7 +483,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-al-ladhiqiyah-status-2026-05-25-logistics-cluster",
@@ -501,7 +501,7 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   },
   {
     "id": "sy-tartus-status-2026-05-25-logistics-cluster",
@@ -519,6 +519,6 @@
         "accessedAt": "2026-07-08T10:12:08.051Z"
       }
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "released"
   }
 ]

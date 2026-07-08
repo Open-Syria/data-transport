@@ -1,6 +1,6 @@
 {
   "name": "@opensyria/data-transport",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Canonical OpenSyria transport and trade location datasets.",
   "author": "OpenSyria",
   "private": true,

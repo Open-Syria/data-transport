@@ -34,7 +34,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -101,7 +101,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -139,7 +139,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -204,7 +204,7 @@
       "wikidata",
       "nga-world-port-index"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -275,7 +275,7 @@
       "geonames": "7635197"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -330,7 +330,7 @@
       "geonames": "8238898"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -385,7 +385,7 @@
       "geonames": "7526834"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -446,7 +446,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -506,7 +506,7 @@
       "wikidata",
       "geonames-sy"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -572,7 +572,7 @@
       "wikidata": "Q15179152"
     },
     "sourceIds": ["wikidata", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "wikidata",
@@ -617,7 +617,7 @@
       "wikidata": "Q377802"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -672,7 +672,7 @@
       "geonames": "8238899"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -710,7 +710,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -749,7 +749,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -795,7 +795,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -861,7 +861,7 @@
       "opensyria-data-geography",
       "wikidata"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -934,7 +934,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -991,7 +991,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1056,7 +1056,7 @@
       "wikidata",
       "nga-world-port-index"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -1104,7 +1104,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1159,7 +1159,7 @@
       "wikidata",
       "geonames-sy"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -1226,7 +1226,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1288,7 +1288,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1348,7 +1348,7 @@
       "wikidata",
       "geonames-sy"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -1396,7 +1396,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hiu-syria-border-crossings",
@@ -1423,7 +1423,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1456,7 +1456,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1503,7 +1503,7 @@
       "wikidata": "Q131301"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -1558,7 +1558,7 @@
       "wikidata": "Q64577287"
     },
     "sourceIds": ["wikidata", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "wikidata",
@@ -1614,7 +1614,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1671,7 +1671,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -1721,7 +1721,7 @@
       "geonames": "7764662"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -1764,7 +1764,7 @@
       "geonames": "7763724"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -1800,7 +1800,7 @@
       "geonames": "7743919"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -1841,7 +1841,7 @@
       "geonames": "6300131"
     },
     "sourceIds": ["ourairports", "opensyria-data-geography", "wikidata", "geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -1910,7 +1910,7 @@
       "geonames": "174111"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -1952,7 +1952,7 @@
       "geonames": "173844"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -1989,7 +1989,7 @@
       "geonames": "173840"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2049,7 +2049,7 @@
       "wikidata": "Q5701244"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2107,7 +2107,7 @@
       "geonames": "167307"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2147,7 +2147,7 @@
       "geonames": "8052458"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2201,7 +2201,7 @@
       "geonames": "173397"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2257,7 +2257,7 @@
       "wikidata": "Q139821846"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2312,7 +2312,7 @@
       "geonames": "173319"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2364,7 +2364,7 @@
       "geonames": "172827"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2407,7 +2407,7 @@
       "geonames": "170918"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2448,7 +2448,7 @@
       "geonames": "171794"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2479,7 +2479,7 @@
       "geonames": "8469664"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2523,7 +2523,7 @@
       "geonames": "169340"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2572,7 +2572,7 @@
       "geonames": "173697"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2615,7 +2615,7 @@
       "geonames": "7637392"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2664,7 +2664,7 @@
       "geonames": "168502"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2706,7 +2706,7 @@
       "geonames": "168482"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2749,7 +2749,7 @@
       "geonames": "168449"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2797,7 +2797,7 @@
       "geonames": "168028"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2845,7 +2845,7 @@
       "geonames": "167500"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2888,7 +2888,7 @@
       "geonames": "11259682"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2939,7 +2939,7 @@
       "geonames": "165920"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -2988,7 +2988,7 @@
       "geonames": "165903"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3038,7 +3038,7 @@
       "wikidata": "Q139821599"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3087,7 +3087,7 @@
       "geonames": "11554422"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3136,7 +3136,7 @@
       "geonames": "8051652"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3179,7 +3179,7 @@
       "geonames": "165756"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3226,7 +3226,7 @@
       "geonames": "165667"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3264,7 +3264,7 @@
       "geonames": "8182204"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3318,7 +3318,7 @@
       "geonames": "163778"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3370,7 +3370,7 @@
       "geonames": "163727"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3417,7 +3417,7 @@
       "geonames": "162960"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3464,7 +3464,7 @@
       "geonames": "174024"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3514,7 +3514,7 @@
       "geonames": "7526652"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3569,7 +3569,7 @@
       "geonames": "7526651"
     },
     "sourceIds": ["geonames-sy", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3620,7 +3620,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -3688,7 +3688,7 @@
       "opensyria-data-geography",
       "wikidata"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -3760,7 +3760,7 @@
       "wikidata",
       "geonames-sy"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -3827,7 +3827,7 @@
       "wikidata": "Q60572805"
     },
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -3895,7 +3895,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -3955,7 +3955,7 @@
       "wikidata",
       "geonames-sy"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "ourairports",
@@ -4014,7 +4014,7 @@
       "wikidata": "Q70732360"
     },
     "sourceIds": ["wikidata", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "wikidata",
@@ -4075,7 +4075,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4119,7 +4119,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4156,7 +4156,7 @@
       "geonames": "11694403"
     },
     "sourceIds": ["geonames-sy"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "geonames-sy",
@@ -4182,7 +4182,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4215,7 +4215,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hiu-syria-border-crossings",
@@ -4248,7 +4248,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4294,7 +4294,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4359,7 +4359,7 @@
       "wikidata",
       "nga-world-port-index"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -4418,7 +4418,7 @@
       "unLocode": "SYTAO"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",
@@ -4473,7 +4473,7 @@
       "hiu-syria-border-crossings",
       "opensyria-data-geography"
     ],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hdx-syria-border-crossings-2015",
@@ -4511,7 +4511,7 @@
     "administrativeLocation": null,
     "externalIds": {},
     "sourceIds": ["hiu-syria-border-crossings"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "hiu-syria-border-crossings",
@@ -4557,7 +4557,7 @@
       "wikidata": "Q172251"
     },
     "sourceIds": ["datahub-un-locode", "opensyria-data-geography", "wikidata"],
-    "sourceStatus": "seed",
+    "sourceStatus": "released",
     "sourceReferences": [
       {
         "sourceId": "datahub-un-locode",

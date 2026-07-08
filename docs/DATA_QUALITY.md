@@ -31,9 +31,9 @@ Validation fails on:
 Completeness targets vary by field. Missing coordinates, Arabic names, and
 external IDs are acceptable when no approved public source supports them.
 
-## Current Seed Snapshot
+## Current Released Snapshot
 
-As of the current seed snapshot:
+As of the current released snapshot:
 
 - 90 transport location records pass schema and source validation.
 - 28 dated status snapshot records pass schema, source, and location-reference

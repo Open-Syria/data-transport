@@ -18,5 +18,5 @@
 Prepare artifacts:
 
 ```bash
-pnpm run release:prepare -- --version v0.1.0 --status seed
+pnpm run release:prepare -- --version v0.1.1 --status released
 ```
