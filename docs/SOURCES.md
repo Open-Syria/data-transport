@@ -41,7 +41,8 @@ The first canonical seed uses:
   cross-links, including rail terminal locality links.
 - GeoNames for active railroad stations, inactive abandoned railroad station
   references, broad harbor/port identifiers, reviewed public maritime terminal
-  subfacilities, and reviewed Nasib border-post enrichment.
+  subfacilities, reviewed public road transit terminals, and reviewed Nasib
+  border-post enrichment.
 - GeoNames for exact airport identifier enrichment on existing public airport
   records.
 - Wikidata for exact airport identifier enrichment when existing records match

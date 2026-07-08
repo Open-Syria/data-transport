@@ -48,3 +48,4 @@
   held them pending a locality-versus-facility port modeling split.
 - Added 2 exact Wikidata border crossing enrichments for existing public
   crossing records and documented held neighboring-side/checkpoint candidates.
+- Added 5 reviewed GeoNames public road transit terminal records.

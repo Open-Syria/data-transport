@@ -47,6 +47,12 @@ stored the GeoNames day-level modification date as the source-row date.
 GeoNames airport identifier enrichment reused the same Syria country dump and
 accepted only reviewed matches to existing public airport records.
 
+GeoNames road transit terminal expansion reused the Syria country dump accessed
+at `2026-07-08T00:44:07.416Z`. Record-level `sourceRecordDate` values come
+from GeoNames day-level modification dates. The batch imports stable public
+terminal reference locations only, not live departures, routes, or service
+status.
+
 Wikidata airport identifier enrichment used exact IATA and ICAO matches accessed
 at `2026-07-07T22:44:40.220Z`.
 

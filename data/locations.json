@@ -1694,6 +1694,123 @@
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
   },
   {
+    "id": "sy-karaj-dar-a-al-gharbi",
+    "name": {
+      "en": "Karaj Dar`a al Gharbi",
+      "ar": "كراج درعا الغربي"
+    },
+    "aliases": [],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.62541,
+      "longitude": 36.10314
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-dar-a",
+      "localityId": "sy-daraa-daraa-dar-a-dara",
+      "localityName": {
+        "en": "Dar'a",
+        "ar": "درعا"
+      }
+    },
+    "externalIds": {
+      "geonames": "7764662"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "sourceRecordId": "7764662",
+        "sourceRecordDate": "2012-01-21",
+        "accessedAt": "2026-07-08T00:44:07.416Z"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:50:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-dar-a-dara"
+      }
+    ]
+  },
+  {
+    "id": "sy-karaj-dar-a-ash-sharqi",
+    "name": {
+      "en": "Karaj Dar`a ash Sharqi",
+      "ar": "كراج درعا الشرقي"
+    },
+    "aliases": [],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 32.62543,
+      "longitude": 36.12404
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-daraa",
+      "districtId": "sy-daraa-daraa",
+      "subdistrictId": "sy-daraa-daraa-dar-a",
+      "localityId": "sy-daraa-daraa-dar-a-dara",
+      "localityName": {
+        "en": "Dar'a",
+        "ar": "درعا"
+      }
+    },
+    "externalIds": {
+      "geonames": "7763724"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "sourceRecordId": "7763724",
+        "sourceRecordDate": "2012-01-21",
+        "accessedAt": "2026-07-08T00:44:07.416Z"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:50:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa-dar-a-dara"
+      }
+    ]
+  },
+  {
+    "id": "sy-karajat-intilaq-al-mintaqah-ash-sharqiyah",
+    "name": {
+      "en": "Karajat Intilaq al Mintaqah ash Sharqiyah",
+      "ar": "كراجات انطلاق المنطقة الشرقية"
+    },
+    "aliases": [],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.20364,
+      "longitude": 37.17829
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo"
+    },
+    "externalIds": {
+      "geonames": "7743919"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "sourceRecordId": "7743919",
+        "sourceRecordDate": "2012-01-21",
+        "accessedAt": "2026-07-08T00:44:07.416Z"
+      }
+    ]
+  },
+  {
     "id": "sy-latakia-international-airport",
     "name": {
       "en": "Latakia International Airport"
@@ -2338,6 +2455,37 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "171794",
         "sourceRecordDate": "2020-06-10"
+      }
+    ]
+  },
+  {
+    "id": "sy-mahattat-intilaq-al-bulman",
+    "name": {
+      "en": "Mahattat Intilaq al Bulman",
+      "ar": "محطة انطلاق البولمان"
+    },
+    "aliases": [],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.51521,
+      "longitude": 35.7905
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia"
+    },
+    "externalIds": {
+      "geonames": "8469664"
+    },
+    "sourceIds": ["geonames-sy"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "sourceRecordId": "8469664",
+        "sourceRecordDate": "2013-03-06",
+        "accessedAt": "2026-07-08T00:44:07.416Z"
       }
     ]
   },
@@ -3085,6 +3233,49 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "165667",
         "sourceRecordDate": "2020-06-10"
+      }
+    ]
+  },
+  {
+    "id": "sy-mahattat-salinfah",
+    "name": {
+      "en": "Mahattat Salinfah",
+      "ar": "محطة صلنفة"
+    },
+    "aliases": [],
+    "locationTypes": ["road_terminal"],
+    "transportModes": ["road"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 35.60045,
+      "longitude": 36.18689
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-latakia",
+      "districtId": "sy-latakia-al-haffah",
+      "subdistrictId": "sy-latakia-al-haffah-salanfa",
+      "localityId": "sy-latakia-al-haffah-salanfa-salanfa",
+      "localityName": {
+        "en": "Salanfa",
+        "ar": "صلنفة"
+      }
+    },
+    "externalIds": {
+      "geonames": "8182204"
+    },
+    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "sourceRecordId": "8182204",
+        "sourceRecordDate": "2017-06-08",
+        "accessedAt": "2026-07-08T00:44:07.416Z"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:50:00.000Z",
+        "sourceRecordId": "sy-latakia-al-haffah-salanfa-salanfa"
       }
     ]
   },

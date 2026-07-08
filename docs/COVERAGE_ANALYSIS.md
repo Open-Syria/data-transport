@@ -31,20 +31,20 @@ Generated coverage output should not be committed in normal pull requests.
 
 ## Current Coverage Summary
 
-The first seed contains 85 locations:
+The first seed contains 90 locations:
 
 - 6 airport-typed records,
 - 30 border crossing records,
 - 5 seaport-typed records,
 - 6 terminal records,
-- 6 road terminal records,
+- 11 road terminal records,
 - 38 rail terminal records,
 - 1 oil terminal record.
-- 85 records with dated source references.
-- 85 records with upstream source-row dates.
-- 71 records with administrative location data.
-- 57 records with reviewed OpenSyria geography locality IDs.
-- 49 records with GeoNames identifiers.
+- 90 records with dated source references.
+- 90 records with upstream source-row dates.
+- 76 records with administrative location data.
+- 60 records with reviewed OpenSyria geography locality IDs.
+- 54 records with GeoNames identifiers.
 - 21 records with Wikidata identifiers.
 - 3 records with NGA World Port Index identifiers.
 - 5 inactive abandoned railroad station references from GeoNames.
@@ -54,6 +54,7 @@ The first seed contains 85 locations:
 - 1 border crossing record with reviewed GeoNames border-post enrichment.
 - 2 border crossing records with reviewed Wikidata identifier enrichment.
 - 3 public railway station records from reviewed Wikidata station items.
+- 5 public road transit terminal records from reviewed GeoNames `TRANT` rows.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, remaining administrative geography links for border crossings and

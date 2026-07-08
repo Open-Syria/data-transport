@@ -1,0 +1,40 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-07-08T00:44:07.416Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "geonames-sy.zip",
+      "sha256": "967f009a2829a7a68b628f1be9c7195b98be503030038b5a74bf2f7c433e83d2",
+      "notes": "GeoNames Syria country dump cached under data-automation outputs."
+    },
+    {
+      "name": "../data-geography/data/localities.json",
+      "sha256": "3081f1aa8d95621447dd13f0713a49c145f0b70b8cf9fc87604912dd9854b0b5",
+      "notes": "Used only for reviewed administrative locality links on exact or obvious terminal-place matches."
+    }
+  ],
+  "importedFields": [
+    "GeoNames identifiers",
+    "names",
+    "Arabic names",
+    "feature codes",
+    "coordinates",
+    "administrativeLocation",
+    "sourceIds",
+    "sourceReferences"
+  ],
+  "targetFiles": ["data/locations.json"],
+  "transforms": [
+    "Accepted GeoNames TRANT feature rows as public road transit terminal records.",
+    "Mapped TRANT rows to locationTypes road_terminal and transportModes road.",
+    "Kept operational status unknown because GeoNames feature presence does not provide live terminal status.",
+    "Added reviewed OpenSyria Data Geography locality links only where terminal names and nearby localities were compatible.",
+    "Left close but non-name-confirmed locality candidates at governorate-only administrative precision."
+  ],
+  "reviewNotes": "Imported 5 public GeoNames transit terminal records: Dar'a western garage (7764662), Dar'a eastern garage (7763724), Aleppo eastern-region departure garages (7743919), Latakia Pullman departure station (8469664), and Salanfa station (8182204). Added locality links for the two Dar'a terminals and Salanfa because the names and coordinates clearly match reviewed OpenSyria geography localities. Kept the Aleppo eastern-region garages and Latakia Pullman departure station at governorate-only administrative precision because their names do not independently prove a locality-level OpenSyria match."
+}

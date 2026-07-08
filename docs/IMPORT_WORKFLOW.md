@@ -102,6 +102,12 @@ identity and coordinates align with stronger border-crossing sources. Keep rows
 held when coordinates diverge materially or the feature describes a building
 rather than a crossing identity.
 
+GeoNames `TRANT` rows may be imported as road terminal records when they
+represent stable public transit terminal locations. Keep live departures,
+routes, schedules, accessibility, and service status out of canonical records.
+Add OpenSyria geography locality links only when the terminal name and
+coordinates make the locality match clear.
+
 The HIU/Stanford and HDX border crossing batches import stable historical
 reference points only. Do not use them to publish live opening hours, current
 accessibility, or operational status. When a source separates the Syrian

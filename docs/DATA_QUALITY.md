@@ -33,20 +33,21 @@ external IDs are acceptable when no approved public source supports them.
 
 As of the current seed snapshot:
 
-- 85 transport location records pass schema and source validation.
-- 85 records have source-backed coordinates.
-- 58 records have external IDs.
-- 85 records have dated source references.
-- 85 records have upstream source-row dates.
+- 90 transport location records pass schema and source validation.
+- 90 records have source-backed coordinates.
+- 63 records have external IDs.
+- 90 records have dated source references.
+- 90 records have upstream source-row dates.
 - 6 records have OurAirports identifiers.
 - 12 records have UN/LOCODE identifiers.
-- 49 records have GeoNames identifiers.
+- 54 records have GeoNames identifiers.
 - 21 records have Wikidata identifiers.
 - 3 records have NGA World Port Index identifiers.
-- 57 records have reviewed OpenSyria geography locality IDs.
-- 71 records have administrative location data.
-- 42 records have Arabic names.
+- 60 records have reviewed OpenSyria geography locality IDs.
+- 76 records have administrative location data.
+- 47 records have Arabic names.
 - 6 records are public maritime terminal subfacilities from GeoNames.
+- 5 records are public road transit terminals from GeoNames.
 - 5 records are inactive abandoned railroad station references from GeoNames.
 - 30 records are border crossings from public-domain HIU reference data.
 - 27 border crossing records have a second dated HDX 2015 source reference.
@@ -57,6 +58,6 @@ As of the current seed snapshot:
   names from exact public crossing matches.
 - 3 public railway station records come from reviewed Wikidata station items.
 
-Operational status is currently `unknown` for 80 records and `inactive` for the
+Operational status is currently `unknown` for 85 records and `inactive` for the
 5 abandoned GeoNames railroad station references. The dataset does not publish
 live operating conditions.

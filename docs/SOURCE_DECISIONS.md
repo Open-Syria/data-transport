@@ -109,6 +109,15 @@ The canonical labels were later repaired against GeoNames alternatenames to
 replace corrupted question-mark placeholders in Arabic names and diacritic
 transliteration aliases.
 
+A follow-up road-terminal review accepted 5 GeoNames `TRANT` rows as public
+road transit terminal records. These records use `locationTypes:
+["road_terminal"]`, `transportModes: ["road"]`, and `operationalStatus:
+"unknown"`. The import added locality links only for the two Dar'a garages and
+Salanfa station, where names and coordinates clearly matched reviewed OpenSyria
+geography localities. The Aleppo eastern-region garages and Latakia Pullman
+departure station remain at governorate-only precision pending stronger
+locality-level evidence.
+
 A follow-up rail review accepted 5 GeoNames abandoned railroad station `RSTNQ`
 rows as inactive rail terminal references. These rows are historical reference
 points, not current-service evidence. They use governorate-level administrative
