@@ -139,7 +139,7 @@ pnpm run validate
 pnpm run report:data
 pnpm run coverage:data
 pnpm run release:build
-pnpm run release:prepare -- --version v0.1.0
+pnpm run release:prepare -- --version v0.1.0 --status seed
 ```
 
 Generated release files are written to:
@@ -155,6 +155,23 @@ dist/coverage/
 ```
 
 Generated files should not be edited directly.
+
+## Public API
+
+The OpenSyria datasets API is wired to serve this repository's release artifacts
+through read-only endpoints after the tagged release is published and the API is
+deployed:
+
+- `GET https://api.opensyria.org/api/v1/transport/locations`
+- `GET https://api.opensyria.org/api/v1/transport/locations/{locationId}`
+- `GET https://api.opensyria.org/api/v1/transport/status-snapshots`
+- `GET https://api.opensyria.org/api/v1/transport/status-snapshots/{statusSnapshotId}`
+- `GET https://api.opensyria.org/api/v1/transport/route-snapshots`
+- `GET https://api.opensyria.org/api/v1/transport/route-snapshots/{routeSnapshotId}`
+
+Filtered OpenAPI documentation is published at
+`https://api.opensyria.org/openapi/transport.json`, and the public dataset page
+is `https://opensyria.org/datasets/transport`.
 
 ## Source Policy
 

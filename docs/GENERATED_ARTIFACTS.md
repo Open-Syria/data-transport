@@ -15,6 +15,12 @@ Artifacts are generated from canonical JSON and include:
 Release builds currently publish `locations`, `status-snapshots`, and
 `route-snapshots` artifacts.
 
+The public datasets API reads the JSON release artifacts for:
+
+- `/api/v1/transport/locations`
+- `/api/v1/transport/status-snapshots`
+- `/api/v1/transport/route-snapshots`
+
 Flat CSV and SQL location artifacts include `world_port_index`,
 `source_references_json`, `latest_source_accessed_at`, and
 `latest_source_record_date` columns derived from canonical records and

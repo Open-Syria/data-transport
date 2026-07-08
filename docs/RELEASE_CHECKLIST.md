@@ -8,12 +8,15 @@
 - [ ] Source decisions and known gaps are documented.
 - [ ] Route snapshots, if present, are dated, source-backed, high-level, and
       free of geometry or live routing details.
-- [ ] Release artifacts are built with the intended version.
+- [ ] Release artifacts are prepared with the intended version, status, and
+      public GitHub release asset URLs.
 - [ ] `release-manifest.json` contains only approved sources and visible source
       license limitations.
+- [ ] `datasets-api/dataset-releases.json`, API docs, and
+      `website/src/lib/datasets.ts` point to the intended public release.
 
 Prepare artifacts:
 
 ```bash
-pnpm run release:prepare -- --version v0.1.0
+pnpm run release:prepare -- --version v0.1.0 --status seed
 ```

@@ -37,7 +37,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Prepare release artifacts
-        run: pnpm run release:prepare -- --version "${GITHUB_REF_NAME}"
+        run: pnpm run release:prepare -- --version "${GITHUB_REF_NAME}" --status "${DATASET_RELEASE_STATUS:-seed}"
+        env:
+          DATASET_RELEASE_STATUS: ${{ vars.DATASET_RELEASE_STATUS }}
 
       - name: Publish GitHub Release
         run: pnpm run release:publish:github -- --tag "${GITHUB_REF_NAME}"

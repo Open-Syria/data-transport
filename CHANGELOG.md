@@ -61,3 +61,5 @@
   supply-route snapshot.
 - Added 2 additional Logistics Cluster airport status snapshots from the 21 May
   2026 Middle East regional coordination meeting.
+- Documented the public API endpoints, OpenAPI contract, and website dataset
+  page that consume the v0.1.0 release artifacts.
