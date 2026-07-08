@@ -91,6 +91,9 @@ A follow-up maritime review accepted 6 public GeoNames `WHRF` and `PIER` rows as
 terminal records. These rows represent wharf/pier subfacilities around Tartus,
 Arwad, and Latakia, so they use `locationTypes: ["terminal"]` rather than
 duplicating main seaport identities.
+The canonical labels were later repaired against GeoNames alternatenames to
+replace corrupted question-mark placeholders in Arabic names and diacritic
+transliteration aliases.
 
 A follow-up rail review accepted 5 GeoNames abandoned railroad station `RSTNQ`
 rows as inactive rail terminal references. These rows are historical reference
@@ -156,5 +159,7 @@ The HDX archived 2015 CSV was then used to cross-check 27 existing border
 crossing records. Where HDX separated a Syrian-side crossing name from the
 neighboring-country crossing name, the Syrian-side name became canonical. The
 neighboring-country name was kept only as an alias for search continuity.
+The Meidan Ekbis neighboring-country alias was later normalized from a corrupted
+HDX character placeholder to the English-searchable Islahiye spelling.
 
 The HDX 2015 rows for `Hadallat (Tower 30/31)` and `Tower 22` remain held.

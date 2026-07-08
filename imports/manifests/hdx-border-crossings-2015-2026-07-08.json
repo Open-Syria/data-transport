@@ -26,5 +26,5 @@
     "Added the HDX 2015 source as a second dated source reference to matched records and left operational status unknown.",
     "Held rows that matched no current canonical record within 5 kilometers."
   ],
-  "reviewNotes": "Matched 27 of 29 HDX 2015 rows to existing border crossing records. Held 2 rows (Hadallat (Tower 30/31), Tower 22) for identity and safety review. No live border status was imported."
+  "reviewNotes": "Matched 27 of 29 HDX 2015 rows to existing border crossing records. Held 2 rows (Hadallat (Tower 30/31), Tower 22) for identity and safety review. No live border status was imported. A follow-up label repair normalized the Meidan Ekbis neighboring-country alias from a corrupted HDX character placeholder to the English-searchable Islahiye spelling."
 }

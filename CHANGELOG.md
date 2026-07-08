@@ -41,3 +41,6 @@
   package and 2026-06-16 pre-release, with no new Syria codes found.
 - Added 3 reviewed public railway station records from Wikidata and enriched 3
   existing rail terminal records with Wikidata station identifiers.
+- Repaired corrupted question-mark placeholders in maritime Arabic labels,
+  GeoNames transliteration aliases, and the Meidan Ekbis neighboring-country
+  alias.

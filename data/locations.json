@@ -240,7 +240,7 @@
     "id": "sy-al-marfa-al-jadid-pier",
     "name": {
       "en": "Al Marfa' al Jadid Pier",
-      "ar": "?????? ??????"
+      "ar": "المرفأ الجديد"
     },
     "aliases": [
       {
@@ -249,7 +249,7 @@
         "type": "alias"
       },
       {
-        "value": "Al Marfa? al Jad?d",
+        "value": "Al Marfa’ al Jadīd",
         "language": "en",
         "type": "transliteration"
       }
@@ -295,7 +295,7 @@
     "id": "sy-al-marfa-al-qibli-wharf",
     "name": {
       "en": "Al Marfa' al Qibli Wharf",
-      "ar": "?????? ??????"
+      "ar": "المرفأ القبلي"
     },
     "aliases": [
       {
@@ -304,7 +304,7 @@
         "type": "alias"
       },
       {
-        "value": "Al Marfa? al Qibl?",
+        "value": "Al Marfa’ al Qiblī",
         "language": "en",
         "type": "transliteration"
       }
@@ -350,7 +350,7 @@
     "id": "sy-al-marfa-ash-shamaliyah-wharf",
     "name": {
       "en": "Al Marfa' ash Shamaliyah Wharf",
-      "ar": "?????? ????????"
+      "ar": "المرفأ الشمالية"
     },
     "aliases": [
       {
@@ -359,7 +359,7 @@
         "type": "alias"
       },
       {
-        "value": "Al Marfa? ash Sham?l?yah",
+        "value": "Al Marfa’ ash Shamālīyah",
         "language": "en",
         "type": "transliteration"
       }
@@ -642,11 +642,11 @@
     "id": "sy-as-sansul-pier",
     "name": {
       "en": "As Sansul Pier",
-      "ar": "???????"
+      "ar": "السنسول"
     },
     "aliases": [
       {
-        "value": "As Sans?l",
+        "value": "As Sansūl",
         "language": "en",
         "type": "transliteration"
       }
@@ -3278,7 +3278,7 @@
     "id": "sy-marfa-arwad-pier",
     "name": {
       "en": "Marfa' Arwad Pier",
-      "ar": "???? ?????"
+      "ar": "مرفأ أرواد"
     },
     "aliases": [
       {
@@ -3287,7 +3287,7 @@
         "type": "alias"
       },
       {
-        "value": "Marfa? Arw?d",
+        "value": "Marfa’ Arwād",
         "language": "en",
         "type": "transliteration"
       }
@@ -3333,7 +3333,7 @@
     "id": "sy-marfa-tartus-wharf",
     "name": {
       "en": "Marfa' Tartus Wharf",
-      "ar": "???? ?????"
+      "ar": "مرفأ طرطوس"
     },
     "aliases": [
       {
@@ -3342,7 +3342,7 @@
         "type": "alias"
       },
       {
-        "value": "Marfa? ?ar??s",
+        "value": "Marfa’ Ţarţūs",
         "language": "en",
         "type": "transliteration"
       }
@@ -3391,7 +3391,7 @@
     },
     "aliases": [
       {
-        "value": "?slahiye Border Crossing",
+        "value": "Islahiye Border Crossing",
         "language": "en",
         "type": "alias"
       }

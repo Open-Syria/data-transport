@@ -41,6 +41,11 @@ Transport automation exports dated `sourceReferences` from candidate artifact
 timestamps and source-row metadata. Refresh these references whenever raw source
 downloads are refreshed.
 
+After importing or repairing non-ASCII names, search canonical JSON for literal
+question-mark placeholders. Do not leave lossy `?` replacement characters in
+Arabic names, transliteration aliases, or neighboring-country aliases when a
+source-backed spelling can be recovered.
+
 Official UNECE UN/LOCODE packages should be used for currentness review before
 release, but not as a canonical redistributable import source until the official
 redistribution and derivative compilation terms are cleared. Continue using the

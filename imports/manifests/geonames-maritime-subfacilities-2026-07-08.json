@@ -35,5 +35,5 @@
     "Copied administrative location links from reviewed nearby OpenSyria geography-backed maritime records.",
     "Kept operational status unknown because GeoNames feature presence does not provide live status."
   ],
-  "reviewNotes": "Imported 6 public maritime terminal subfacility records from held GeoNames WHRF/PIER rows. Tartus, Latakia, and Arwad-area subfacilities were added as terminal records; main seaport identities were left unchanged."
+  "reviewNotes": "Imported 6 public maritime terminal subfacility records from held GeoNames WHRF/PIER rows. Tartus, Latakia, and Arwad-area subfacilities were added as terminal records; main seaport identities were left unchanged. A follow-up label repair restored Arabic names and diacritic transliteration aliases from GeoNames alternatenames after corrupted question-mark placeholders were found in the canonical JSON."
 }
