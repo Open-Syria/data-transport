@@ -22,6 +22,7 @@
     "title": "UN/LOCODE Code List",
     "url": "https://unece.org/trade/cefact/unlocode-code-list-country-and-territory",
     "license": "UNECE UN/LOCODE public code list; redistribution review required",
+    "licenseUrl": "https://vocab-locode-40898c.opensource.unicc.org/terms/",
     "status": "proposed",
     "fields": [
       "UN/LOCODE identifiers",
@@ -31,7 +32,7 @@
       "coordinates",
       "status indicators"
     ],
-    "notes": "Primary official source. Review current edition licensing and attribution before importing canonical records."
+    "notes": "Primary official source for currentness checks. The 2025-1 production package and 2026-06-16 pre-release were reviewed on 2026-07-08, but official UN terms restrict redistribution and derivative compilation, so canonical records continue to cite the approved DataHub mirror until terms are cleared."
   },
   {
     "id": "datahub-un-locode",
@@ -48,7 +49,7 @@
       "coordinates",
       "status indicators"
     ],
-    "notes": "Convenience mirror of UNECE UN/LOCODE data. Prefer cross-checking against the official UNECE page before release."
+    "notes": "Convenience mirror of UNECE UN/LOCODE data used for redistributable canonical records. Syria rows were cross-checked against the official 2025-1 production package and 2026-06-16 pre-release on 2026-07-08."
   },
   {
     "id": "wikidata",

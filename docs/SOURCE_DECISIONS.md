@@ -31,12 +31,20 @@ UN/LOCODE rows should be cross-checked against the current official UNECE code
 list. Ambiguous rows should be held rather than imported automatically.
 
 The current canonical data keeps 7 standalone public transport/trade locations
-and 5 airport identifier merges into accepted OurAirports airport records. Rows with
-out-of-country coordinates, unknown function codes, airport-only functions
+and 5 airport identifier merges into accepted OurAirports airport records. Rows
+with out-of-country coordinates, unknown function codes, airport-only functions
 without accepted public airport confirmation, or mixed airport/ground functions
 that risk duplicate identity were held.
 UN/LOCODE `Date` values are normalized into month-precision
 `sourceReferences[].sourceRecordDate` values.
+
+The official UNECE 2025-1 production package and the pre-release listed as last
+updated 2026-06-16 were reviewed on 2026-07-08. Both official packages contain
+the same Syria row set as the DataHub mirror: 19 location codes plus the country
+header row. No new Syria UN/LOCODE rows were found. Official UN terms restrict
+redistribution and derivative compilation, so the official package remains a
+currentness review source while canonical records continue to cite the approved
+DataHub mirror.
 
 ## Wikidata and GeoNames
 

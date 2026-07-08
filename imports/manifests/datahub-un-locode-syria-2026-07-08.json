@@ -27,5 +27,5 @@
     "Map UN/LOCODE function codes to transportModes and locationTypes.",
     "Hold ambiguous or suspicious rows for manual review."
   ],
-  "reviewNotes": "Imported 13 accepted Syria rows: 7 standalone public transport/trade locations and 6 airport identifier merges into accepted OurAirports records. Held 6 rows for review due out-of-country coordinates, unknown function codes, airport-only rows without accepted public airport confirmation, or mixed airport/ground functions that risk duplicate identity."
+  "reviewNotes": "The initial import accepted 13 Syria rows: 7 standalone public transport/trade locations and 6 airport identifier merges into accepted OurAirports records. Current canonical data retains 12 UN/LOCODE rows after Al Thaurah Airport (SOR) was removed for identity, status, and safety review. The official 2025-1 production package and 2026-06-16 pre-release were later reviewed and contained the same 19 Syria location codes plus the country header row; no new Syria UN/LOCODE rows were found."
 }

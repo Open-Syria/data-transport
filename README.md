@@ -47,6 +47,8 @@ records from the first transport import:
 - 6 public civil/reference airport records from OurAirports,
 - 7 standalone UN/LOCODE transport and trade locations,
 - 5 UN/LOCODE identifier merges into accepted airport records.
+- Official UNECE UN/LOCODE 2025-1 production and 2026-06-16 pre-release rows
+  reviewed for currentness, with no new Syria codes found.
 - 28 active railroad station records from GeoNames.
 - 5 inactive/abandoned railroad station records from reviewed GeoNames `RSTNQ`
   rows.

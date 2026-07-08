@@ -1,0 +1,38 @@
+{
+  "sourceId": "un-locode",
+  "sourceTitle": "UN/LOCODE official publication",
+  "sourceUrl": "https://vocab-locode-40898c.opensource.unicc.org/publications/",
+  "license": "United Nations web site terms; redistribution and derivative compilation restricted",
+  "licenseUrl": "https://vocab-locode-40898c.opensource.unicc.org/terms/",
+  "accessedAt": "2026-07-08T00:10:25.317Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "unlocode-2025-1-artifacts.zip",
+      "sha256": "ad409fc7149b10f98d61190c34d9daf78b78bb8b31464cc66de1a89d09b01b5d",
+      "notes": "Official production UN/LOCODE 2025-1 package downloaded into the local data-automation raw output directory."
+    },
+    {
+      "name": "unlocode-prerelease-2026-06-16-artifacts.zip",
+      "sha256": "a1a74d30ee51b7e4e12aee95e66f4c48253177977b3b6330f9f6ad5a25366904",
+      "notes": "Official UN/LOCODE pre-release package, listed as last updated 2026-06-16, downloaded into the local data-automation raw output directory for currentness review only."
+    }
+  ],
+  "importedFields": [
+    "UN/LOCODE identifiers",
+    "transport functions",
+    "location names",
+    "subdivision codes",
+    "coordinates",
+    "status indicators",
+    "release and pre-release row comparisons"
+  ],
+  "targetFiles": ["data/sources.json"],
+  "transforms": [
+    "Extract Syria rows from the official production and pre-release CSV parts.",
+    "Compare official production and pre-release Syria row sets against each other.",
+    "Compare the official row set against the DataHub UN/LOCODE mirror used for canonical records.",
+    "Use official UN/LOCODE only as a currentness review source until redistribution and derivative compilation terms are cleared."
+  ],
+  "reviewNotes": "Reviewed the official production UN/LOCODE 2025-1 package and the pre-release package listed as last updated 2026-06-16. Both packages contain the same 19 Syria location codes plus the country header row. No new Syria UN/LOCODE rows were found beyond the DataHub mirror already reviewed. No canonical location records were added or changed by this review."
+}

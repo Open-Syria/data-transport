@@ -37,3 +37,5 @@
   Tartus and Nasib Border Crossing.
 - Added 5 Wikidata identifier enrichments from exact UN/LOCODE matches for
   locality-style transport and trade records.
+- Added an official UN/LOCODE currentness review against the 2025-1 production
+  package and 2026-06-16 pre-release, with no new Syria codes found.

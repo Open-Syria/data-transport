@@ -32,7 +32,11 @@ default release artifacts.
 The first canonical seed uses:
 
 - OurAirports for public civil/reference airport records,
-- DataHub UN/LOCODE codelist for public transport and trade location codes.
+- DataHub UN/LOCODE codelist for redistributable public transport and trade
+  location codes.
+- Official UNECE UN/LOCODE production and pre-release packages for currentness
+  review only, because the official terms restrict redistribution and
+  derivative compilation.
 - OpenSyria Data Geography for reviewed locality and parent administrative
   cross-links, including rail terminal locality links.
 - GeoNames for active railroad stations, inactive abandoned railroad station

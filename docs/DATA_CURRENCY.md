@@ -29,6 +29,11 @@ Before each release:
 The first seed used OurAirports and the DataHub UN/LOCODE codelist accessed at
 `2026-07-07T21:51:07.081Z`.
 
+Official UNECE UN/LOCODE currentness was reviewed on
+`2026-07-08T00:10:25.317Z` against the 2025-1 production package and the
+pre-release listed as last updated `2026-06-16`; both contained the same Syria
+location-code rows as the reviewed DataHub mirror.
+
 OpenSyria Data Geography locality links, including the rail terminal locality
 link batch, were reviewed against the local `../data-geography/data/localities.json`
 file on `2026-07-08`.

@@ -41,6 +41,11 @@ Transport automation exports dated `sourceReferences` from candidate artifact
 timestamps and source-row metadata. Refresh these references whenever raw source
 downloads are refreshed.
 
+Official UNECE UN/LOCODE packages should be used for currentness review before
+release, but not as a canonical redistributable import source until the official
+redistribution and derivative compilation terms are cleared. Continue using the
+approved DataHub mirror for canonical UN/LOCODE source references.
+
 Rail-to-geography links should use reviewed OpenSyria Data Geography locality
 matches. Accept exact or near-exact station place-name matches only when the
 governorate is compatible and the coordinate distance is small; keep fuzzy or
