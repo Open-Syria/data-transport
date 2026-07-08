@@ -52,3 +52,5 @@
 - Added a dated status snapshot schema, release artifacts, and 9 Logistics
   Cluster border crossing status observations from the 2026-03-09 Syria access
   update.
+- Added 12 additional Logistics Cluster status snapshots from the 30 April 2026
+  Syria coordination meeting, covering border crossings, ports, and airports.

@@ -132,6 +132,23 @@
     "notes": "Use only as dated status snapshot evidence. Do not use this source to overwrite stable crossing identity or infer live access beyond the source publication date."
   },
   {
+    "id": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+    "title": "Syria - Coordination Meeting Minutes, 30 April 2026",
+    "url": "https://logcluster.org/en/documents/syria-coordination-meeting-minutes-10-may-2026",
+    "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+    "licenseUrl": "https://logcluster.org/en/terms-use",
+    "status": "approved",
+    "fields": [
+      "border crossing status observations",
+      "airport status observations",
+      "port status observations",
+      "source facility names",
+      "source meeting date",
+      "source publication date"
+    ],
+    "notes": "Use only as dated status snapshot evidence from the 30 April 2026 Syria coordination meeting. Do not use this source to overwrite stable location identity or infer live access beyond the meeting date."
+  },
+  {
     "id": "nga-world-port-index",
     "title": "NGA World Port Index (Pub 150)",
     "url": "https://msi.nga.mil/Publications/WPI",

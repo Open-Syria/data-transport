@@ -99,9 +99,13 @@ reference data, not live status.
 
 Logistics Cluster border crossing status snapshots use the public Syria access
 update published on `2026-03-09` and reviewed on
-`2026-07-08T09:25:11.490Z`. The 9 imported rows are dated observations only;
-they do not change the canonical `operationalStatus` values in
-`data/locations.json`.
+`2026-07-08T09:25:11.490Z`. The 9 imported rows are dated observations only.
+
+Logistics Cluster Syria coordination meeting status snapshots use the 30 April
+2026 meeting minutes, published/revised on `2026-05-14` and reviewed on
+`2026-07-08T10:06:11.213Z`. The 12 imported rows are dated observations for
+border crossings, ports, and airports. They do not change the canonical
+`operationalStatus` values in `data/locations.json`.
 
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

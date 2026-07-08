@@ -1,0 +1,34 @@
+{
+  "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+  "sourceTitle": "Syria - Coordination Meeting Minutes, 30 April 2026",
+  "sourceUrl": "https://logcluster.org/en/documents/syria-coordination-meeting-minutes-10-may-2026",
+  "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+  "licenseUrl": "https://logcluster.org/en/terms-use",
+  "accessedAt": "2026-07-08T10:06:11.213Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "logistics-cluster-syria-coordination-meeting-minutes-2026-04-30.html",
+      "sha256": "e6514ae84cab3071a6705ba35e6d72c742004633788310959a6428fcb3a827f4",
+      "notes": "Fetched for checksum review only; raw HTML is not committed."
+    }
+  ],
+  "importedFields": [
+    "locationId",
+    "observedStatus",
+    "statusAsOf",
+    "countryPair",
+    "sourceNames",
+    "statusNote",
+    "sourceReferences"
+  ],
+  "targetFiles": ["data/status-snapshots.json", "data/sources.json"],
+  "transforms": [
+    "Extract location-level physical access updates from the Syria status updates section of the meeting minutes.",
+    "Use the meeting date, 2026-04-30, as statusAsOf and the page publication/revision date, 2026-05-14, as sourceReferences[].sourceRecordDate.",
+    "Match source facility names to existing canonical location IDs by exact names, existing aliases, or unambiguous counterpart names.",
+    "Normalize source wording into observedStatus values while preserving concise source-backed notes.",
+    "Keep route/corridor details and ambiguous crossing names out of the point-location status snapshot import."
+  ],
+  "reviewNotes": "Imported 12 dated status snapshot records: 6 border crossing observations, 2 port observations, and 4 airport observations. No new location identities were added, and no location operationalStatus values were changed. Held Al-Yaroubiyah because the existing canonical record does not yet carry an explicit Al-Yaroubiyah alias, and held Nisibis because it appears under the Iraq crossing bullet while the likely canonical match is the Qamishli/Nusaybin Turkey crossing. The source terms limit reuse to non-commercial humanitarian or related non-profit/academic activity with attribution, so this source should be reviewed again before broad commercial redistribution."
+}

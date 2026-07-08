@@ -193,14 +193,25 @@ The HDX 2015 rows for `Hadallat (Tower 30/31)` and `Tower 22` remain held.
 
 ## Logistics Cluster
 
-Status: approved for dated status snapshots from the reviewed 2026-03-09 Syria
-access update only.
+Status: approved for dated status snapshots from reviewed Syria updates only.
 
 The Logistics Cluster page "Syria - Border-crossings, airports and ports
 updates, 9 March 2026" was reviewed as recent, public status evidence. The
 import accepted 9 source status rows that matched existing canonical border
 crossing records by source names and aliases. The imported rows live in
 `data/status-snapshots.json` and carry `statusAsOf: "2026-03-09"`.
+
+The Logistics Cluster page "Syria - Coordination Meeting Minutes, 30 April
+2026" was reviewed as a second dated status source. The import accepted 12
+location-level observations: 6 border crossing observations, 2 port
+observations, and 4 airport observations. These rows carry
+`statusAsOf: "2026-04-30"` and source publication/revision date `2026-05-14`.
+
+Al-Yaroubiyah and Nisibis status lines from the 30 April meeting minutes remain
+held. Al-Yaroubiyah needs an explicit canonical alias or source-backed identity
+review before attaching it to a location ID. Nisibis appears under an Iraq
+crossing bullet while the likely canonical match is the Qamishli/Nusaybin
+Turkey crossing, so it was held rather than imported as a precise status claim.
 
 The import did not add new crossing identities and did not change
 `data/locations.json` `operationalStatus` values. Canonical crossing identity

@@ -169,5 +169,227 @@
       }
     ],
     "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-judaydat-yabus-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-judaydat-yabus-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Masnaa", "Jdidet Yabus"],
+    "statusNote": "Fully operational and handling cargo at full capacity.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:lebanon-border:01",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-riblah-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-riblah-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Jousieh"],
+    "statusNote": "Open, primarily facilitating civilian movements, with potential alternative cargo routing.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:lebanon-border:02",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-ash-shaykh-jabir-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-ash-shaykh-jabir-border-crossing",
+    "observedStatus": "limited",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Arida"],
+    "statusNote": "Open for pedestrian movements only and undergoing maintenance works.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:lebanon-border:03",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-abbudiyah-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-al-abbudiyah-border-crossing",
+    "observedStatus": "inactive",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Aboudeyyeh"],
+    "statusNote": "Under rehabilitation; partners reported expected operation by mid-summer 2026.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:lebanon-border:04",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-peshakapor-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-peshakapor-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Iraq - Syria",
+    "sourceNames": ["Fishkhabour"],
+    "statusNote": "Primary border crossing point for cargo movements.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:iraq-border:01",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-at-tanf-border-crossing-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-at-tanf-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "countryPair": "Iraq - Syria",
+    "sourceNames": ["Al Walid"],
+    "statusNote": "Open and fully operational.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:iraq-border:02",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-ladhiqiyah-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-al-ladhiqiyah",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Lattakia Port"],
+    "statusNote": "Port remained operational.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:01",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-tartus",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Tartus Port"],
+    "statusNote": "Port remained operational.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:02",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-international-airport-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-aleppo-international-airport",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Aleppo Airport"],
+    "statusNote": "Operational.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:03",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-damascus-international-airport-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-damascus-international-airport",
+    "observedStatus": "active",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Damascus Airport"],
+    "statusNote": "Operational.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:04",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-qamishli-international-airport-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-qamishli-international-airport",
+    "observedStatus": "closed",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Qamishly Airport"],
+    "statusNote": "Under rehabilitation and remained closed.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:05",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor-airport-status-2026-04-30-logistics-cluster",
+    "locationId": "sy-deir-ez-zor-airport",
+    "observedStatus": "closed",
+    "statusAsOf": "2026-04-30",
+    "sourceNames": ["Deir Ez-Zor Airport"],
+    "statusNote": "Under rehabilitation and remained closed.",
+    "sourceIds": ["logistics-cluster-syria-coordination-minutes-2026-04-30"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-coordination-minutes-2026-04-30",
+        "sourceRecordId": "2026-04-30:syria-status:ports-airports:06",
+        "sourceRecordDate": "2026-05-14",
+        "accessedAt": "2026-07-08T10:06:11.213Z"
+      }
+    ],
+    "sourceStatus": "seed"
   }
 ]

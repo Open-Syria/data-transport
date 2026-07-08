@@ -65,8 +65,12 @@ The first canonical seed uses:
 - HDX's archived 2015 HIU border crossing CSV for Syrian-side crossing names,
   coordinates, and dated source cross-checks.
 - Logistics Cluster's 2026-03-09 Syria access update for 9 dated border
-  crossing status snapshots. This source has reuse limitations recorded in the
-  source registry and is used only as dated status evidence.
+  crossing status snapshots.
+- Logistics Cluster's 30 April 2026 Syria coordination meeting minutes for 12
+  dated border crossing, port, and airport status snapshots.
+
+Logistics Cluster sources have reuse limitations recorded in the source
+registry and are used only as dated status evidence.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.
