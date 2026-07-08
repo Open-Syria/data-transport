@@ -1,0 +1,33 @@
+{
+  "sourceId": "logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21",
+  "sourceTitle": "Middle East Regional Coordination Meeting Minutes, 21 May 2026",
+  "sourceUrl": "https://logcluster.org/en/documents/middle-east-regional-coordination-meeting-minutes-21-may-2026",
+  "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+  "licenseUrl": "https://logcluster.org/en/terms-use",
+  "accessedAt": "2026-07-08T10:33:17.978Z",
+  "status": "imported",
+  "rawFiles": [
+    {
+      "name": "logistics-cluster-middle-east-regional-coordination-meeting-minutes-2026-05-21.html",
+      "sha256": "db0c8c96bce0ff1fd2ade5a5030ed9bd0883c5ba193a2763afd7447de4b8495f",
+      "notes": "Fetched for checksum review only; raw HTML is not committed."
+    }
+  ],
+  "importedFields": [
+    "locationId",
+    "observedStatus",
+    "statusAsOf",
+    "sourceNames",
+    "statusNote",
+    "sourceReferences"
+  ],
+  "targetFiles": ["data/status-snapshots.json", "data/sources.json"],
+  "transforms": [
+    "Extract only source-dated Syria airport status evidence from the Syria Logistics Cluster update section.",
+    "Use the meeting date, 2026-05-21, as statusAsOf and the page publication/revision date, 2026-05-25, as sourceReferences[].sourceRecordDate.",
+    "Match named airport evidence to existing canonical location IDs by exact airport names.",
+    "Normalize source wording into observedStatus values while preserving the cargo handling capacity note.",
+    "Hold future border crossing expansion, airport rehabilitation completion dates, and broad source statements that do not map to a specific canonical point."
+  ],
+  "reviewNotes": "Imported 2 dated airport status snapshot records for Aleppo International Airport and Damascus International Airport. The source also mentions Deir Ezzour and Qamishli airport rehabilitation completion planned for 20 August 2026 and several future BCP creation/expansion items; those lines were held because they are future claims or require separate identity/status review. No location operationalStatus values were changed."
+}

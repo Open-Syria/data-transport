@@ -112,6 +112,13 @@ Logistics Cluster Syria coordination meeting status snapshots use the 30 April
 border crossings, ports, and airports. They do not change the canonical
 `operationalStatus` values in `data/locations.json`.
 
+Logistics Cluster Middle East regional coordination meeting status snapshots
+use the 21 May 2026 meeting minutes, published/revised on `2026-05-25` and
+reviewed on `2026-07-08T10:33:17.978Z`. The 2 imported rows are dated airport
+observations for Damascus International Airport and Aleppo International
+Airport. The same source's future BCP expansion and airport rehabilitation
+timeline statements remain held.
+
 Logistics Cluster regional supply-route status and route snapshots use the 25
 May 2026 regional Middle East supply-route snapshot, published/revised on
 `2026-05-25` and reviewed on `2026-07-08T10:12:08.051Z`. The 5 imported status

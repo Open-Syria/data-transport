@@ -207,8 +207,14 @@ location-level observations: 6 border crossing observations, 2 port
 observations, and 4 airport observations. These rows carry
 `statusAsOf: "2026-04-30"` and source publication/revision date `2026-05-14`.
 
+The Logistics Cluster page "Middle East Regional Coordination Meeting Minutes,
+21 May 2026" was reviewed as a third dated status source. The import accepted 2
+airport observations for Damascus International Airport and Aleppo
+International Airport. These rows carry `statusAsOf: "2026-05-21"` and source
+publication/revision date `2026-05-25`.
+
 The Logistics Cluster page "Supply Routes Snapshot - Regional Middle East - 25
-May 2026" was reviewed as a third dated status source. The import accepted 5
+May 2026" was reviewed as another dated status source. The import accepted 5
 point-location observations for named Syria corridors and ports: Nasib/Jaber,
 Cilvegozu-Bab alHawa, Al Masnaa/Jdidet, Latakia Port, and Tartous Port. These
 rows carry `statusAsOf: "2026-05-25"`.
@@ -225,6 +231,10 @@ held. Al-Yaroubiyah needs an explicit canonical alias or source-backed identity
 review before attaching it to a location ID. Nisibis appears under an Iraq
 crossing bullet while the likely canonical match is the Qamishli/Nusaybin
 Turkey crossing, so it was held rather than imported as a precise status claim.
+
+Future BCP creation/expansion statements and the planned 20 August 2026 airport
+rehabilitation completion date from the 21 May regional meeting minutes remain
+held because they are future claims or require separate identity/status review.
 
 The 25 May regional route snapshot contains duplicated corridor rows,
 alternative Iraq-Syria crossing routes, Red Sea multimodal constraints, Lebanon

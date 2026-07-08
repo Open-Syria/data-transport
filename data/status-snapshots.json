@@ -393,6 +393,42 @@
     "sourceStatus": "seed"
   },
   {
+    "id": "sy-aleppo-international-airport-status-2026-05-21-logistics-cluster",
+    "locationId": "sy-aleppo-international-airport",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-21",
+    "sourceNames": ["Aleppo International Airport"],
+    "statusNote": "Reported operational with cargo handling capacity.",
+    "sourceIds": ["logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21",
+        "sourceRecordId": "2026-05-21:syria-logistics-cluster-update:airports:aleppo",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:33:17.978Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-damascus-international-airport-status-2026-05-21-logistics-cluster",
+    "locationId": "sy-damascus-international-airport",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-21",
+    "sourceNames": ["Damascus International Airport"],
+    "statusNote": "Reported operational with cargo handling capacity.",
+    "sourceIds": ["logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21",
+        "sourceRecordId": "2026-05-21:syria-logistics-cluster-update:airports:damascus",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:33:17.978Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
     "id": "sy-nasib-border-crossing-status-2026-05-25-logistics-cluster",
     "locationId": "sy-nasib-border-crossing",
     "observedStatus": "active",

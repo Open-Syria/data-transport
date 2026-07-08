@@ -62,7 +62,7 @@ The first seed contains 90 locations:
 - 2 border crossing records with reviewed Wikidata identifier enrichment.
 - 3 public railway station records from reviewed Wikidata station items.
 - 5 public road transit terminal records from reviewed GeoNames `TRANT` rows.
-- 26 dated status snapshots from Logistics Cluster updates, covering border
+- 28 dated status snapshots from Logistics Cluster updates, covering border
   crossings, main ports, and airports.
 - 5 dated route snapshots from the Logistics Cluster 2026-05-25 regional
   supply-route snapshot, published without geometry or live routing details.

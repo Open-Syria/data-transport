@@ -165,6 +165,22 @@
     "notes": "Use only for dated point-location status snapshots where a route table names an existing canonical crossing or port. Route geometry, lead times, and corridor modeling require a separate route dataset review."
   },
   {
+    "id": "logistics-cluster-middle-east-regional-coordination-minutes-2026-05-21",
+    "title": "Middle East Regional Coordination Meeting Minutes, 21 May 2026",
+    "url": "https://logcluster.org/en/documents/middle-east-regional-coordination-meeting-minutes-21-may-2026",
+    "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+    "licenseUrl": "https://logcluster.org/en/terms-use",
+    "status": "approved",
+    "fields": [
+      "airport status observations",
+      "source airport names",
+      "source meeting date",
+      "source publication date",
+      "cargo handling capacity notes"
+    ],
+    "notes": "Use only as dated status snapshot evidence from the 21 May 2026 Middle East regional coordination meeting. Do not use this source to overwrite stable location identity or infer live access beyond the meeting date. Future BCP expansion and airport rehabilitation statements require separate review."
+  },
+  {
     "id": "nga-world-port-index",
     "title": "NGA World Port Index (Pub 150)",
     "url": "https://msi.nga.mil/Publications/WPI",

@@ -84,12 +84,14 @@ location records from the first transport import:
   crossing enrichments.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
-- `data/status-snapshots.json` contains 26 dated status observations from
+- `data/status-snapshots.json` contains 28 dated status observations from
   Logistics Cluster updates: 9 border crossing observations from 2026-03-09,
   12 crossing, port, and airport observations from the 2026-04-30 Syria
-  coordination meeting, and 5 crossing/port observations from the 2026-05-25
-  regional supply-route snapshot. These are matched to existing canonical
-  records without changing stable location `operationalStatus` values.
+  coordination meeting, 2 airport observations from the 2026-05-21 Middle East
+  regional coordination meeting, and 5 crossing/port observations from the
+  2026-05-25 regional supply-route snapshot. These are matched to existing
+  canonical records without changing stable location `operationalStatus`
+  values.
 - `data/route-snapshots.json` contains 5 dated high-level route and corridor
   observations from the 2026-05-25 regional supply-route snapshot. These
   publish source-backed origin/destination labels, matched location IDs, status

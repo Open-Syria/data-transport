@@ -18,7 +18,8 @@ included only as inactive historical references. Held rows remain in local
 maintainer review outputs.
 
 Dated status snapshots are reviewed separately from stable location records.
-The first three status snapshot batches use Logistics Cluster 2026-03-09 border
-crossing evidence, 2026-04-30 Syria coordination meeting evidence, and
-2026-05-25 regional supply-route evidence. They do not change canonical location
-`operationalStatus` values.
+The first four status snapshot batches use Logistics Cluster 2026-03-09 border
+crossing evidence, 2026-04-30 Syria coordination meeting evidence, 2026-05-21
+Middle East regional coordination meeting evidence, and 2026-05-25 regional
+supply-route evidence. They do not change canonical location `operationalStatus`
+values.

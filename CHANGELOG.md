@@ -59,3 +59,5 @@
 - Added a dated route snapshot schema, release artifacts, and 5 high-level
   Logistics Cluster route/corridor observations from the 25 May 2026 regional
   supply-route snapshot.
+- Added 2 additional Logistics Cluster airport status snapshots from the 21 May
+  2026 Middle East regional coordination meeting.
