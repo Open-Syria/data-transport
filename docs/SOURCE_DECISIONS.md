@@ -76,6 +76,13 @@ records use `operationalStatus: "unknown"` and do not publish live service
 availability. Wikidata items with missing English labels or unclear
 facility-level identity remain held.
 
+A follow-up Wikidata port modeling review held port-specific Wikidata items for
+Latakia, Baniyas, and Tartus because the current main seaport records already
+combine source-backed UN/LOCODE, WPI, GeoNames, and locality identity. Adding
+those as separate records would require a broader locality-versus-facility
+modeling split. The Tartus naval base Wikidata item was rejected as
+military/sensitive and out of scope.
+
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,
@@ -121,6 +128,10 @@ records with `externalIds.worldPortIndex` and WPI port-specific coordinates.
 No new standalone maritime records were added from WPI. Tartus Oil Terminal was
 left as a separate UN/LOCODE-backed record because WPI models Tartus as the main
 port with oil-terminal facilities rather than a distinct terminal identity.
+
+Do not add duplicate port-specific records for Latakia, Baniyas, or Tartus until
+the dataset has a deliberate model for separating city/trade-location records
+from physical port facility records.
 
 ## OpenSyria Data Geography
 

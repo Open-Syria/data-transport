@@ -44,3 +44,5 @@
 - Repaired corrupted question-mark placeholders in maritime Arabic labels,
   GeoNames transliteration aliases, and the Meidan Ekbis neighboring-country
   alias.
+- Reviewed port-specific Wikidata items for Latakia, Baniyas, and Tartus and
+  held them pending a locality-versus-facility port modeling split.

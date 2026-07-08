@@ -77,6 +77,11 @@ terminals. Add new records only for clear public railway-station identities, and
 keep operational status `unknown` unless an approved non-live status source
 supports a different value.
 
+Wikidata port-specific items should be held when they duplicate existing main
+seaport records that already carry UN/LOCODE, WPI, and GeoNames identifiers.
+Do not split city/trade-location records from physical port facility records
+without updating the schema, docs, and release expectations together.
+
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.
