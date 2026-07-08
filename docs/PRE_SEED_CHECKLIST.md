@@ -16,3 +16,8 @@ OpenSyria Data Geography, GeoNames Syria, Wikidata, NGA World Port Index, and
 HIU/Stanford/HDX border crossing data. Reviewed GeoNames abandoned rail rows are
 included only as inactive historical references. Held rows remain in local
 maintainer review outputs.
+
+Dated status snapshots are reviewed separately from stable location records.
+The first status snapshot batch uses Logistics Cluster 2026-03-09 border
+crossing evidence and does not change canonical location `operationalStatus`
+values.

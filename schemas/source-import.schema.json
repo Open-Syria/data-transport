@@ -81,7 +81,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["data/locations.json", "data/sources.json"]
+        "enum": ["data/locations.json", "data/sources.json", "data/status-snapshots.json"]
       },
       "minItems": 1,
       "uniqueItems": true

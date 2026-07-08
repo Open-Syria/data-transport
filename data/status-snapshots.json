@@ -1,0 +1,173 @@
+[
+  {
+    "id": "sy-judaydat-yabus-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-judaydat-yabus-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Al Masnaa", "Jdidet Yabus"],
+    "statusNote": "Operational 24/7 for both civilian and commercial movements.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:01",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-ash-shaykh-jabir-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-ash-shaykh-jabir-border-crossing",
+    "observedStatus": "limited",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Sheikh Jaber", "El Aarida"],
+    "statusNote": "Movement was limited to pedestrian traffic and one direction from Lebanon into Syria.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:02",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-riblah-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-riblah-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Jousiyeh", "El Qaa"],
+    "statusNote": "Operational 24/7 on both sides.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:03",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-bab-al-hawa-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-bab-al-hawa-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Turkey - Syria",
+    "sourceNames": ["Bab Elhawa", "Cilvegozu"],
+    "statusNote": "Operational for civilian and commercial movements.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:04",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-bab-al-salam-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-bab-al-salam-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Turkey - Syria",
+    "sourceNames": ["Bab Alsalameh", "Oncupinar"],
+    "statusNote": "Operational.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:05",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-rai-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-al-rai-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Turkey - Syria",
+    "sourceNames": ["Al Raee", "Cobanbey"],
+    "statusNote": "Operational.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:06",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-peshakapor-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-peshakapor-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Iraq - Syria",
+    "sourceNames": ["Simalka", "Fishkhabour"],
+    "statusNote": "Open.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:07",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-abu-kamal-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-abu-kamal-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Iraq - Syria",
+    "sourceNames": ["Al Qae'm", "Abu Kamal"],
+    "statusNote": "Open.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:08",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-nasib-border-crossing-status-2026-03-09-logistics-cluster",
+    "locationId": "sy-nasib-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-03-09",
+    "countryPair": "Jordan - Syria",
+    "sourceNames": ["Nasib", "Jaber"],
+    "statusNote": "Operational 24/7 for civilian and commercial movements.",
+    "sourceIds": ["logistics-cluster-syria-access-2026-03-09"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-syria-access-2026-03-09",
+        "sourceRecordId": "2026-03-09:border-status:09",
+        "sourceRecordDate": "2026-03-09",
+        "accessedAt": "2026-07-08T09:25:11.490Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  }
+]

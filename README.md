@@ -6,7 +6,8 @@
 [![pnpm 11](https://img.shields.io/badge/pnpm-11-F69220?logo=pnpm&logoColor=white)](package.json)
 
 OpenSyria Data Transport is the canonical repository for public, non-personal
-Syrian transport and trade location reference data.
+Syrian transport and trade location reference data, plus dated public status
+snapshots when a reviewed source supports them.
 
 The repository publishes versioned release artifacts consumed by
 [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on
@@ -24,6 +25,8 @@ Approved scope may include:
 - stable public identifiers such as IATA, ICAO, UN/LOCODE, GeoNames, and
   Wikidata IDs,
 - source-backed coordinates and administrative links when safe to publish.
+- dated status snapshots for public transport locations when separated from
+  stable location identity.
 
 Out of scope:
 
@@ -42,7 +45,7 @@ This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
 The canonical `data/locations.json` file currently contains 90 reviewed seed
-records from the first transport import:
+location records from the first transport import:
 
 - 6 public civil/reference airport records from OurAirports,
 - 7 standalone UN/LOCODE transport and trade locations,
@@ -79,6 +82,10 @@ records from the first transport import:
   crossing enrichments.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
+- `data/status-snapshots.json` contains 9 dated border crossing status
+  observations from the Logistics Cluster 2026-03-09 Syria access update,
+  matched to existing canonical border crossing records without changing
+  stable location `operationalStatus` values.
 
 Held source rows remain in local maintainer review outputs and are not part of
 the canonical dataset.
@@ -89,9 +96,11 @@ the canonical dataset.
 data/
   locations.json
   sources.json
+  status-snapshots.json
 schemas/
   locations.schema.json
   sources.schema.json
+  status-snapshots.schema.json
   source-import.schema.json
   release-manifest.schema.json
 scripts/
@@ -140,7 +149,9 @@ Generated files should not be edited directly.
 Every canonical record must be traceable to approved reusable public sources.
 Use `sourceIds` for the approved source list and `sourceReferences` for dated
 source evidence such as access timestamps, source row identifiers, and upstream
-row dates.
+row dates. Current or recent operating evidence belongs in
+`status-snapshots.json` with `statusAsOf`, not in stable location identity
+unless a maintainer explicitly approves a location-level status change.
 
 Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, NGA
 World Port Index, HIU/Stanford and HDX public-domain border crossing data, and

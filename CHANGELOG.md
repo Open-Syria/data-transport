@@ -49,3 +49,6 @@
 - Added 2 exact Wikidata border crossing enrichments for existing public
   crossing records and documented held neighboring-side/checkpoint candidates.
 - Added 5 reviewed GeoNames public road transit terminal records.
+- Added a dated status snapshot schema, release artifacts, and 9 Logistics
+  Cluster border crossing status observations from the 2026-03-09 Syria access
+  update.

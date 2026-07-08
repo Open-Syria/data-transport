@@ -4,11 +4,13 @@ import {
   ensureKnownSources,
   ensureLocationQuality,
   ensurePublicationTextChecksPass,
+  ensureStatusSnapshotQuality,
   ensureUnique,
   locationRecordSchema,
   parseJsonArray,
   readJson,
   sourceRecordSchema,
+  statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
 
 const root = process.cwd();
@@ -43,10 +45,16 @@ async function loadData(dataDirectory) {
     await readJson(path.join(dataDirectory, 'locations.json')),
     'locations',
   );
+  const statusSnapshots = parseJsonArray(
+    statusSnapshotRecordSchema,
+    await readJson(path.join(dataDirectory, 'status-snapshots.json')),
+    'statusSnapshots',
+  );
 
   return {
     locations,
     sources,
+    statusSnapshots,
   };
 }
 
@@ -54,9 +62,12 @@ function validateData(data) {
   ensurePublicationTextChecksPass(data, 'data');
   ensureUnique(data.sources, (source) => source.id, 'sources');
   ensureUnique(data.locations, (record) => record.id, 'locations');
+  ensureUnique(data.statusSnapshots, (record) => record.id, 'statusSnapshots');
   ensureKnownSources(data.locations, data.sources, 'location');
+  ensureKnownSources(data.statusSnapshots, data.sources, 'statusSnapshot');
   ensureAliasQuality(data.locations, 'location');
   ensureLocationQuality(data.locations);
+  ensureStatusSnapshotQuality(data.statusSnapshots, data.locations);
 }
 
 const dataDirectory = getDataDirectory();
@@ -72,6 +83,7 @@ console.log(
       counts: {
         locations: data.locations.length,
         sources: data.sources.length,
+        statusSnapshots: data.statusSnapshots.length,
       },
     },
     null,

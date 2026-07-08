@@ -7,6 +7,8 @@ Thank you for helping improve OpenSyria transport data.
 - correct a public transport or trade location record,
 - add a missing public reference location within the approved scope,
 - improve names, aliases, source attribution, coordinates, or external IDs,
+- add dated status snapshots when a maintainer-approved public source supports
+  the `statusAsOf` date,
 - document uncertainty or source conflicts,
 - improve examples, schemas, or validation when maintainer-approved.
 
@@ -18,7 +20,7 @@ Do not add:
 - private addresses or contact details,
 - checkpoint or surveillance-related data,
 - military-only or tactical transport locations,
-- live operational status,
+- live operational status or undated status claims,
 - proprietary map data,
 - data from sources that do not allow redistribution.
 
@@ -28,7 +30,8 @@ Do not add:
    `contributions/README.md`.
 2. Keep the edit focused.
 3. Use approved public sources and include source IDs plus dated
-   `sourceReferences`.
+   `sourceReferences`. For status snapshots, include `statusAsOf` and keep the
+   edit separate from stable location identity.
 4. Run:
 
    ```bash

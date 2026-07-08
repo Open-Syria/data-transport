@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-transport/status-snapshots.schema.json",
+  "title": "OpenSyria Transport Status Snapshots",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "locationId",
+      "observedStatus",
+      "statusAsOf",
+      "sourceNames",
+      "statusNote",
+      "sourceIds",
+      "sourceReferences",
+      "sourceStatus"
+    ],
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/id"
+      },
+      "locationId": {
+        "$ref": "#/$defs/id"
+      },
+      "observedStatus": {
+        "type": "string",
+        "enum": ["active", "limited", "closed", "inactive", "unknown"]
+      },
+      "statusAsOf": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      },
+      "countryPair": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sourceNames": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "statusNote": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sourceIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "sourceReferences": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/sourceReference"
+        },
+        "minItems": 1
+      },
+      "sourceStatus": {
+        "type": "string",
+        "enum": ["pending_release", "seed", "released", "deprecated"]
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^sy-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "accessedAt"],
+      "properties": {
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordDate": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?$"
+        },
+        "accessedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

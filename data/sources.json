@@ -117,6 +117,21 @@
     "notes": "Archived HDX mirror of U.S. Department of State Humanitarian Information Unit border crossing data. Use as stable public reference data only; do not infer live crossing status."
   },
   {
+    "id": "logistics-cluster-syria-access-2026-03-09",
+    "title": "Syria - Border-crossings, airports and ports updates, 9 March 2026",
+    "url": "https://logcluster.org/en/alerts/syria-border-crossings-airports-and-ports-updates-9-march-2026",
+    "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+    "licenseUrl": "https://logcluster.org/en/terms-use",
+    "status": "approved",
+    "fields": [
+      "border crossing status observations",
+      "source crossing names",
+      "country pairs",
+      "source publication date"
+    ],
+    "notes": "Use only as dated status snapshot evidence. Do not use this source to overwrite stable crossing identity or infer live access beyond the source publication date."
+  },
+  {
     "id": "nga-world-port-index",
     "title": "NGA World Port Index (Pub 150)",
     "url": "https://msi.nga.mil/Publications/WPI",

@@ -148,6 +148,21 @@ export const locationRecordSchema = z
   })
   .strict();
 
+export const statusSnapshotRecordSchema = z
+  .object({
+    id: idSchema,
+    locationId: idSchema,
+    observedStatus: z.enum(['active', 'limited', 'closed', 'inactive', 'unknown']),
+    statusAsOf: z.string().regex(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/),
+    countryPair: z.string().trim().min(1).optional(),
+    sourceNames: z.array(z.string().trim().min(1)).min(1),
+    statusNote: z.string().trim().min(1),
+    sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
+    sourceStatus: sourceStatusSchema,
+  })
+  .strict();
+
 export const releaseManifestSourceSchema = z
   .object({
     id: z.string().trim().min(1),
@@ -184,7 +199,7 @@ export const releaseReadinessCheckSchema = z
 
 export const releaseReadinessDomainSchema = z
   .object({
-    name: z.literal('locations'),
+    name: z.enum(['locations', 'status_snapshots']),
     status: z.enum(['ready', 'partial', 'empty', 'blocked']),
     recordCount: z.number().int().nonnegative(),
     notes: z.string().trim().min(1),
@@ -256,7 +271,9 @@ export const sourceImportManifestSchema = z
         .strict(),
     ),
     importedFields: z.array(z.string().trim().min(1)).min(1),
-    targetFiles: z.array(z.enum(['data/locations.json', 'data/sources.json'])).min(1),
+    targetFiles: z
+      .array(z.enum(['data/locations.json', 'data/sources.json', 'data/status-snapshots.json']))
+      .min(1),
     transforms: z.array(z.string().trim().min(1)).min(1),
     reviewNotes: z.string().trim().min(1),
   })
@@ -462,13 +479,48 @@ export function ensureLocationQuality(records) {
 }
 
 function ensureSourceReferenceQuality(records) {
+  ensureRequiredSourceReferences(records, 'locations');
+}
+
+export function ensureStatusSnapshotQuality(records, locations) {
+  const locationIds = new Set(locations.map((location) => location.id));
+  const seenObservationKeys = new Set();
+
+  for (const record of records) {
+    if (!locationIds.has(record.locationId)) {
+      throw new Error(
+        `statusSnapshots ${record.id} references unknown location: ${record.locationId}`,
+      );
+    }
+
+    const observationKey = [
+      record.locationId,
+      record.statusAsOf,
+      record.sourceReferences
+        .map((reference) => reference.sourceRecordId ?? reference.sourceId)
+        .join('|'),
+    ].join('|');
+
+    if (seenObservationKeys.has(observationKey)) {
+      throw new Error(
+        `statusSnapshots ${record.id} duplicates status observation: ${observationKey}`,
+      );
+    }
+
+    seenObservationKeys.add(observationKey);
+  }
+
+  ensureRequiredSourceReferences(records, 'statusSnapshots');
+}
+
+function ensureRequiredSourceReferences(records, label) {
   for (const record of records) {
     const referenceSourceIds = new Set();
 
     for (const reference of record.sourceReferences) {
       if (referenceSourceIds.has(reference.sourceId)) {
         throw new Error(
-          `locations ${record.id} contains duplicate source reference: ${reference.sourceId}`,
+          `${label} ${record.id} contains duplicate source reference: ${reference.sourceId}`,
         );
       }
 
@@ -478,7 +530,7 @@ function ensureSourceReferenceQuality(records) {
     for (const sourceId of record.sourceIds) {
       if (!referenceSourceIds.has(sourceId)) {
         throw new Error(
-          `locations ${record.id} sourceIds contains source without sourceReferences entry: ${sourceId}`,
+          `${label} ${record.id} sourceIds contains source without sourceReferences entry: ${sourceId}`,
         );
       }
     }

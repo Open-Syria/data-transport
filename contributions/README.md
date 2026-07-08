@@ -21,12 +21,14 @@ Check:
 - add IATA, ICAO, UN/LOCODE, GeoNames, Wikidata, or OurAirports identifiers,
 - connect a record to an existing OpenSyria geography ID when the relationship
   is source-backed.
+- add a dated status snapshot when it points to an existing canonical
+  `locationId` and has a reviewed `statusAsOf` source date.
 
 ## Safety Review
 
 Hold a record for maintainer review if it is military-only, tactical, a
-checkpoint, recently operational, or ambiguous enough that publication could
-cause safety issues.
+checkpoint, undated status, recently operational without a source date, or
+ambiguous enough that publication could cause safety issues.
 
 ## Validation
 

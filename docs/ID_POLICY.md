@@ -19,3 +19,12 @@ External IDs belong in `externalIds`, not in the OpenSyria `id`.
 
 Source row identifiers belong in `sourceReferences[].sourceRecordId`, not in
 the OpenSyria `id`.
+
+Status snapshot IDs extend the location ID with the observation date and source
+slug:
+
+```text
+sy-<stable-location-name>-status-YYYY-MM-DD-<source-slug>
+```
+
+Snapshot IDs identify a dated observation, not a new real-world location.

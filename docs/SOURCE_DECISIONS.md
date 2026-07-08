@@ -190,3 +190,24 @@ The Meidan Ekbis neighboring-country alias was later normalized from a corrupted
 HDX character placeholder to the English-searchable Islahiye spelling.
 
 The HDX 2015 rows for `Hadallat (Tower 30/31)` and `Tower 22` remain held.
+
+## Logistics Cluster
+
+Status: approved for dated status snapshots from the reviewed 2026-03-09 Syria
+access update only.
+
+The Logistics Cluster page "Syria - Border-crossings, airports and ports
+updates, 9 March 2026" was reviewed as recent, public status evidence. The
+import accepted 9 source status rows that matched existing canonical border
+crossing records by source names and aliases. The imported rows live in
+`data/status-snapshots.json` and carry `statusAsOf: "2026-03-09"`.
+
+The import did not add new crossing identities and did not change
+`data/locations.json` `operationalStatus` values. Canonical crossing identity
+continues to come from stable HIU/HDX reference sources and reviewed
+enrichments.
+
+The source terms allow use for humanitarian or related non-profit/academic
+purposes with attribution. Keep this limitation visible in `data/sources.json`
+and the import manifest, and re-review terms before broad redistribution or
+commercial use.

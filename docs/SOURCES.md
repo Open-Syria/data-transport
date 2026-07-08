@@ -14,6 +14,7 @@ Preferred source families:
 - NGA World Port Index for public maritime identifiers and port coordinates,
 - HIU/Stanford and HDX public-domain border crossing data for stable crossing
   reference points,
+- Logistics Cluster dated access updates for reviewed status snapshots only,
 - official public sources with clear reuse terms.
 
 Do not import from:
@@ -21,7 +22,8 @@ Do not import from:
 - Google Maps or other proprietary map databases,
 - sources with unclear licensing,
 - no-redistribution or permission-required sources,
-- non-commercial-only sources when broad reuse is required,
+- non-commercial-only sources for stable location facts or broad reuse unless a
+  source-specific maintainer decision records the limitation,
 - scraped sources whose terms do not allow dataset redistribution.
 
 OpenStreetMap-derived data requires an explicit ODbL review before use in
@@ -62,6 +64,9 @@ The first canonical seed uses:
 - HIU/Stanford public-domain data for stable border crossing reference records.
 - HDX's archived 2015 HIU border crossing CSV for Syrian-side crossing names,
   coordinates, and dated source cross-checks.
+- Logistics Cluster's 2026-03-09 Syria access update for 9 dated border
+  crossing status snapshots. This source has reuse limitations recorded in the
+  source registry and is used only as dated status evidence.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.

@@ -22,6 +22,7 @@ Validation fails on:
 - records that reference unknown sources,
 - records that reference non-approved sources,
 - records whose `sourceIds` and `sourceReferences` do not match,
+- status snapshots that reference unknown location IDs,
 - duplicate aliases within a record,
 - aliases that duplicate canonical names,
 - duplicate external identifiers where uniqueness is expected.
@@ -34,6 +35,8 @@ external IDs are acceptable when no approved public source supports them.
 As of the current seed snapshot:
 
 - 90 transport location records pass schema and source validation.
+- 9 dated status snapshot records pass schema, source, and location-reference
+  validation.
 - 90 records have source-backed coordinates.
 - 63 records have external IDs.
 - 90 records have dated source references.
@@ -57,6 +60,8 @@ As of the current seed snapshot:
 - 2 border crossing records have reviewed Wikidata identifiers and Arabic
   names from exact public crossing matches.
 - 3 public railway station records come from reviewed Wikidata station items.
+- 9 border crossing status snapshots come from the Logistics Cluster
+  2026-03-09 Syria access update.
 
 Operational status is currently `unknown` for 85 records and `inactive` for the
 5 abandoned GeoNames railroad station references. The dataset does not publish

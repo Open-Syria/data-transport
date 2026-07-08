@@ -1,0 +1,21 @@
+[
+  {
+    "id": "sy-fixture-transport-location-status-2026-07-08-fixture-source",
+    "locationId": "sy-fixture-transport-location",
+    "observedStatus": "unknown",
+    "statusAsOf": "2026-07-08",
+    "countryPair": "Fixture - Syria",
+    "sourceNames": ["Fixture Transport Location"],
+    "statusNote": "Fixture dated status observation.",
+    "sourceIds": ["fixture-source"],
+    "sourceReferences": [
+      {
+        "sourceId": "fixture-source",
+        "sourceRecordId": "fixture-status-2026-07-08",
+        "sourceRecordDate": "2026-07-08",
+        "accessedAt": "2026-07-08T00:00:00.000Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  }
+]

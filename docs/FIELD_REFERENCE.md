@@ -22,3 +22,18 @@
 | `sourceReferences[].accessedAt` | ISO timestamp for when the source data used by this record was accessed or reviewed. |
 | `sourceStatus` | Release lifecycle status for the record. |
 | `notes` | Maintainer review notes for uncertainty or scope decisions. |
+
+## Status Snapshot Fields
+
+| Field | Description |
+| --- | --- |
+| `id` | Stable snapshot ID such as `sy-nasib-border-crossing-status-2026-03-09-logistics-cluster`. |
+| `locationId` | Existing canonical transport location ID that the observation describes. |
+| `observedStatus` | Dated observed status: `active`, `limited`, `closed`, `inactive`, or `unknown`. |
+| `statusAsOf` | Day-level date for the observation. Status snapshots require this field. |
+| `countryPair` | Optional country pair or corridor label from the source context. |
+| `sourceNames` | Source-provided names used to match the observation to a canonical location. |
+| `statusNote` | Concise source-backed note explaining the observed status. |
+| `sourceIds` | Approved sources supporting the snapshot. |
+| `sourceReferences` | Dated source evidence for each `sourceIds` entry. |
+| `sourceStatus` | Release lifecycle status for the snapshot. |

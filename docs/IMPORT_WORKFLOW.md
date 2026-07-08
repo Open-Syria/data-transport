@@ -2,7 +2,8 @@
 
 1. Add or update a source manifest under `imports/manifests/`.
 2. Store ignored raw files under `imports/raw/`.
-3. Normalize records into `data/locations.json`.
+3. Normalize stable location records into `data/locations.json`, or dated
+   observations into `data/status-snapshots.json`.
 4. Add or update source entries in `data/sources.json`.
 5. Add dated `sourceReferences` for every `sourceIds` entry.
 6. Run validation and reports.
@@ -33,6 +34,12 @@ opensyria-automation export-transport-geonames-seed \
   --input ../data-transport/data/locations.json \
   --output ../data-transport/data/locations.json \
   --gaps-output outputs/transport/geonames-review-gaps.json
+
+opensyria-automation review-transport-border-status \
+  --locations ../data-transport/data/locations.json \
+  --output outputs/transport/border-status-review-report.json \
+  --markdown-output outputs/transport/border-status-review-report.md \
+  --raw-dir outputs/transport/raw
 ```
 
 The local gaps files are the review queues for held source rows.
@@ -107,6 +114,12 @@ represent stable public transit terminal locations. Keep live departures,
 routes, schedules, accessibility, and service status out of canonical records.
 Add OpenSyria geography locality links only when the terminal name and
 coordinates make the locality match clear.
+
+Logistics Cluster access update rows may be imported only as dated status
+snapshots after matching them to existing canonical location IDs. Store
+`statusAsOf`, source names, status notes, and dated `sourceReferences` in
+`data/status-snapshots.json`; do not overwrite location `operationalStatus`
+from time-bound evidence.
 
 The HIU/Stanford and HDX border crossing batches import stable historical
 reference points only. Do not use them to publish live opening hours, current

@@ -5,6 +5,7 @@ import {
   parseJsonArray,
   readJson,
   sourceRecordSchema,
+  statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
 
 const root = process.cwd();
@@ -46,6 +47,11 @@ async function loadData() {
       sourceRecordSchema,
       await readJson(path.join(dataDirectory, 'sources.json')),
       'sources',
+    ),
+    statusSnapshots: parseJsonArray(
+      statusSnapshotRecordSchema,
+      await readJson(path.join(dataDirectory, 'status-snapshots.json')),
+      'statusSnapshots',
     ),
   };
 }
@@ -123,6 +129,35 @@ function buildLocationCoverage(data) {
   };
 }
 
+function buildStatusSnapshotCoverage(data) {
+  return {
+    total: data.statusSnapshots.length,
+    fields: {
+      statusAsOf: fieldMetric('Status as-of date', 'high', data.statusSnapshots, (record) =>
+        hasText(record.statusAsOf),
+      ),
+      sourceReferences: fieldMetric(
+        'Dated source references',
+        'high',
+        data.statusSnapshots,
+        (record) => record.sourceReferences.length > 0,
+      ),
+      sourceRecordDate: fieldMetric('Source record date', 'high', data.statusSnapshots, (record) =>
+        record.sourceReferences.some((reference) => reference.sourceRecordDate),
+      ),
+      sourceNames: fieldMetric(
+        'Source names',
+        'medium',
+        data.statusSnapshots,
+        (record) => record.sourceNames.length > 0,
+      ),
+      statusNote: fieldMetric('Status note', 'medium', data.statusSnapshots, (record) =>
+        hasText(record.statusNote),
+      ),
+    },
+  };
+}
+
 function buildContributionFocus(report) {
   if (report.locations.total === 0) {
     return [];
@@ -145,6 +180,24 @@ function buildContributionFocus(report) {
         },
       ];
     })
+    .concat(
+      Object.entries(report.statusSnapshots.fields).flatMap(([fieldId, field]) => {
+        if (field.actionableMissing === 0) {
+          return [];
+        }
+
+        return [
+          {
+            priority: field.priority,
+            area: `statusSnapshots.${fieldId}`,
+            title: `Improve ${field.label.toLowerCase()} coverage`,
+            count: field.actionableMissing,
+            recordIds: field.actionableMissingRecordIds,
+            action: buildFieldAction(field.label),
+          },
+        ];
+      }),
+    )
     .sort((left, right) => priorityWeight(right.priority) - priorityWeight(left.priority));
 }
 
@@ -174,6 +227,7 @@ function buildDatasetCounts(data) {
   return {
     sources: data.sources.length,
     locations: data.locations.length,
+    statusSnapshots: data.statusSnapshots.length,
   };
 }
 
@@ -199,6 +253,21 @@ function buildMarkdown(report) {
     markdownTable(
       ['Field', 'Expected', 'Present', 'Missing', 'Actionable missing', 'Coverage', 'Examples'],
       Object.values(report.locations.fields).map((field) => [
+        field.label,
+        field.expected,
+        field.present,
+        field.missing,
+        field.actionableMissing,
+        coverageCell(field),
+        sampleIds(field.actionableMissingRecordIds),
+      ]),
+    ),
+    '',
+    '## Status Snapshot Coverage',
+    '',
+    markdownTable(
+      ['Field', 'Expected', 'Present', 'Missing', 'Actionable missing', 'Coverage', 'Examples'],
+      Object.values(report.statusSnapshots.fields).map((field) => [
         field.label,
         field.expected,
         field.present,
@@ -291,6 +360,7 @@ const report = {
   dataDirectory: path.relative(root, dataDirectory).replaceAll('\\', '/'),
   counts: buildDatasetCounts(data),
   locations: buildLocationCoverage(data),
+  statusSnapshots: buildStatusSnapshotCoverage(data),
 };
 
 report.contributionFocus = buildContributionFocus(report);

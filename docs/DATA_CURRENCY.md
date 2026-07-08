@@ -14,7 +14,12 @@ Fields most likely to change:
 Use `sourceReferences[].accessedAt` to see when the source data was collected or
 reviewed for a record. Use `sourceReferences[].sourceRecordDate` to see the
 upstream row date when the source provides one, such as UN/LOCODE month-level
-dates or GeoNames day-level modification dates.
+dates, GeoNames day-level modification dates, or a dated status update
+publication.
+
+Dated operating evidence belongs in `data/status-snapshots.json` with
+`statusAsOf`. These snapshots are historical observations from public sources,
+not live access data.
 
 Before each release:
 
@@ -22,7 +27,8 @@ Before each release:
 2. Recheck whether OurAirports or UN/LOCODE published newer data.
 3. Update record-level `sourceReferences` when imports are refreshed.
 4. Keep uncertain live status as `unknown`.
-5. Do not publish live route availability or tactical operational status.
+5. Add recent status only as a dated snapshot with source date and review notes.
+6. Do not publish live route availability or tactical operational status.
 
 ## Current Source Access
 
@@ -90,6 +96,12 @@ HDX border crossing enrichment uses the archived public-domain HIU CSV dated
 `2015-06-11`, accessed at `2026-07-07T23:13:40.384Z`. HDX package metadata was
 modified in 2025, but the imported record facts remain historical 2015
 reference data, not live status.
+
+Logistics Cluster border crossing status snapshots use the public Syria access
+update published on `2026-03-09` and reviewed on
+`2026-07-08T09:25:11.490Z`. The 9 imported rows are dated observations only;
+they do not change the canonical `operationalStatus` values in
+`data/locations.json`.
 
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

@@ -1,6 +1,7 @@
 # Releases
 
-Releases publish generated artifacts from canonical JSON files.
+Releases publish generated artifacts from canonical JSON files, including
+location records and dated status snapshots.
 
 Prepare a release:
 
@@ -15,4 +16,3 @@ pnpm run release:build
 ```
 
 Generated files are written to `dist/release/`.
-

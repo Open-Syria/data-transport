@@ -8,6 +8,7 @@ import {
   readJson,
   releaseManifestSchema,
   sourceRecordSchema,
+  statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
 
 const root = process.cwd();
@@ -57,6 +58,28 @@ const datasetConfigs = [
       'latest_source_record_date',
       'source_status',
       'notes',
+    ],
+  },
+  {
+    name: 'status-snapshots',
+    tableName: 'transport_status_snapshots',
+    fileName: 'status-snapshots.json',
+    schema: statusSnapshotRecordSchema,
+    toPublicRecord: toStatusSnapshotPublicRecord,
+    toFlatRow: toStatusSnapshotFlatRow,
+    columns: [
+      'id',
+      'location_id',
+      'observed_status',
+      'status_as_of',
+      'country_pair',
+      'source_names_json',
+      'status_note',
+      'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
+      'source_status',
     ],
   },
 ];
@@ -201,6 +224,38 @@ function toLocationFlatRow(record) {
     latest_source_record_date: latestSourceRecordDate(record),
     source_status: record.sourceStatus,
     notes: record.notes ?? null,
+  };
+}
+
+function toStatusSnapshotPublicRecord(record) {
+  return removeUndefined({
+    id: record.id,
+    locationId: record.locationId,
+    observedStatus: record.observedStatus,
+    statusAsOf: record.statusAsOf,
+    countryPair: record.countryPair,
+    sourceNames: record.sourceNames,
+    statusNote: record.statusNote,
+    sourceIds: record.sourceIds,
+    sourceReferences: record.sourceReferences,
+    sourceStatus: record.sourceStatus,
+  });
+}
+
+function toStatusSnapshotFlatRow(record) {
+  return {
+    id: record.id,
+    location_id: record.locationId,
+    observed_status: record.observedStatus,
+    status_as_of: record.statusAsOf,
+    country_pair: record.countryPair ?? null,
+    source_names_json: stringifyCompactJson(record.sourceNames),
+    status_note: record.statusNote,
+    source_ids_json: stringifyCompactJson(record.sourceIds),
+    source_references_json: stringifyCompactJson(record.sourceReferences),
+    latest_source_accessed_at: latestSourceAccessedAt(record),
+    latest_source_record_date: latestSourceRecordDate(record),
+    source_status: record.sourceStatus,
   };
 }
 
@@ -488,7 +543,10 @@ async function buildDatasetArtifacts(config) {
 
 function buildReleaseReadiness() {
   const locations = datasetRecordsByName.get('locations') ?? [];
+  const statusSnapshots = datasetRecordsByName.get('status-snapshots') ?? [];
   const locationCount = locations.length;
+  const statusSnapshotCount = statusSnapshots.length;
+  const locationIds = new Set(locations.map((record) => record.id));
   const englishNameCount = locations.filter((record) => record.name.en).length;
   const sourcedCount = locations.filter((record) => record.sourceIds.length > 0).length;
   const sourceReferenceCount = locations.filter(
@@ -500,6 +558,13 @@ function buildReleaseReadiness() {
   const coordinatesCount = locations.filter((record) => record.coordinates).length;
   const externalIdCount = locations.filter(
     (record) => Object.keys(record.externalIds).length > 0,
+  ).length;
+  const datedStatusSnapshotCount = statusSnapshots.filter((record) => record.statusAsOf).length;
+  const statusSnapshotReferenceCount = statusSnapshots.filter(
+    (record) => record.sourceReferences.length === record.sourceIds.length,
+  ).length;
+  const statusSnapshotLocationCount = statusSnapshots.filter((record) =>
+    locationIds.has(record.locationId),
   ).length;
   const hardRequirementsPassed =
     locationCount > 0 &&
@@ -562,6 +627,24 @@ function buildReleaseReadiness() {
         notes:
           'External IDs are source-backed enrichment and may be absent for some public locations.',
       },
+      {
+        name: 'status_snapshot_dates',
+        status: datedStatusSnapshotCount === statusSnapshotCount ? 'passed' : 'blocked',
+        expected: statusSnapshotCount,
+        actual: datedStatusSnapshotCount,
+      },
+      {
+        name: 'status_snapshot_location_references',
+        status: statusSnapshotLocationCount === statusSnapshotCount ? 'passed' : 'blocked',
+        expected: statusSnapshotCount,
+        actual: statusSnapshotLocationCount,
+      },
+      {
+        name: 'status_snapshot_source_references',
+        status: statusSnapshotReferenceCount === statusSnapshotCount ? 'passed' : 'blocked',
+        expected: statusSnapshotCount,
+        actual: statusSnapshotReferenceCount,
+      },
     ],
     domains: [
       {
@@ -572,6 +655,15 @@ function buildReleaseReadiness() {
           locationCount > 0
             ? 'Canonical transport location records pass the configured seed requirements.'
             : 'The canonical location file is schema-ready but not populated yet.',
+      },
+      {
+        name: 'status_snapshots',
+        status: statusSnapshotCount > 0 ? 'ready' : 'empty',
+        recordCount: statusSnapshotCount,
+        notes:
+          statusSnapshotCount > 0
+            ? 'Dated status snapshots are published separately from stable location identity.'
+            : 'No dated status snapshots are published yet.',
       },
     ],
     blockers: hardRequirementsPassed ? [] : ['canonical_location_seed_empty_or_incomplete'],

@@ -12,7 +12,7 @@
     }
   ],
   "importedFields": ["names", "coordinates", "identifiers"],
-  "targetFiles": ["data/locations.json", "data/sources.json"],
+  "targetFiles": ["data/locations.json", "data/sources.json", "data/status-snapshots.json"],
   "transforms": [
     "Normalize source identifiers into OpenSyria externalIds.",
     "Keep coordinates null unless a reusable public source supports them."

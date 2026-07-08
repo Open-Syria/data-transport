@@ -26,6 +26,9 @@ The coverage analyzer currently checks:
 - OurAirports identifiers,
 - UN/LOCODE identifiers,
 - Wikidata identifiers.
+- status snapshot as-of dates,
+- status snapshot source names,
+- status snapshot notes.
 
 Generated coverage output should not be committed in normal pull requests.
 
@@ -55,6 +58,8 @@ The first seed contains 90 locations:
 - 2 border crossing records with reviewed Wikidata identifier enrichment.
 - 3 public railway station records from reviewed Wikidata station items.
 - 5 public road transit terminal records from reviewed GeoNames `TRANT` rows.
+- 9 dated border crossing status snapshots from the Logistics Cluster
+  2026-03-09 Syria access update.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, remaining administrative geography links for border crossings and

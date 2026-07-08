@@ -4,6 +4,7 @@ import {
   parseJsonArray,
   readJson,
   sourceRecordSchema,
+  statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
 
 const root = process.cwd();
@@ -53,6 +54,11 @@ async function loadData(dataDirectory) {
       await readJson(path.join(dataDirectory, 'locations.json')),
       'locations',
     ),
+    statusSnapshots: parseJsonArray(
+      statusSnapshotRecordSchema,
+      await readJson(path.join(dataDirectory, 'status-snapshots.json')),
+      'statusSnapshots',
+    ),
   };
 }
 
@@ -97,6 +103,20 @@ function summarizeLocations(locations) {
   };
 }
 
+function summarizeStatusSnapshots(statusSnapshots) {
+  return {
+    count: statusSnapshots.length,
+    byObservedStatus: countBy(statusSnapshots, (record) => record.observedStatus),
+    byStatusAsOf: countBy(statusSnapshots, (record) => record.statusAsOf),
+    bySourceStatus: countBy(statusSnapshots, (record) => record.sourceStatus),
+    withSourceReferences: statusSnapshots.filter((record) => record.sourceReferences.length > 0)
+      .length,
+    withSourceRecordDate: statusSnapshots.filter((record) =>
+      record.sourceReferences.some((reference) => reference.sourceRecordDate),
+    ).length,
+  };
+}
+
 const dataDirectory = getDataDirectory();
 const data = await loadData(dataDirectory);
 
@@ -111,6 +131,7 @@ console.log(
         byLicense: countBy(data.sources, (source) => source.license),
       },
       locations: summarizeLocations(data.locations),
+      statusSnapshots: summarizeStatusSnapshots(data.statusSnapshots),
     },
     null,
     2,

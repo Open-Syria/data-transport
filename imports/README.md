@@ -15,9 +15,12 @@ Every import or planned import should have a manifest under
 - transforms,
 - review notes.
 
+Status-only imports should target `data/status-snapshots.json`, not
+`data/locations.json`, unless a maintainer explicitly approves a stable
+location-level status change.
+
 Validate manifests with:
 
 ```bash
 pnpm run validate:imports
 ```
-
