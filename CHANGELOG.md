@@ -56,3 +56,6 @@
   Syria coordination meeting, covering border crossings, ports, and airports.
 - Added 5 additional Logistics Cluster status snapshots from the 25 May 2026
   regional supply-route snapshot for named Syria crossings and ports.
+- Added a dated route snapshot schema, release artifacts, and 5 high-level
+  Logistics Cluster route/corridor observations from the 25 May 2026 regional
+  supply-route snapshot.

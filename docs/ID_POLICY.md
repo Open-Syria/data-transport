@@ -28,3 +28,13 @@ sy-<stable-location-name>-status-YYYY-MM-DD-<source-slug>
 ```
 
 Snapshot IDs identify a dated observation, not a new real-world location.
+
+Route snapshot IDs use the route or corridor slug, observation date, and source
+slug:
+
+```text
+sy-route-<stable-route-or-corridor-name>-status-YYYY-MM-DD-<source-slug>
+```
+
+Route snapshot IDs identify dated source observations, not route geometry or
+live route availability.

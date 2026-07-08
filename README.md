@@ -7,7 +7,7 @@
 
 OpenSyria Data Transport is the canonical repository for public, non-personal
 Syrian transport and trade location reference data, plus dated public status
-snapshots when a reviewed source supports them.
+and route snapshots when a reviewed source supports them.
 
 The repository publishes versioned release artifacts consumed by
 [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on
@@ -24,9 +24,11 @@ Approved scope may include:
 - UN/LOCODE transport and trade locations,
 - stable public identifiers such as IATA, ICAO, UN/LOCODE, GeoNames, and
   Wikidata IDs,
-- source-backed coordinates and administrative links when safe to publish.
+- source-backed coordinates and administrative links when safe to publish,
 - dated status snapshots for public transport locations when separated from
-  stable location identity.
+  stable location identity,
+- dated high-level route or corridor snapshots without geometry or live routing
+  claims.
 
 Out of scope:
 
@@ -88,6 +90,10 @@ location records from the first transport import:
   coordination meeting, and 5 crossing/port observations from the 2026-05-25
   regional supply-route snapshot. These are matched to existing canonical
   records without changing stable location `operationalStatus` values.
+- `data/route-snapshots.json` contains 5 dated high-level route and corridor
+  observations from the 2026-05-25 regional supply-route snapshot. These
+  publish source-backed origin/destination labels, matched location IDs, status
+  date, and indicative lead time without geometry or live routing instructions.
 
 Held source rows remain in local maintainer review outputs and are not part of
 the canonical dataset.
@@ -97,10 +103,12 @@ the canonical dataset.
 ```text
 data/
   locations.json
+  route-snapshots.json
   sources.json
   status-snapshots.json
 schemas/
   locations.schema.json
+  route-snapshots.schema.json
   sources.schema.json
   status-snapshots.schema.json
   source-import.schema.json
@@ -152,8 +160,10 @@ Every canonical record must be traceable to approved reusable public sources.
 Use `sourceIds` for the approved source list and `sourceReferences` for dated
 source evidence such as access timestamps, source row identifiers, and upstream
 row dates. Current or recent operating evidence belongs in
-`status-snapshots.json` with `statusAsOf`, not in stable location identity
-unless a maintainer explicitly approves a location-level status change.
+`status-snapshots.json` or `route-snapshots.json` with `statusAsOf`, not in
+stable location identity unless a maintainer explicitly approves a
+location-level status change. Route snapshots must remain high-level,
+source-dated, and geometry-free.
 
 Preferred seed sources include OurAirports, UN/LOCODE, Wikidata, GeoNames, NGA
 World Port Index, HIU/Stanford and HDX public-domain border crossing data, and

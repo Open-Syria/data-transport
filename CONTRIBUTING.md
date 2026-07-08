@@ -9,6 +9,9 @@ Thank you for helping improve OpenSyria transport data.
 - improve names, aliases, source attribution, coordinates, or external IDs,
 - add dated status snapshots when a maintainer-approved public source supports
   the `statusAsOf` date,
+- add dated high-level route snapshots when maintainer-approved public source
+  evidence supports the `statusAsOf` date and no geometry or live routing
+  details are included,
 - document uncertainty or source conflicts,
 - improve examples, schemas, or validation when maintainer-approved.
 
@@ -21,6 +24,8 @@ Do not add:
 - checkpoint or surveillance-related data,
 - military-only or tactical transport locations,
 - live operational status or undated status claims,
+- route geometry, convoy information, tactical routing, or live routing
+  instructions,
 - proprietary map data,
 - data from sources that do not allow redistribution.
 
@@ -30,8 +35,8 @@ Do not add:
    `contributions/README.md`.
 2. Keep the edit focused.
 3. Use approved public sources and include source IDs plus dated
-   `sourceReferences`. For status snapshots, include `statusAsOf` and keep the
-   edit separate from stable location identity.
+   `sourceReferences`. For status or route snapshots, include `statusAsOf` and
+   keep the edit separate from stable location identity.
 4. Run:
 
    ```bash

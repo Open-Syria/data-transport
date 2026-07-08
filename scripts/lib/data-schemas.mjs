@@ -163,6 +163,27 @@ export const statusSnapshotRecordSchema = z
   })
   .strict();
 
+export const routeSnapshotRecordSchema = z
+  .object({
+    id: idSchema,
+    name: localizedTextSchema,
+    routeType: z.enum(['corridor', 'route']),
+    transportModes: z.array(transportModeSchema).min(1),
+    observedStatus: z.enum(['active', 'limited', 'disrupted', 'inaccessible', 'unknown']),
+    statusAsOf: z.string().regex(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/),
+    origin: localizedTextSchema,
+    destination: localizedTextSchema,
+    transitCountries: z.array(z.string().trim().min(1)),
+    locationIds: z.array(idSchema).min(1),
+    sourceNames: z.array(z.string().trim().min(1)).min(1),
+    indicativeLeadTime: z.string().trim().min(1).optional(),
+    routeNote: z.string().trim().min(1).optional(),
+    sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
+    sourceStatus: sourceStatusSchema,
+  })
+  .strict();
+
 export const releaseManifestSourceSchema = z
   .object({
     id: z.string().trim().min(1),
@@ -199,7 +220,7 @@ export const releaseReadinessCheckSchema = z
 
 export const releaseReadinessDomainSchema = z
   .object({
-    name: z.enum(['locations', 'status_snapshots']),
+    name: z.enum(['locations', 'route_snapshots', 'status_snapshots']),
     status: z.enum(['ready', 'partial', 'empty', 'blocked']),
     recordCount: z.number().int().nonnegative(),
     notes: z.string().trim().min(1),
@@ -272,7 +293,14 @@ export const sourceImportManifestSchema = z
     ),
     importedFields: z.array(z.string().trim().min(1)).min(1),
     targetFiles: z
-      .array(z.enum(['data/locations.json', 'data/sources.json', 'data/status-snapshots.json']))
+      .array(
+        z.enum([
+          'data/locations.json',
+          'data/route-snapshots.json',
+          'data/sources.json',
+          'data/status-snapshots.json',
+        ]),
+      )
       .min(1),
     transforms: z.array(z.string().trim().min(1)).min(1),
     reviewNotes: z.string().trim().min(1),
@@ -511,6 +539,60 @@ export function ensureStatusSnapshotQuality(records, locations) {
   }
 
   ensureRequiredSourceReferences(records, 'statusSnapshots');
+}
+
+export function ensureRouteSnapshotQuality(records, locations) {
+  const locationIds = new Set(locations.map((location) => location.id));
+  const seenObservationKeys = new Set();
+
+  for (const record of records) {
+    for (const locationId of record.locationIds) {
+      if (!locationIds.has(locationId)) {
+        throw new Error(`routeSnapshots ${record.id} references unknown location: ${locationId}`);
+      }
+    }
+
+    const duplicateLocationIds = duplicates(record.locationIds);
+
+    if (duplicateLocationIds.length > 0) {
+      throw new Error(
+        `routeSnapshots ${record.id} contains duplicate location ID: ${duplicateLocationIds[0]}`,
+      );
+    }
+
+    const observationKey = [
+      record.name.en.toLowerCase(),
+      record.statusAsOf,
+      record.sourceReferences
+        .map((reference) => reference.sourceRecordId ?? reference.sourceId)
+        .join('|'),
+    ].join('|');
+
+    if (seenObservationKeys.has(observationKey)) {
+      throw new Error(
+        `routeSnapshots ${record.id} duplicates route observation: ${observationKey}`,
+      );
+    }
+
+    seenObservationKeys.add(observationKey);
+  }
+
+  ensureRequiredSourceReferences(records, 'routeSnapshots');
+}
+
+function duplicates(values) {
+  const seen = new Set();
+  const duplicateValues = [];
+
+  for (const value of values) {
+    if (seen.has(value)) {
+      duplicateValues.push(value);
+    }
+
+    seen.add(value);
+  }
+
+  return duplicateValues;
 }
 
 function ensureRequiredSourceReferences(records, label) {

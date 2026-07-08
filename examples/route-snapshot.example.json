@@ -1,0 +1,31 @@
+{
+  "id": "sy-example-transport-route-status-2026-07-08-example-source",
+  "name": {
+    "en": "Example Transport Corridor"
+  },
+  "routeType": "corridor",
+  "transportModes": ["road"],
+  "observedStatus": "unknown",
+  "statusAsOf": "2026-07-08",
+  "origin": {
+    "en": "Example Origin"
+  },
+  "destination": {
+    "en": "Example Destination"
+  },
+  "transitCountries": ["Example Transit Country"],
+  "locationIds": ["sy-example-transport-location"],
+  "sourceNames": ["Example Border Crossing"],
+  "indicativeLeadTime": "Example dated lead time",
+  "routeNote": "Example high-level route observation without geometry.",
+  "sourceIds": ["example-source"],
+  "sourceReferences": [
+    {
+      "sourceId": "example-source",
+      "sourceRecordId": "example-route-2026-07-08",
+      "sourceRecordDate": "2026-07-08",
+      "accessedAt": "2026-07-08T00:00:00.000Z"
+    }
+  ],
+  "sourceStatus": "seed"
+}

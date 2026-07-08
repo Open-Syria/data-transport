@@ -21,6 +21,10 @@ Dated operating evidence belongs in `data/status-snapshots.json` with
 `statusAsOf`. These snapshots are historical observations from public sources,
 not live access data.
 
+Dated route or corridor evidence belongs in `data/route-snapshots.json` with
+`statusAsOf`. Route snapshots are historical high-level observations from
+public sources, not live routing guidance, route geometry, or schedule data.
+
 Before each release:
 
 1. Recheck source access dates.
@@ -28,7 +32,8 @@ Before each release:
 3. Update record-level `sourceReferences` when imports are refreshed.
 4. Keep uncertain live status as `unknown`.
 5. Add recent status only as a dated snapshot with source date and review notes.
-6. Do not publish live route availability or tactical operational status.
+6. Do not publish live route availability, route geometry, or tactical
+   operational status.
 
 ## Current Source Access
 
@@ -107,12 +112,14 @@ Logistics Cluster Syria coordination meeting status snapshots use the 30 April
 border crossings, ports, and airports. They do not change the canonical
 `operationalStatus` values in `data/locations.json`.
 
-Logistics Cluster regional supply-route status snapshots use the 25 May 2026
-regional Middle East supply-route snapshot, published/revised on `2026-05-25`
-and reviewed on `2026-07-08T10:12:08.051Z`. The 5 imported rows are
-point-location observations for named crossings and ports only. Route geometry,
-lead times, and ambiguous alternate route rows remain out of the location
-dataset.
+Logistics Cluster regional supply-route status and route snapshots use the 25
+May 2026 regional Middle East supply-route snapshot, published/revised on
+`2026-05-25` and reviewed on `2026-07-08T10:12:08.051Z`. The 5 imported status
+rows are point-location observations for named crossings and ports. The 5
+imported route rows are high-level dated route/corridor observations with
+origin/destination labels, matched location IDs, source names, and indicative
+lead time only. Exact route geometry, ambiguous alternate route rows, tactical
+details, and live routing claims remain out of scope.
 
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

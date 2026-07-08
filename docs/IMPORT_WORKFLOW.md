@@ -2,8 +2,9 @@
 
 1. Add or update a source manifest under `imports/manifests/`.
 2. Store ignored raw files under `imports/raw/`.
-3. Normalize stable location records into `data/locations.json`, or dated
-   observations into `data/status-snapshots.json`.
+3. Normalize stable location records into `data/locations.json`, dated
+   location observations into `data/status-snapshots.json`, or high-level dated
+   route observations into `data/route-snapshots.json`.
 4. Add or update source entries in `data/sources.json`.
 5. Add dated `sourceReferences` for every `sourceIds` entry.
 6. Run validation and reports.
@@ -120,6 +121,13 @@ snapshots after matching them to existing canonical location IDs. Store
 `statusAsOf`, source names, status notes, and dated `sourceReferences` in
 `data/status-snapshots.json`; do not overwrite location `operationalStatus`
 from time-bound evidence.
+
+Logistics Cluster route/corridor rows may be imported only as dated
+`route-snapshots.json` records after matching source crossing or port names to
+existing canonical location IDs. Store source-provided origin/destination
+labels, transit countries, status, source names, and lead-time text only as
+dated context. Do not store route geometry, live routing guidance, tactical
+details, convoy data, or checkpoints.
 
 The HIU/Stanford and HDX border crossing batches import stable historical
 reference points only. Do not use them to publish live opening hours, current

@@ -23,6 +23,7 @@ Validation fails on:
 - records that reference non-approved sources,
 - records whose `sourceIds` and `sourceReferences` do not match,
 - status snapshots that reference unknown location IDs,
+- route snapshots that reference unknown location IDs,
 - duplicate aliases within a record,
 - aliases that duplicate canonical names,
 - duplicate external identifiers where uniqueness is expected.
@@ -36,6 +37,8 @@ As of the current seed snapshot:
 
 - 90 transport location records pass schema and source validation.
 - 26 dated status snapshot records pass schema, source, and location-reference
+  validation.
+- 5 dated route snapshot records pass schema, source, and location-reference
   validation.
 - 90 records have source-backed coordinates.
 - 63 records have external IDs.
@@ -64,6 +67,9 @@ As of the current seed snapshot:
   observations from 2026-03-09, 12 border crossing, port, and airport
   observations from the 2026-04-30 coordination meeting, and 5 crossing/port
   observations from the 2026-05-25 regional supply-route snapshot.
+- 5 route snapshots come from the 2026-05-25 Logistics Cluster regional
+  supply-route snapshot and are published without geometry or live routing
+  instructions.
 
 Operational status is currently `unknown` for 85 records and `inactive` for the
 5 abandoned GeoNames railroad station references. The dataset does not publish

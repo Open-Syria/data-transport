@@ -7,6 +7,7 @@ import {
   parseJsonArray,
   readJson,
   releaseManifestSchema,
+  routeSnapshotRecordSchema,
   sourceRecordSchema,
   statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
@@ -75,6 +76,34 @@ const datasetConfigs = [
       'country_pair',
       'source_names_json',
       'status_note',
+      'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
+      'source_status',
+    ],
+  },
+  {
+    name: 'route-snapshots',
+    tableName: 'transport_route_snapshots',
+    fileName: 'route-snapshots.json',
+    schema: routeSnapshotRecordSchema,
+    toPublicRecord: toRouteSnapshotPublicRecord,
+    toFlatRow: toRouteSnapshotFlatRow,
+    columns: [
+      'id',
+      'name_en',
+      'route_type',
+      'transport_modes_json',
+      'observed_status',
+      'status_as_of',
+      'origin_en',
+      'destination_en',
+      'transit_countries_json',
+      'location_ids_json',
+      'source_names_json',
+      'indicative_lead_time',
+      'route_note',
       'source_ids_json',
       'source_references_json',
       'latest_source_accessed_at',
@@ -251,6 +280,50 @@ function toStatusSnapshotFlatRow(record) {
     country_pair: record.countryPair ?? null,
     source_names_json: stringifyCompactJson(record.sourceNames),
     status_note: record.statusNote,
+    source_ids_json: stringifyCompactJson(record.sourceIds),
+    source_references_json: stringifyCompactJson(record.sourceReferences),
+    latest_source_accessed_at: latestSourceAccessedAt(record),
+    latest_source_record_date: latestSourceRecordDate(record),
+    source_status: record.sourceStatus,
+  };
+}
+
+function toRouteSnapshotPublicRecord(record) {
+  return removeUndefined({
+    id: record.id,
+    name: record.name,
+    routeType: record.routeType,
+    transportModes: record.transportModes,
+    observedStatus: record.observedStatus,
+    statusAsOf: record.statusAsOf,
+    origin: record.origin,
+    destination: record.destination,
+    transitCountries: record.transitCountries,
+    locationIds: record.locationIds,
+    sourceNames: record.sourceNames,
+    indicativeLeadTime: record.indicativeLeadTime,
+    routeNote: record.routeNote,
+    sourceIds: record.sourceIds,
+    sourceReferences: record.sourceReferences,
+    sourceStatus: record.sourceStatus,
+  });
+}
+
+function toRouteSnapshotFlatRow(record) {
+  return {
+    id: record.id,
+    name_en: record.name.en,
+    route_type: record.routeType,
+    transport_modes_json: stringifyCompactJson(record.transportModes),
+    observed_status: record.observedStatus,
+    status_as_of: record.statusAsOf,
+    origin_en: record.origin.en,
+    destination_en: record.destination.en,
+    transit_countries_json: stringifyCompactJson(record.transitCountries),
+    location_ids_json: stringifyCompactJson(record.locationIds),
+    source_names_json: stringifyCompactJson(record.sourceNames),
+    indicative_lead_time: record.indicativeLeadTime ?? null,
+    route_note: record.routeNote ?? null,
     source_ids_json: stringifyCompactJson(record.sourceIds),
     source_references_json: stringifyCompactJson(record.sourceReferences),
     latest_source_accessed_at: latestSourceAccessedAt(record),
@@ -543,8 +616,10 @@ async function buildDatasetArtifacts(config) {
 
 function buildReleaseReadiness() {
   const locations = datasetRecordsByName.get('locations') ?? [];
+  const routeSnapshots = datasetRecordsByName.get('route-snapshots') ?? [];
   const statusSnapshots = datasetRecordsByName.get('status-snapshots') ?? [];
   const locationCount = locations.length;
+  const routeSnapshotCount = routeSnapshots.length;
   const statusSnapshotCount = statusSnapshots.length;
   const locationIds = new Set(locations.map((record) => record.id));
   const englishNameCount = locations.filter((record) => record.name.en).length;
@@ -565,6 +640,13 @@ function buildReleaseReadiness() {
   ).length;
   const statusSnapshotLocationCount = statusSnapshots.filter((record) =>
     locationIds.has(record.locationId),
+  ).length;
+  const datedRouteSnapshotCount = routeSnapshots.filter((record) => record.statusAsOf).length;
+  const routeSnapshotReferenceCount = routeSnapshots.filter(
+    (record) => record.sourceReferences.length === record.sourceIds.length,
+  ).length;
+  const routeSnapshotLocationCount = routeSnapshots.filter((record) =>
+    record.locationIds.every((locationId) => locationIds.has(locationId)),
   ).length;
   const hardRequirementsPassed =
     locationCount > 0 &&
@@ -645,6 +727,24 @@ function buildReleaseReadiness() {
         expected: statusSnapshotCount,
         actual: statusSnapshotReferenceCount,
       },
+      {
+        name: 'route_snapshot_dates',
+        status: datedRouteSnapshotCount === routeSnapshotCount ? 'passed' : 'blocked',
+        expected: routeSnapshotCount,
+        actual: datedRouteSnapshotCount,
+      },
+      {
+        name: 'route_snapshot_location_references',
+        status: routeSnapshotLocationCount === routeSnapshotCount ? 'passed' : 'blocked',
+        expected: routeSnapshotCount,
+        actual: routeSnapshotLocationCount,
+      },
+      {
+        name: 'route_snapshot_source_references',
+        status: routeSnapshotReferenceCount === routeSnapshotCount ? 'passed' : 'blocked',
+        expected: routeSnapshotCount,
+        actual: routeSnapshotReferenceCount,
+      },
     ],
     domains: [
       {
@@ -664,6 +764,15 @@ function buildReleaseReadiness() {
           statusSnapshotCount > 0
             ? 'Dated status snapshots are published separately from stable location identity.'
             : 'No dated status snapshots are published yet.',
+      },
+      {
+        name: 'route_snapshots',
+        status: routeSnapshotCount > 0 ? 'partial' : 'empty',
+        recordCount: routeSnapshotCount,
+        notes:
+          routeSnapshotCount > 0
+            ? 'Dated high-level route snapshots are published without route geometry or live operational guarantees.'
+            : 'No dated route snapshots are published yet.',
       },
     ],
     blockers: hardRequirementsPassed ? [] : ['canonical_location_seed_empty_or_incomplete'],

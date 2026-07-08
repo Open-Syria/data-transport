@@ -3,6 +3,7 @@ import {
   locationRecordSchema,
   parseJsonArray,
   readJson,
+  routeSnapshotRecordSchema,
   sourceRecordSchema,
   statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
@@ -58,6 +59,11 @@ async function loadData(dataDirectory) {
       statusSnapshotRecordSchema,
       await readJson(path.join(dataDirectory, 'status-snapshots.json')),
       'statusSnapshots',
+    ),
+    routeSnapshots: parseJsonArray(
+      routeSnapshotRecordSchema,
+      await readJson(path.join(dataDirectory, 'route-snapshots.json')),
+      'routeSnapshots',
     ),
   };
 }
@@ -117,6 +123,27 @@ function summarizeStatusSnapshots(statusSnapshots) {
   };
 }
 
+function summarizeRouteSnapshots(routeSnapshots) {
+  return {
+    count: routeSnapshots.length,
+    byRouteType: countBy(routeSnapshots, (record) => record.routeType),
+    byObservedStatus: countBy(routeSnapshots, (record) => record.observedStatus),
+    byStatusAsOf: countBy(routeSnapshots, (record) => record.statusAsOf),
+    byTransportMode: countBy(
+      routeSnapshots.flatMap((record) =>
+        record.transportModes.map((transportMode) => ({ transportMode })),
+      ),
+      (record) => record.transportMode,
+    ),
+    withLocationIds: routeSnapshots.filter((record) => record.locationIds.length > 0).length,
+    withSourceReferences: routeSnapshots.filter((record) => record.sourceReferences.length > 0)
+      .length,
+    withSourceRecordDate: routeSnapshots.filter((record) =>
+      record.sourceReferences.some((reference) => reference.sourceRecordDate),
+    ).length,
+  };
+}
+
 const dataDirectory = getDataDirectory();
 const data = await loadData(dataDirectory);
 
@@ -131,6 +158,7 @@ console.log(
         byLicense: countBy(data.sources, (source) => source.license),
       },
       locations: summarizeLocations(data.locations),
+      routeSnapshots: summarizeRouteSnapshots(data.routeSnapshots),
       statusSnapshots: summarizeStatusSnapshots(data.statusSnapshots),
     },
     null,

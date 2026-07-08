@@ -4,11 +4,13 @@ import {
   ensureKnownSources,
   ensureLocationQuality,
   ensurePublicationTextChecksPass,
+  ensureRouteSnapshotQuality,
   ensureStatusSnapshotQuality,
   ensureUnique,
   locationRecordSchema,
   parseJsonArray,
   readJson,
+  routeSnapshotRecordSchema,
   sourceRecordSchema,
   statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
@@ -50,9 +52,15 @@ async function loadData(dataDirectory) {
     await readJson(path.join(dataDirectory, 'status-snapshots.json')),
     'statusSnapshots',
   );
+  const routeSnapshots = parseJsonArray(
+    routeSnapshotRecordSchema,
+    await readJson(path.join(dataDirectory, 'route-snapshots.json')),
+    'routeSnapshots',
+  );
 
   return {
     locations,
+    routeSnapshots,
     sources,
     statusSnapshots,
   };
@@ -62,11 +70,14 @@ function validateData(data) {
   ensurePublicationTextChecksPass(data, 'data');
   ensureUnique(data.sources, (source) => source.id, 'sources');
   ensureUnique(data.locations, (record) => record.id, 'locations');
+  ensureUnique(data.routeSnapshots, (record) => record.id, 'routeSnapshots');
   ensureUnique(data.statusSnapshots, (record) => record.id, 'statusSnapshots');
   ensureKnownSources(data.locations, data.sources, 'location');
+  ensureKnownSources(data.routeSnapshots, data.sources, 'routeSnapshot');
   ensureKnownSources(data.statusSnapshots, data.sources, 'statusSnapshot');
   ensureAliasQuality(data.locations, 'location');
   ensureLocationQuality(data.locations);
+  ensureRouteSnapshotQuality(data.routeSnapshots, data.locations);
   ensureStatusSnapshotQuality(data.statusSnapshots, data.locations);
 }
 
@@ -82,6 +93,7 @@ console.log(
       dataDirectory: path.relative(root, dataDirectory).replaceAll('\\', '/'),
       counts: {
         locations: data.locations.length,
+        routeSnapshots: data.routeSnapshots.length,
         sources: data.sources.length,
         statusSnapshots: data.statusSnapshots.length,
       },

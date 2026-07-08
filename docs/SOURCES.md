@@ -15,6 +15,8 @@ Preferred source families:
 - HIU/Stanford and HDX public-domain border crossing data for stable crossing
   reference points,
 - Logistics Cluster dated access updates for reviewed status snapshots only,
+- Logistics Cluster dated route/corridor snapshots only when high-level,
+  geometry-free, and source-dated,
 - official public sources with clear reuse terms.
 
 Do not import from:
@@ -69,10 +71,11 @@ The first canonical seed uses:
 - Logistics Cluster's 30 April 2026 Syria coordination meeting minutes for 12
   dated border crossing, port, and airport status snapshots.
 - Logistics Cluster's 25 May 2026 regional Middle East supply-route snapshot
-  for 5 dated crossing and port status snapshots.
+  for 5 dated crossing/port status snapshots and 5 high-level route/corridor
+  snapshots.
 
 Logistics Cluster sources have reuse limitations recorded in the source
-registry and are used only as dated status evidence.
+registry and are used only as dated snapshot evidence.
 
 Wikidata and official public sources remain supporting cross-check sources for
 later batches.

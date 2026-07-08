@@ -37,3 +37,25 @@
 | `sourceIds` | Approved sources supporting the snapshot. |
 | `sourceReferences` | Dated source evidence for each `sourceIds` entry. |
 | `sourceStatus` | Release lifecycle status for the snapshot. |
+
+## Route Snapshot Fields
+
+| Field | Description |
+| --- | --- |
+| `id` | Stable route snapshot ID such as `sy-route-jordan-syria-corridor-status-2026-05-25-logistics-cluster`. |
+| `name.en` | Required English route or corridor name. |
+| `name.ar` | Optional Arabic route or corridor name when source-backed. |
+| `routeType` | `corridor` for broad corridors or `route` for named route observations. |
+| `transportModes` | Transport modes such as `road`, `maritime`, `rail`, or `multimodal`. |
+| `observedStatus` | Dated observed route status: `active`, `limited`, `disrupted`, `inaccessible`, or `unknown`. |
+| `statusAsOf` | Day-level date for the route observation. Route snapshots require this field. |
+| `origin` | Source-backed origin label. This is not geometry. |
+| `destination` | Source-backed destination label. This is not geometry. |
+| `transitCountries` | Country labels listed by the source as transit countries. |
+| `locationIds` | Existing canonical transport location IDs that anchor the route observation. |
+| `sourceNames` | Source-provided route, crossing, port, or corridor names used in the observation. |
+| `indicativeLeadTime` | Optional source-provided lead time text. This is dated context, not a service guarantee. |
+| `routeNote` | Concise source-backed note explaining constraints or import scope. |
+| `sourceIds` | Approved sources supporting the snapshot. |
+| `sourceReferences` | Dated source evidence for each `sourceIds` entry. |
+| `sourceStatus` | Release lifecycle status for the snapshot. |

@@ -14,21 +14,30 @@
     }
   ],
   "importedFields": [
+    "destination",
+    "indicativeLeadTime",
     "locationId",
+    "locationIds",
     "observedStatus",
+    "origin",
+    "routeNote",
+    "routeType",
     "statusAsOf",
     "countryPair",
     "sourceNames",
     "statusNote",
+    "transitCountries",
+    "transportModes",
     "sourceReferences"
   ],
-  "targetFiles": ["data/status-snapshots.json", "data/sources.json"],
+  "targetFiles": ["data/route-snapshots.json", "data/status-snapshots.json", "data/sources.json"],
   "transforms": [
     "Review only the point-location observations in the corridors into Syria section.",
     "Use the source publication/revision date, 2026-05-25, as both statusAsOf and sourceReferences[].sourceRecordDate.",
     "Attach route-table status only where the named border crossing point or port maps to an existing canonical location ID.",
     "Preserve concise notes that identify the source context as a corridor or sea-route observation.",
-    "Hold route geometry, indicative lead times, and ambiguous alternate border crossing points for a future route dataset review."
+    "Normalize high-level corridor rows into route snapshots with origin, destination, transit countries, matched location IDs, source names, and indicative lead time.",
+    "Hold route geometry, ambiguous alternate border crossing points, and regional rows that are not Syria route/corridor observations."
   ],
-  "reviewNotes": "Imported 5 dated status snapshot records from the 25 May 2026 regional supply-route snapshot: Nasib/Jaber, Cilvegozu-Bab alHawa, Al Masnaa/Jdidet, Latakia Port, and Tartous Port. Held Gulf/KSA/Jordan/Syria duplicated route rows, the Iraq-Syria Al Waleed/Al Tanf or Rabiaa/Al-Yaroubiyah alternate route row, Red Sea multimodal constraints, Lebanon onward corridors, route geometry, and lead-time values because they require a separate route/corridor model or are not point-location status evidence. No location operationalStatus values were changed."
+  "reviewNotes": "Imported 5 dated point-location status snapshot records and 5 high-level route snapshot records from the 25 May 2026 regional supply-route snapshot. Point observations cover Nasib/Jaber, Cilvegozu-Bab alHawa, Al Masnaa/Jdidet, Latakia Port, and Tartous Port. Route observations cover the Gulf-Jordan-Syria corridor via Saudi Arabia, Turkiye/Caucasus to northwest Syria, Lebanon-Syria, Jordan-Syria, and Europe-Syria Mediterranean routes. Held the Iraq-Syria Al Waleed/Al Tanf or Rabiaa/Al-Yaroubiyah alternate row, duplicated broader regional rows, Red Sea multimodal constraints, Lebanon onward corridors, exact route geometry, and tactical/live routing details. No location operationalStatus values were changed."
 }

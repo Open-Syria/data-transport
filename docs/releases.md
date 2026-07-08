@@ -1,7 +1,7 @@
 # Releases
 
 Releases publish generated artifacts from canonical JSON files, including
-location records and dated status snapshots.
+location records, dated status snapshots, and dated route snapshots.
 
 Prepare a release:
 

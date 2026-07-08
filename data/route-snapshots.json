@@ -1,0 +1,157 @@
+[
+  {
+    "id": "sy-route-gulf-jordan-syria-corridor-status-2026-05-25-logistics-cluster",
+    "name": {
+      "en": "Gulf-Jordan-Syria Corridor via Saudi Arabia"
+    },
+    "routeType": "corridor",
+    "transportModes": ["road"],
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "origin": {
+      "en": "United Arab Emirates"
+    },
+    "destination": {
+      "en": "Syria"
+    },
+    "transitCountries": ["Saudi Arabia", "Jordan"],
+    "locationIds": ["sy-nasib-border-crossing"],
+    "sourceNames": ["Al Ghuwaifat/Batha", "Al-Omari/Al Hadithah", "Nasib/Jaber"],
+    "indicativeLeadTime": "8-10 days",
+    "routeNote": "Lead time may increase if routing also transits Oman.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:gulf-jordan-syria-via-ksa",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-route-turkiye-caucasus-northwest-syria-status-2026-05-25-logistics-cluster",
+    "name": {
+      "en": "Turkiye and Caucasus to Northwest Syria Corridor"
+    },
+    "routeType": "corridor",
+    "transportModes": ["road"],
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "origin": {
+      "en": "Turkiye / Caucasus"
+    },
+    "destination": {
+      "en": "Northwest Syria"
+    },
+    "transitCountries": ["Turkiye"],
+    "locationIds": ["sy-bab-al-hawa-border-crossing"],
+    "sourceNames": ["Cilvegozu-Bab alHawa"],
+    "indicativeLeadTime": "1-2 days",
+    "routeNote": "Short-haul corridor for northwest Syria.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:turkiye-northwest-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-route-lebanon-syria-corridor-status-2026-05-25-logistics-cluster",
+    "name": {
+      "en": "Lebanon-Syria Corridor"
+    },
+    "routeType": "corridor",
+    "transportModes": ["road"],
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "origin": {
+      "en": "Lebanon"
+    },
+    "destination": {
+      "en": "Syria"
+    },
+    "transitCountries": [],
+    "locationIds": ["sy-judaydat-yabus-border-crossing"],
+    "sourceNames": ["Al Masnaa / Jdidet"],
+    "indicativeLeadTime": "1-3 days",
+    "routeNote": "Lead time depends on border congestion.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:lebanon-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-route-jordan-syria-corridor-status-2026-05-25-logistics-cluster",
+    "name": {
+      "en": "Jordan-Syria Corridor"
+    },
+    "routeType": "corridor",
+    "transportModes": ["road"],
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "origin": {
+      "en": "Jordan"
+    },
+    "destination": {
+      "en": "Syria"
+    },
+    "transitCountries": [],
+    "locationIds": ["sy-nasib-border-crossing"],
+    "sourceNames": ["Nasib/Jaber"],
+    "indicativeLeadTime": "2 days",
+    "routeNote": "Timing depends on border congestion and customs clearance.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:jordan-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-route-europe-syria-mediterranean-status-2026-05-25-logistics-cluster",
+    "name": {
+      "en": "Europe-Syria Mediterranean Route"
+    },
+    "routeType": "route",
+    "transportModes": ["maritime"],
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "origin": {
+      "en": "European ports"
+    },
+    "destination": {
+      "en": "Syria"
+    },
+    "transitCountries": [],
+    "locationIds": ["sy-tartus", "sy-al-ladhiqiyah"],
+    "sourceNames": ["Tartous Port", "Latakia Port"],
+    "indicativeLeadTime": "3-4 weeks",
+    "routeNote": "Mediterranean access route through Syrian ports; ports were reported operational in the same source.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:mediterranean-ports",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  }
+]

@@ -4,6 +4,7 @@ import {
   locationRecordSchema,
   parseJsonArray,
   readJson,
+  routeSnapshotRecordSchema,
   sourceRecordSchema,
   statusSnapshotRecordSchema,
 } from './lib/data-schemas.mjs';
@@ -52,6 +53,11 @@ async function loadData() {
       statusSnapshotRecordSchema,
       await readJson(path.join(dataDirectory, 'status-snapshots.json')),
       'statusSnapshots',
+    ),
+    routeSnapshots: parseJsonArray(
+      routeSnapshotRecordSchema,
+      await readJson(path.join(dataDirectory, 'route-snapshots.json')),
+      'routeSnapshots',
     ),
   };
 }
@@ -158,6 +164,41 @@ function buildStatusSnapshotCoverage(data) {
   };
 }
 
+function buildRouteSnapshotCoverage(data) {
+  return {
+    total: data.routeSnapshots.length,
+    fields: {
+      statusAsOf: fieldMetric('Route status as-of date', 'high', data.routeSnapshots, (record) =>
+        hasText(record.statusAsOf),
+      ),
+      sourceReferences: fieldMetric(
+        'Dated source references',
+        'high',
+        data.routeSnapshots,
+        (record) => record.sourceReferences.length > 0,
+      ),
+      sourceRecordDate: fieldMetric('Source record date', 'high', data.routeSnapshots, (record) =>
+        record.sourceReferences.some((reference) => reference.sourceRecordDate),
+      ),
+      locationIds: fieldMetric(
+        'Linked canonical locations',
+        'high',
+        data.routeSnapshots,
+        (record) => record.locationIds.length > 0,
+      ),
+      sourceNames: fieldMetric(
+        'Source names',
+        'medium',
+        data.routeSnapshots,
+        (record) => record.sourceNames.length > 0,
+      ),
+      routeNote: fieldMetric('Route note', 'medium', data.routeSnapshots, (record) =>
+        hasText(record.routeNote),
+      ),
+    },
+  };
+}
+
 function buildContributionFocus(report) {
   if (report.locations.total === 0) {
     return [];
@@ -198,6 +239,24 @@ function buildContributionFocus(report) {
         ];
       }),
     )
+    .concat(
+      Object.entries(report.routeSnapshots.fields).flatMap(([fieldId, field]) => {
+        if (field.actionableMissing === 0) {
+          return [];
+        }
+
+        return [
+          {
+            priority: field.priority,
+            area: `routeSnapshots.${fieldId}`,
+            title: `Improve ${field.label.toLowerCase()} coverage`,
+            count: field.actionableMissing,
+            recordIds: field.actionableMissingRecordIds,
+            action: buildFieldAction(field.label),
+          },
+        ];
+      }),
+    )
     .sort((left, right) => priorityWeight(right.priority) - priorityWeight(left.priority));
 }
 
@@ -227,6 +286,7 @@ function buildDatasetCounts(data) {
   return {
     sources: data.sources.length,
     locations: data.locations.length,
+    routeSnapshots: data.routeSnapshots.length,
     statusSnapshots: data.statusSnapshots.length,
   };
 }
@@ -268,6 +328,21 @@ function buildMarkdown(report) {
     markdownTable(
       ['Field', 'Expected', 'Present', 'Missing', 'Actionable missing', 'Coverage', 'Examples'],
       Object.values(report.statusSnapshots.fields).map((field) => [
+        field.label,
+        field.expected,
+        field.present,
+        field.missing,
+        field.actionableMissing,
+        coverageCell(field),
+        sampleIds(field.actionableMissingRecordIds),
+      ]),
+    ),
+    '',
+    '## Route Snapshot Coverage',
+    '',
+    markdownTable(
+      ['Field', 'Expected', 'Present', 'Missing', 'Actionable missing', 'Coverage', 'Examples'],
+      Object.values(report.routeSnapshots.fields).map((field) => [
         field.label,
         field.expected,
         field.present,
@@ -360,6 +435,7 @@ const report = {
   dataDirectory: path.relative(root, dataDirectory).replaceAll('\\', '/'),
   counts: buildDatasetCounts(data),
   locations: buildLocationCoverage(data),
+  routeSnapshots: buildRouteSnapshotCoverage(data),
   statusSnapshots: buildStatusSnapshotCoverage(data),
 };
 

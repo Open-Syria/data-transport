@@ -25,10 +25,14 @@ The coverage analyzer currently checks:
 - source-row dates,
 - OurAirports identifiers,
 - UN/LOCODE identifiers,
-- Wikidata identifiers.
+- Wikidata identifiers,
 - status snapshot as-of dates,
 - status snapshot source names,
-- status snapshot notes.
+- status snapshot notes,
+- route snapshot as-of dates,
+- route snapshot source names,
+- route snapshot location links,
+- route snapshot notes.
 
 Generated coverage output should not be committed in normal pull requests.
 
@@ -60,9 +64,12 @@ The first seed contains 90 locations:
 - 5 public road transit terminal records from reviewed GeoNames `TRANT` rows.
 - 26 dated status snapshots from Logistics Cluster updates, covering border
   crossings, main ports, and airports.
+- 5 dated route snapshots from the Logistics Cluster 2026-05-25 regional
+  supply-route snapshot, published without geometry or live routing details.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, remaining administrative geography links for border crossings and
 rail records with ambiguous or distant matches, source review for held
 ambiguous GeoNames and Wikidata rows, road and freight terminal expansion,
-airport status cross-checks, and official-source cross-checks.
+airport status cross-checks, route snapshot source review, and official-source
+cross-checks.

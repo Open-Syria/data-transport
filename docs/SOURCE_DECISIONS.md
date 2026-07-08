@@ -213,6 +213,13 @@ point-location observations for named Syria corridors and ports: Nasib/Jaber,
 Cilvegozu-Bab alHawa, Al Masnaa/Jdidet, Latakia Port, and Tartous Port. These
 rows carry `statusAsOf: "2026-05-25"`.
 
+The same 25 May source was later reviewed for high-level route/corridor
+snapshots. The import accepted 5 dated route observations: Gulf-Jordan-Syria
+via Saudi Arabia, Turkiye/Caucasus to northwest Syria, Lebanon-Syria,
+Jordan-Syria, and Europe-Syria Mediterranean access through Syrian ports. These
+rows live in `data/route-snapshots.json`, include `statusAsOf: "2026-05-25"`,
+and preserve source-provided lead-time text as dated context only.
+
 Al-Yaroubiyah and Nisibis status lines from the 30 April meeting minutes remain
 held. Al-Yaroubiyah needs an explicit canonical alias or source-backed identity
 review before attaching it to a location ID. Nisibis appears under an Iraq
@@ -221,13 +228,15 @@ Turkey crossing, so it was held rather than imported as a precise status claim.
 
 The 25 May regional route snapshot contains duplicated corridor rows,
 alternative Iraq-Syria crossing routes, Red Sea multimodal constraints, Lebanon
-onward corridors, route geometry, and lead-time values. Those items remain held
-until the dataset has an intentional route/corridor model.
+onward corridors, and route geometry. Those items remain held because they are
+ambiguous, not Syria-specific enough for the current model, or would require
+geometry/live routing details that this dataset does not publish.
 
 The import did not add new crossing identities and did not change
 `data/locations.json` `operationalStatus` values. Canonical crossing identity
 continues to come from stable HIU/HDX reference sources and reviewed
-enrichments.
+enrichments. Route snapshots are separate dated observations and should not be
+read as live route availability.
 
 The source terms allow use for humanitarian or related non-profit/academic
 purposes with attribution. Keep this limitation visible in `data/sources.json`

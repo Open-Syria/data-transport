@@ -19,6 +19,10 @@ Status-only imports should target `data/status-snapshots.json`, not
 `data/locations.json`, unless a maintainer explicitly approves a stable
 location-level status change.
 
+Route-only imports should target `data/route-snapshots.json` and must remain
+high-level, dated, and geometry-free. Do not import live routing instructions,
+convoy information, checkpoints, or tactical details.
+
 Validate manifests with:
 
 ```bash

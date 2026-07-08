@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-transport/route-snapshots.schema.json",
+  "title": "OpenSyria Transport Route Snapshots",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "routeType",
+      "transportModes",
+      "observedStatus",
+      "statusAsOf",
+      "origin",
+      "destination",
+      "transitCountries",
+      "locationIds",
+      "sourceNames",
+      "sourceIds",
+      "sourceReferences",
+      "sourceStatus"
+    ],
+    "properties": {
+      "id": {
+        "$ref": "#/$defs/id"
+      },
+      "name": {
+        "$ref": "#/$defs/localizedText"
+      },
+      "routeType": {
+        "type": "string",
+        "enum": ["corridor", "route"]
+      },
+      "transportModes": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/transportMode"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "observedStatus": {
+        "type": "string",
+        "enum": ["active", "limited", "disrupted", "inaccessible", "unknown"]
+      },
+      "statusAsOf": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+      },
+      "origin": {
+        "$ref": "#/$defs/localizedText"
+      },
+      "destination": {
+        "$ref": "#/$defs/localizedText"
+      },
+      "transitCountries": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "locationIds": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/id"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "sourceNames": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "indicativeLeadTime": {
+        "type": "string",
+        "minLength": 1
+      },
+      "routeNote": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sourceIds": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "sourceReferences": {
+        "type": "array",
+        "items": {
+          "$ref": "#/$defs/sourceReference"
+        },
+        "minItems": 1
+      },
+      "sourceStatus": {
+        "type": "string",
+        "enum": ["pending_release", "seed", "released", "deprecated"]
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^sy-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ar": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "transportMode": {
+      "type": "string",
+      "enum": ["air", "maritime", "rail", "road", "postal", "multimodal", "border", "other"]
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "accessedAt"],
+      "properties": {
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordDate": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?$"
+        },
+        "accessedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}
