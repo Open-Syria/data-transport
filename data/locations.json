@@ -539,6 +539,56 @@
     ]
   },
   {
+    "id": "sy-aleppo-railway-station",
+    "name": {
+      "en": "Aleppo railway station",
+      "ar": "محطة قطار حلب"
+    },
+    "aliases": [
+      {
+        "value": "Aleppo Terminal",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 36.213899,
+      "longitude": 37.147742
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-aleppo",
+      "districtId": "sy-aleppo-mount-simeon",
+      "subdistrictId": "sy-aleppo-mount-simeon-jebel-saman",
+      "localityId": "sy-aleppo-mount-simeon-jebel-saman-aleppo",
+      "localityName": {
+        "en": "Aleppo",
+        "ar": "حلب"
+      }
+    },
+    "externalIds": {
+      "wikidata": "Q15179152"
+    },
+    "sourceIds": ["wikidata", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q15179152",
+        "sourceRecordDate": "2026-06-22"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-mount-simeon-jebel-saman-aleppo"
+      }
+    ],
+    "notes": "Stable public railway station reference from Wikidata; operational status is not live."
+  },
+  {
     "id": "sy-arwad",
     "name": {
       "en": "Arwad",
@@ -1465,6 +1515,56 @@
     ]
   },
   {
+    "id": "sy-homs-railway-station",
+    "name": {
+      "en": "Homs railway station",
+      "ar": "محطة حمص"
+    },
+    "aliases": [
+      {
+        "value": "Homs Terminal",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 34.721606,
+      "longitude": 36.70338
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-homs",
+      "districtId": "sy-homs-homs",
+      "subdistrictId": "sy-homs-homs-homs",
+      "localityId": "sy-homs-homs-homs-homs",
+      "localityName": {
+        "en": "Homs",
+        "ar": "حمص"
+      }
+    },
+    "externalIds": {
+      "wikidata": "Q64577287"
+    },
+    "sourceIds": ["wikidata", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q64577287",
+        "sourceRecordDate": "2025-11-25"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-homs-homs-homs"
+      }
+    ],
+    "notes": "Stable public railway station reference from Wikidata; operational status is not live."
+  },
+  {
     "id": "sy-jarablus-border-crossing",
     "name": {
       "en": "Jarablus Border Crossing"
@@ -1788,6 +1888,16 @@
         "value": "Hejaz Station",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Damascus Hejaz railway station",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Hejaz railway station, Damascus",
+        "language": "en",
+        "type": "alias"
       }
     ],
     "locationTypes": ["rail_terminal"],
@@ -1798,12 +1908,20 @@
       "longitude": 36.29502
     },
     "administrativeLocation": {
-      "governorateId": "sy-damascus"
+      "governorateId": "sy-damascus",
+      "districtId": "sy-damascus-damascus",
+      "subdistrictId": "sy-damascus-damascus-damascus",
+      "localityId": "sy-damascus-damascus-damascus-damascus",
+      "localityName": {
+        "en": "Damascus",
+        "ar": "دمشق"
+      }
     },
     "externalIds": {
-      "geonames": "173780"
+      "geonames": "173780",
+      "wikidata": "Q5701244"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1811,6 +1929,17 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "173780",
         "sourceRecordDate": "2020-06-10"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-damascus-damascus-damascus-damascus"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q5701244",
+        "sourceRecordDate": "2026-06-22"
       }
     ]
   },
@@ -1972,6 +2101,11 @@
         "value": "Gare d'El Qadem",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Qadam railway station",
+        "language": "en",
+        "type": "alias"
       }
     ],
     "locationTypes": ["rail_terminal"],
@@ -1982,12 +2116,20 @@
       "longitude": 36.29229
     },
     "administrativeLocation": {
-      "governorateId": "sy-damascus"
+      "governorateId": "sy-damascus",
+      "districtId": "sy-damascus-damascus",
+      "subdistrictId": "sy-damascus-damascus-damascus",
+      "localityId": "sy-damascus-damascus-damascus-damascus",
+      "localityName": {
+        "en": "Damascus",
+        "ar": "دمشق"
+      }
     },
     "externalIds": {
-      "geonames": "173393"
+      "geonames": "173393",
+      "wikidata": "Q139821846"
     },
-    "sourceIds": ["geonames-sy"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -1995,6 +2137,17 @@
         "accessedAt": "2026-07-07T22:24:22.381Z",
         "sourceRecordId": "173393",
         "sourceRecordDate": "2014-09-30"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-damascus-damascus-damascus-damascus"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q139821846",
+        "sourceRecordDate": "2026-05-17"
       }
     ]
   },
@@ -2698,7 +2851,13 @@
       "en": "Mahattat Qitar al Ladhiqiyah",
       "ar": "محطة قطار اللاذقية"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Latakia railway station",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
     "locationTypes": ["rail_terminal"],
     "transportModes": ["rail"],
     "operationalStatus": "unknown",
@@ -2717,9 +2876,10 @@
       }
     },
     "externalIds": {
-      "geonames": "8469663"
+      "geonames": "8469663",
+      "wikidata": "Q139821599"
     },
-    "sourceIds": ["geonames-sy", "opensyria-data-geography"],
+    "sourceIds": ["geonames-sy", "opensyria-data-geography", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -2732,6 +2892,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-08T00:00:00.000Z",
         "sourceRecordId": "sy-latakia-latakia-lattakia-lattakia"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q139821599",
+        "sourceRecordDate": "2026-06-17"
       }
     ]
   },
@@ -3605,6 +3771,49 @@
         "sourceRecordDate": "2023-05-29"
       }
     ]
+  },
+  {
+    "id": "sy-qamishli-railway-station",
+    "name": {
+      "en": "Qamishli train station"
+    },
+    "aliases": [],
+    "locationTypes": ["rail_terminal"],
+    "transportModes": ["rail"],
+    "operationalStatus": "unknown",
+    "coordinates": {
+      "latitude": 37.054068,
+      "longitude": 41.254292
+    },
+    "administrativeLocation": {
+      "governorateId": "sy-al-hasakah",
+      "districtId": "sy-al-hasakah-al-qamishli",
+      "subdistrictId": "sy-al-hasakah-al-qamishli-quamishli",
+      "localityId": "sy-al-hasakah-al-qamishli-quamishli-quamishli",
+      "localityName": {
+        "en": "Quamishli",
+        "ar": "القامشلي"
+      }
+    },
+    "externalIds": {
+      "wikidata": "Q70732360"
+    },
+    "sourceIds": ["wikidata", "opensyria-data-geography"],
+    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-07-08T00:15:58.378Z",
+        "sourceRecordId": "Q70732360",
+        "sourceRecordDate": "2025-11-15"
+      },
+      {
+        "sourceId": "opensyria-data-geography",
+        "accessedAt": "2026-07-08T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-qamishli-quamishli-quamishli"
+      }
+    ],
+    "notes": "Stable public railway station reference from Wikidata; operational status is not live."
   },
   {
     "id": "sy-ras-al-ain-border-crossing",

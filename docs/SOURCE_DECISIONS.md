@@ -69,6 +69,13 @@ references; it did not replace canonical coordinates, names, location types, or
 operational status. Tartus Oil Terminal was left unchanged because no exact
 Wikidata UN/LOCODE match was found for that facility-specific record.
 
+A follow-up Wikidata rail review accepted 3 new prominent public railway
+station records for Aleppo, Homs, and Qamishli, and enriched 3 existing
+GeoNames rail terminal records for Damascus Hejaz, Qadam, and Latakia. These
+records use `operationalStatus: "unknown"` and do not publish live service
+availability. Wikidata items with missing English labels or unclear
+facility-level identity remain held.
+
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,

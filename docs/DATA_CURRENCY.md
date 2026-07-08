@@ -57,6 +57,10 @@ Wikidata exact UN/LOCODE enrichment used a SPARQL query accessed at
 `2026-07-08T00:00:28.469Z`. Record-level `sourceRecordDate` values come from
 Wikidata item modified timestamps.
 
+Wikidata railway station expansion used a SPARQL query accessed at
+`2026-07-08T00:15:58.378Z`. Record-level `sourceRecordDate` values come from
+Wikidata item modified timestamps, and operational status remains `unknown`.
+
 NGA World Port Index enrichment used the official `UpdatedPub150.csv` download
 accessed at `2026-07-07T23:27:03.137Z`. The WPI CSV does not expose per-row
 dates, so record-level WPI references use source access timestamps and WPI

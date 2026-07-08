@@ -39,3 +39,5 @@
   locality-style transport and trade records.
 - Added an official UN/LOCODE currentness review against the 2025-1 production
   package and 2026-06-16 pre-release, with no new Syria codes found.
+- Added 3 reviewed public railway station records from Wikidata and enriched 3
+  existing rail terminal records with Wikidata station identifiers.

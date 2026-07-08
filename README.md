@@ -41,7 +41,7 @@ Out of scope:
 This repository is in seed status. Canonical files, schemas, validation scripts,
 release tooling, and source-review manifests are in place.
 
-The canonical `data/locations.json` file currently contains 82 reviewed seed
+The canonical `data/locations.json` file currently contains 85 reviewed seed
 records from the first transport import:
 
 - 6 public civil/reference airport records from OurAirports,
@@ -52,6 +52,9 @@ records from the first transport import:
 - 28 active railroad station records from GeoNames.
 - 5 inactive/abandoned railroad station records from reviewed GeoNames `RSTNQ`
   rows.
+- 3 public railway station records from reviewed Wikidata station items.
+- 3 Wikidata railway station identifier enrichments for existing GeoNames rail
+  terminal records.
 - 3 GeoNames harbor/port identifier merges into existing seaport records.
 - 6 GeoNames public maritime terminal subfacility records for wharves and
   piers.
@@ -63,12 +66,13 @@ records from the first transport import:
   with Syrian-side names preferred over neighboring-country crossing names.
 - 3 NGA World Port Index identifier and coordinate enrichments for existing
   main seaport records.
-- 52 reviewed administrative locality links from OpenSyria Data Geography,
-  including 17 border crossing locality links and 18 rail terminal locality
+- 57 reviewed administrative locality links from OpenSyria Data Geography,
+  including 17 border crossing locality links and 23 rail terminal locality
   links.
-- 68 records with administrative location data.
-- 13 Wikidata identifier enrichments, including 6 airports matched by both IATA
-  and ICAO code, 2 exact GeoNames ID matches, and 5 exact UN/LOCODE matches.
+- 71 records with administrative location data.
+- 19 records with Wikidata identifiers, including 6 airports matched by both
+  IATA and ICAO code, 2 exact GeoNames ID matches, 5 exact UN/LOCODE matches,
+  and 6 reviewed railway station records or enrichments.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
 

@@ -66,6 +66,12 @@ the canonical `externalIds.unLocode` value and the item identity is compatible.
 Do not use this path for specific facilities such as oil terminals unless the
 Wikidata item directly represents the same facility.
 
+Wikidata railway station records may be imported only after manual review of
+station identity, coordinates, and duplicate risk against GeoNames rail
+terminals. Add new records only for clear public railway-station identities, and
+keep operational status `unknown` unless an approved non-live status source
+supports a different value.
+
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.

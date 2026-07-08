@@ -50,6 +50,8 @@ The first canonical seed uses:
   records.
 - Wikidata for exact UN/LOCODE enrichment on existing locality-style transport
   and trade records.
+- Wikidata for reviewed public railway station records and exact station
+  identifier enrichment on existing GeoNames rail terminal records.
 - NGA World Port Index for WPI identifiers and port-specific coordinates on
   existing main seaport records.
 - HIU/Stanford public-domain data for stable border crossing reference records.
