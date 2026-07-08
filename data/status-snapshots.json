@@ -391,5 +391,98 @@
       }
     ],
     "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-nasib-border-crossing-status-2026-05-25-logistics-cluster",
+    "locationId": "sy-nasib-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "countryPair": "Jordan - Syria",
+    "sourceNames": ["Nasib", "Jaber"],
+    "statusNote": "Jordan-Syria corridor through Nasib/Jaber was listed as active.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:jordan-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-bab-al-hawa-border-crossing-status-2026-05-25-logistics-cluster",
+    "locationId": "sy-bab-al-hawa-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "countryPair": "Turkey - Syria",
+    "sourceNames": ["Cilvegozu", "Bab alHawa"],
+    "statusNote": "Turkey to northwest Syria corridor through Cilvegozu-Bab alHawa was listed as active.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:turkiye-northwest-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-judaydat-yabus-border-crossing-status-2026-05-25-logistics-cluster",
+    "locationId": "sy-judaydat-yabus-border-crossing",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "countryPair": "Lebanon - Syria",
+    "sourceNames": ["Al Masnaa", "Jdidet"],
+    "statusNote": "Lebanon-Syria corridor through Al Masnaa/Jdidet was listed as active.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:lebanon-syria",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-ladhiqiyah-status-2026-05-25-logistics-cluster",
+    "locationId": "sy-al-ladhiqiyah",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "sourceNames": ["Latakia Port"],
+    "statusNote": "Mediterranean sea route to Syrian ports was listed as active, with Latakia remaining operational.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:mediterranean-ports",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-status-2026-05-25-logistics-cluster",
+    "locationId": "sy-tartus",
+    "observedStatus": "active",
+    "statusAsOf": "2026-05-25",
+    "sourceNames": ["Tartous Port"],
+    "statusNote": "Mediterranean sea route to Syrian ports was listed as active, with Tartous remaining operational.",
+    "sourceIds": ["logistics-cluster-regional-supply-routes-2026-05-25"],
+    "sourceReferences": [
+      {
+        "sourceId": "logistics-cluster-regional-supply-routes-2026-05-25",
+        "sourceRecordId": "2026-05-25:corridors-into-syria:mediterranean-ports",
+        "sourceRecordDate": "2026-05-25",
+        "accessedAt": "2026-07-08T10:12:08.051Z"
+      }
+    ],
+    "sourceStatus": "seed"
   }
 ]

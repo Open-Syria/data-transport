@@ -107,5 +107,12 @@ Logistics Cluster Syria coordination meeting status snapshots use the 30 April
 border crossings, ports, and airports. They do not change the canonical
 `operationalStatus` values in `data/locations.json`.
 
+Logistics Cluster regional supply-route status snapshots use the 25 May 2026
+regional Middle East supply-route snapshot, published/revised on `2026-05-25`
+and reviewed on `2026-07-08T10:12:08.051Z`. The 5 imported rows are
+point-location observations for named crossings and ports only. Route geometry,
+lead times, and ambiguous alternate route rows remain out of the location
+dataset.
+
 Every canonical record currently has at least one dated source reference and at
 least one upstream source-row date.

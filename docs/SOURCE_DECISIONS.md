@@ -207,11 +207,22 @@ location-level observations: 6 border crossing observations, 2 port
 observations, and 4 airport observations. These rows carry
 `statusAsOf: "2026-04-30"` and source publication/revision date `2026-05-14`.
 
+The Logistics Cluster page "Supply Routes Snapshot - Regional Middle East - 25
+May 2026" was reviewed as a third dated status source. The import accepted 5
+point-location observations for named Syria corridors and ports: Nasib/Jaber,
+Cilvegozu-Bab alHawa, Al Masnaa/Jdidet, Latakia Port, and Tartous Port. These
+rows carry `statusAsOf: "2026-05-25"`.
+
 Al-Yaroubiyah and Nisibis status lines from the 30 April meeting minutes remain
 held. Al-Yaroubiyah needs an explicit canonical alias or source-backed identity
 review before attaching it to a location ID. Nisibis appears under an Iraq
 crossing bullet while the likely canonical match is the Qamishli/Nusaybin
 Turkey crossing, so it was held rather than imported as a precise status claim.
+
+The 25 May regional route snapshot contains duplicated corridor rows,
+alternative Iraq-Syria crossing routes, Red Sea multimodal constraints, Lebanon
+onward corridors, route geometry, and lead-time values. Those items remain held
+until the dataset has an intentional route/corridor model.
 
 The import did not add new crossing identities and did not change
 `data/locations.json` `operationalStatus` values. Canonical crossing identity

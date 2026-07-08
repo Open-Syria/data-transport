@@ -35,7 +35,7 @@ external IDs are acceptable when no approved public source supports them.
 As of the current seed snapshot:
 
 - 90 transport location records pass schema and source validation.
-- 21 dated status snapshot records pass schema, source, and location-reference
+- 26 dated status snapshot records pass schema, source, and location-reference
   validation.
 - 90 records have source-backed coordinates.
 - 63 records have external IDs.
@@ -60,9 +60,10 @@ As of the current seed snapshot:
 - 2 border crossing records have reviewed Wikidata identifiers and Arabic
   names from exact public crossing matches.
 - 3 public railway station records come from reviewed Wikidata station items.
-- 21 status snapshots come from Logistics Cluster Syria updates: 9 border
-  crossing observations from 2026-03-09, plus 12 border crossing, port, and
-  airport observations from the 2026-04-30 coordination meeting.
+- 26 status snapshots come from Logistics Cluster updates: 9 border crossing
+  observations from 2026-03-09, 12 border crossing, port, and airport
+  observations from the 2026-04-30 coordination meeting, and 5 crossing/port
+  observations from the 2026-05-25 regional supply-route snapshot.
 
 Operational status is currently `unknown` for 85 records and `inactive` for the
 5 abandoned GeoNames railroad station references. The dataset does not publish

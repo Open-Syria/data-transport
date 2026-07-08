@@ -58,8 +58,8 @@ The first seed contains 90 locations:
 - 2 border crossing records with reviewed Wikidata identifier enrichment.
 - 3 public railway station records from reviewed Wikidata station items.
 - 5 public road transit terminal records from reviewed GeoNames `TRANT` rows.
-- 21 dated status snapshots from Logistics Cluster Syria updates, covering
-  border crossings, main ports, and airports.
+- 26 dated status snapshots from Logistics Cluster updates, covering border
+  crossings, main ports, and airports.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, remaining administrative geography links for border crossings and

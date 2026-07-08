@@ -149,6 +149,22 @@
     "notes": "Use only as dated status snapshot evidence from the 30 April 2026 Syria coordination meeting. Do not use this source to overwrite stable location identity or infer live access beyond the meeting date."
   },
   {
+    "id": "logistics-cluster-regional-supply-routes-2026-05-25",
+    "title": "Supply Routes Snapshot - Regional Middle East - 25 May 2026",
+    "url": "https://logcluster.org/en/documents/supply-routes-snapshot-regional-middle-east-25-may-2026",
+    "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+    "licenseUrl": "https://logcluster.org/en/terms-use",
+    "status": "approved",
+    "fields": [
+      "route status observations",
+      "border crossing point names",
+      "port status observations",
+      "source publication date",
+      "source revision date"
+    ],
+    "notes": "Use only for dated point-location status snapshots where a route table names an existing canonical crossing or port. Route geometry, lead times, and corridor modeling require a separate route dataset review."
+  },
+  {
     "id": "nga-world-port-index",
     "title": "NGA World Port Index (Pub 150)",
     "url": "https://msi.nga.mil/Publications/WPI",

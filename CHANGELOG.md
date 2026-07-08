@@ -54,3 +54,5 @@
   update.
 - Added 12 additional Logistics Cluster status snapshots from the 30 April 2026
   Syria coordination meeting, covering border crossings, ports, and airports.
+- Added 5 additional Logistics Cluster status snapshots from the 25 May 2026
+  regional supply-route snapshot for named Syria crossings and ports.

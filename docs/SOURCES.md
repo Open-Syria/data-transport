@@ -68,6 +68,8 @@ The first canonical seed uses:
   crossing status snapshots.
 - Logistics Cluster's 30 April 2026 Syria coordination meeting minutes for 12
   dated border crossing, port, and airport status snapshots.
+- Logistics Cluster's 25 May 2026 regional Middle East supply-route snapshot
+  for 5 dated crossing and port status snapshots.
 
 Logistics Cluster sources have reuse limitations recorded in the source
 registry and are used only as dated status evidence.
