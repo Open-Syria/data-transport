@@ -54,6 +54,8 @@ The first canonical seed uses:
   identifier enrichment on existing GeoNames rail terminal records.
 - Wikidata for port-specific modeling review; duplicate-risk port items are held
   until the dataset separates locality-style and facility-style port records.
+- Wikidata for exact border crossing identifier enrichment on existing public
+  HIU/HDX border crossing records.
 - NGA World Port Index for WPI identifiers and port-specific coordinates on
   existing main seaport records.
 - HIU/Stanford public-domain data for stable border crossing reference records.

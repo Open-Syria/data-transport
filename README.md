@@ -64,15 +64,18 @@ records from the first transport import:
 - 30 stable border crossing reference records from public-domain HIU datasets.
 - 27 border crossing records cross-checked against the HDX 2015 HIU release,
   with Syrian-side names preferred over neighboring-country crossing names.
+- 2 Wikidata border crossing identifier enrichments for exact existing public
+  border crossing records.
 - 3 NGA World Port Index identifier and coordinate enrichments for existing
   main seaport records.
 - 57 reviewed administrative locality links from OpenSyria Data Geography,
   including 17 border crossing locality links and 23 rail terminal locality
   links.
 - 71 records with administrative location data.
-- 19 records with Wikidata identifiers, including 6 airports matched by both
+- 21 records with Wikidata identifiers, including 6 airports matched by both
   IATA and ICAO code, 2 exact GeoNames ID matches, 5 exact UN/LOCODE matches,
-  and 6 reviewed railway station records or enrichments.
+  6 reviewed railway station records or enrichments, and 2 exact border
+  crossing enrichments.
 - Dated source references on every record, including source access timestamps
   and source-row dates where the upstream source provides them.
 

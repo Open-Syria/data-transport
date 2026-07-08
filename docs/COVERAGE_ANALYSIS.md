@@ -45,17 +45,18 @@ The first seed contains 85 locations:
 - 71 records with administrative location data.
 - 57 records with reviewed OpenSyria geography locality IDs.
 - 49 records with GeoNames identifiers.
-- 19 records with Wikidata identifiers.
+- 21 records with Wikidata identifiers.
 - 3 records with NGA World Port Index identifiers.
 - 5 inactive abandoned railroad station references from GeoNames.
 - 27 border crossing records cross-checked against the HDX 2015 HIU source.
 - 17 border crossing records with reviewed OpenSyria geography locality links.
 - 23 rail terminal records with reviewed OpenSyria geography locality links.
 - 1 border crossing record with reviewed GeoNames border-post enrichment.
+- 2 border crossing records with reviewed Wikidata identifier enrichment.
 - 3 public railway station records from reviewed Wikidata station items.
 
 The current contribution focus is Arabic facility names for records that still
 lack them, remaining administrative geography links for border crossings and
-rail records with ambiguous or distant matches, source review for held ambiguous
-GeoNames and Wikidata rows,
+rail records with ambiguous or distant matches, source review for held
+ambiguous GeoNames and Wikidata rows, road and freight terminal expansion,
 airport status cross-checks, and official-source cross-checks.

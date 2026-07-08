@@ -46,3 +46,5 @@
   alias.
 - Reviewed port-specific Wikidata items for Latakia, Baniyas, and Tartus and
   held them pending a locality-versus-facility port modeling split.
+- Added 2 exact Wikidata border crossing enrichments for existing public
+  crossing records and documented held neighboring-side/checkpoint candidates.

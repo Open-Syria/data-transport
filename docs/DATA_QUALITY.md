@@ -35,17 +35,17 @@ As of the current seed snapshot:
 
 - 85 transport location records pass schema and source validation.
 - 85 records have source-backed coordinates.
-- 56 records have external IDs.
+- 58 records have external IDs.
 - 85 records have dated source references.
 - 85 records have upstream source-row dates.
 - 6 records have OurAirports identifiers.
 - 12 records have UN/LOCODE identifiers.
 - 49 records have GeoNames identifiers.
-- 19 records have Wikidata identifiers.
+- 21 records have Wikidata identifiers.
 - 3 records have NGA World Port Index identifiers.
 - 57 records have reviewed OpenSyria geography locality IDs.
 - 71 records have administrative location data.
-- 40 records have Arabic names.
+- 42 records have Arabic names.
 - 6 records are public maritime terminal subfacilities from GeoNames.
 - 5 records are inactive abandoned railroad station references from GeoNames.
 - 30 records are border crossings from public-domain HIU reference data.
@@ -53,6 +53,8 @@ As of the current seed snapshot:
 - 17 border crossing records have reviewed OpenSyria geography locality links.
 - 23 rail terminal records have reviewed OpenSyria geography locality links.
 - 1 border crossing record has a reviewed GeoNames border-post identifier.
+- 2 border crossing records have reviewed Wikidata identifiers and Arabic
+  names from exact public crossing matches.
 - 3 public railway station records come from reviewed Wikidata station items.
 
 Operational status is currently `unknown` for 80 records and `inactive` for the

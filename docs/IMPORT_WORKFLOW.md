@@ -82,6 +82,12 @@ seaport records that already carry UN/LOCODE, WPI, and GeoNames identifiers.
 Do not split city/trade-location records from physical port facility records
 without updating the schema, docs, and release expectations together.
 
+Wikidata border crossing items may enrich existing canonical border crossing
+records only when the public item has a compatible name, coordinate, and
+country relationship. Do not import generic-numbered checkpoint items,
+neighboring-side-only identities, bridge-only geometries, or live operational
+details into the default dataset.
+
 The GeoNames airport enrichment batch accepted only exact matches to existing
 public airport records. Ambiguous airport rows and military-looking rows stay in
 review outputs.

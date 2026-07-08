@@ -65,6 +65,12 @@ Wikidata port modeling review used a SPARQL query accessed at
 `2026-07-08T00:27:06.606Z`. No canonical records were added because reviewed
 port-specific items were duplicate-risk or out of scope.
 
+Wikidata border crossing enrichment used a SPARQL query accessed at
+`2026-07-08T00:30:56.148Z`. Record-level `sourceRecordDate` values come from
+Wikidata item modified timestamps. The batch enriched exact existing public
+crossing records only and did not import live crossing status or checkpoint
+operations.
+
 NGA World Port Index enrichment used the official `UpdatedPub150.csv` download
 accessed at `2026-07-07T23:27:03.137Z`. The WPI CSV does not expose per-row
 dates, so record-level WPI references use source access timestamps and WPI

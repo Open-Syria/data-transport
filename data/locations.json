@@ -820,7 +820,8 @@
   {
     "id": "sy-bab-al-hawa-border-crossing",
     "name": {
-      "en": "Bab al-Hawa Border Crossing"
+      "en": "Bab al-Hawa Border Crossing",
+      "ar": "معبر باب الهوى الحدودي"
     },
     "aliases": [
       {
@@ -851,11 +852,14 @@
         "ar": "باب الهوى - دانا"
       }
     },
-    "externalIds": {},
+    "externalIds": {
+      "wikidata": "Q1528463"
+    },
     "sourceIds": [
       "hdx-syria-border-crossings-2015",
       "hiu-syria-border-crossings",
-      "opensyria-data-geography"
+      "opensyria-data-geography",
+      "wikidata"
     ],
     "sourceStatus": "seed",
     "sourceReferences": [
@@ -875,6 +879,12 @@
         "sourceId": "opensyria-data-geography",
         "accessedAt": "2026-07-07T23:35:00.000Z",
         "sourceRecordId": "sy-idlib-harem-dana-bab-el-hawa"
+      },
+      {
+        "sourceId": "wikidata",
+        "sourceRecordId": "Q1528463",
+        "sourceRecordDate": "2025-10-24",
+        "accessedAt": "2026-07-08T00:30:56.148Z"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."
@@ -3594,7 +3604,8 @@
   {
     "id": "sy-peshakapor-border-crossing",
     "name": {
-      "en": "Peshakapor Border Crossing"
+      "en": "Peshakapor Border Crossing",
+      "ar": "معبر سيمالكا الحدودي"
     },
     "aliases": [
       {
@@ -3606,6 +3617,11 @@
         "value": "Peshkapor Border Crossing",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Semalka Border Crossing",
+        "language": "en",
+        "type": "alias"
       }
     ],
     "locationTypes": ["border_crossing"],
@@ -3616,8 +3632,10 @@
       "longitude": 42.348
     },
     "administrativeLocation": null,
-    "externalIds": {},
-    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings"],
+    "externalIds": {
+      "wikidata": "Q60572805"
+    },
+    "sourceIds": ["hdx-syria-border-crossings-2015", "hiu-syria-border-crossings", "wikidata"],
     "sourceStatus": "seed",
     "sourceReferences": [
       {
@@ -3631,6 +3649,12 @@
         "accessedAt": "2026-07-07T23:04:31.920Z",
         "sourceRecordId": "Syria_BorderCrossings_2014Mar12_HIU_USDoS:22",
         "sourceRecordDate": "2014-03-12"
+      },
+      {
+        "sourceId": "wikidata",
+        "sourceRecordId": "Q60572805",
+        "sourceRecordDate": "2026-02-10",
+        "accessedAt": "2026-07-08T00:30:56.148Z"
       }
     ],
     "notes": "Stable public border crossing reference point from HIU datasets; source dates are historical and operational status is not live."

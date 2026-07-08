@@ -83,6 +83,13 @@ those as separate records would require a broader locality-versus-facility
 modeling split. The Tartus naval base Wikidata item was rejected as
 military/sensitive and out of scope.
 
+A follow-up Wikidata border crossing review accepted 2 exact enrichments for
+existing public crossing records: Bab al-Hawa and Peshakapor/Semalka. The batch
+added Wikidata identifiers, Arabic labels, and dated source references only; it
+did not replace HIU/HDX canonical coordinates, Syrian-side names, or unknown
+operational status. Neighboring-side-only, unlabeled, generic-numbered,
+bridge/checkpoint, and coordinate-disagreeing rows remain held.
+
 GeoNames was imported for the first non-airport expansion batch. The import
 accepted active railroad station (`RSTN`) rows and broad harbor/port (`HBR`,
 `PRT`) rows. It held abandoned rail stations, airport rows, border posts,
