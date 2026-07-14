@@ -37,6 +37,51 @@ Before each release:
 
 ## Current Source Access
 
+### 2026-07-14 Freshness Review
+
+The currentness-sensitive source families were rechecked on `2026-07-14`.
+
+OurAirports `airports.csv` was listed as last modified `2026-07-13`. The
+current Syria extract still contains 60 airport rows: 2 large airports, 8
+medium airports, 34 small airports, 12 heliports, and 4 closed rows. No new
+public civil/reference airport record was accepted. `SOR`/Al Thaurah still
+appears in OurAirports, but remains held because the identity, status, and
+safety concerns documented in `docs/SOURCE_DECISIONS.md` are unresolved.
+
+DataHub UN/LOCODE remains dated `2026-05-12`, and the official UN/LOCODE
+publication page still lists the 2025-1 production package plus a pre-release
+last updated `2026-06-16`. The current DataHub Syria subset still contains the
+same 19 Syria location-code rows reviewed previously. No canonical UN/LOCODE
+record changes were needed.
+
+GeoNames `SY.zip` was served with `Last-Modified: 2026-07-14T01:44:22Z`. The
+current dump still contains all 54 imported GeoNames IDs used by canonical
+records, and none of those imported rows has a newer `modification_date` than
+the date already stored in canonical `sourceReferences`. Relevant current
+feature-code counts were unchanged for the imported review families: 9 `AIRP`,
+28 `RSTN`, 5 `RSTNQ`, 2 `HBR`, 1 `PRT`, 3 `WHRF`, 3 `PIER`, 5 `TRANT`, 2
+`PSTB`, and 1 `CSTM` row.
+
+NGA World Port Index was rechecked from the current official CSV download. The
+Syria rows remain Tartus (`45003` / `SY TTS`), Baniyas (`45005` / `SY BAN`),
+and Al Ladhiqiyah (`45010` / `SY ALD`). No WPI-backed canonical changes were
+needed.
+
+The Logistics Cluster Middle East regional page still lists the 25 May 2026
+regional supply-route snapshot as the latest regional supply-route snapshot. It
+also lists newer Syria documents published on 2026-07-13 and 2026-07-14. The 9
+July 2026 Syria coordination meeting minutes were reviewed and recorded in
+`imports/manifests/logistics-cluster-syria-coordination-minutes-2026-07-09-currentness-review-2026-07-14.json`.
+No canonical records were added: the Latakia Port to Adra cargo train note is a
+single operational report, while the Deir Ez-Zor UNHAS test-flight and
+tentative 20 August rehabilitation note are future or operational status claims.
+The July 2026 import-clearance guidance documents were held because they are
+procedural guidance rather than location, route, or status records.
+
+No canonical data files changed as a result of this freshness review.
+
+### 2026-07-08 Release Review
+
 The current released snapshot used OurAirports and the DataHub UN/LOCODE
 codelist accessed at `2026-07-07T21:51:07.081Z`.
 

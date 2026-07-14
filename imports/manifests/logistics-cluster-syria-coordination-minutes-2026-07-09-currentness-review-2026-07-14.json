@@ -1,0 +1,31 @@
+{
+  "sourceId": "logistics-cluster-syria-coordination-minutes-2026-07-09",
+  "sourceTitle": "Syria - Coordination Meeting Minutes, 9 July 2026",
+  "sourceUrl": "https://logcluster.org/en/documents/syria-coordination-meeting-minutes-9-july-2026",
+  "license": "Logistics Cluster Terms of Use; non-commercial humanitarian or academic use with attribution",
+  "licenseUrl": "https://logcluster.org/en/terms-use",
+  "accessedAt": "2026-07-14T17:15:00.000Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "syria-coordination-meeting-minutes-9-july-2026.pdf",
+      "notes": "Public Logistics Cluster PDF and HTML page, published and revised on 2026-07-14. Source was reviewed for data currency only; no source file is mirrored in this repository."
+    }
+  ],
+  "importedFields": [
+    "meeting date",
+    "publication date",
+    "shipment approval delay notes",
+    "Latakia Port to Adra cargo train note",
+    "Deir Ez-Zor UNHAS test flight note",
+    "future airport rehabilitation note"
+  ],
+  "targetFiles": ["data/route-snapshots.json", "data/status-snapshots.json", "data/sources.json"],
+  "transforms": [
+    "Review the meeting minutes for stable, source-dated transport observations that fit the current status or route snapshot models.",
+    "Hold single-shipment rail notes because they do not establish a reusable public route or corridor snapshot.",
+    "Hold UNHAS test-flight and tentative rehabilitation timeline notes because they are future or operational claims rather than stable canonical transport reference data.",
+    "Do not add import-clearance guidance documents as location, route, or status records because they describe procedures, not canonical transport locations."
+  ],
+  "reviewNotes": "Reviewed the 9 July 2026 Syria coordination meeting minutes during the 2026-07-14 freshness check. No canonical records were added or changed. The Latakia Port to Adra cargo train item was held as a single operational anecdote, and the Deir Ez-Zor UNHAS test-flight and tentative 20 August rehabilitation note were held as future/operational status claims. The related July 2026 import-clearance guidance documents were also reviewed at page level and held because they are procedural guidance rather than transport reference records."
+}

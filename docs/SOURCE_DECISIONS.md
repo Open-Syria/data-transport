@@ -242,6 +242,16 @@ onward corridors, and route geometry. Those items remain held because they are
 ambiguous, not Syria-specific enough for the current model, or would require
 geometry/live routing details that this dataset does not publish.
 
+A 2026-07-14 freshness check reviewed the Logistics Cluster page "Syria -
+Coordination Meeting Minutes, 9 July 2026" and related July 2026 import
+clearance guidance documents. No canonical records were added. The Latakia Port
+to Adra cargo train note was held because it is a single operational report
+rather than a reusable public route/corridor observation. The Deir Ez-Zor
+UNHAS test-flight note and tentative 20 August airport rehabilitation timeline
+were held because they are future or operational status claims. The import
+clearance documents were held because they describe procedures rather than
+transport reference locations, status snapshots, or route snapshots.
+
 The import did not add new crossing identities and did not change
 `data/locations.json` `operationalStatus` values. Canonical crossing identity
 continues to come from stable HIU/HDX reference sources and reviewed

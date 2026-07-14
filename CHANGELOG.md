@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Documented a 2026-07-14 transport freshness review across OurAirports,
+  UN/LOCODE, GeoNames, NGA World Port Index, and recent Logistics Cluster
+  Syria documents, with no canonical data changes required.
+- Added a reviewed import manifest for the held 9 July 2026 Logistics Cluster
+  Syria coordination meeting minutes.
+
 ## v0.1.1
 
 - Promoted the transport dataset from seed to released after API, website,
