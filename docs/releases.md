@@ -24,6 +24,9 @@ git push origin v0.1.1
 The release workflow prepares artifacts with `--status released` by default.
 Set the repository variable `DATASET_RELEASE_STATUS` to another valid release
 status only when publishing a planned, seed, or deprecated release.
+It derives `generatedAt` and `publishedAt` from the tagged commit timestamp, so
+reruns are reproducible. Published assets are immutable: byte-identical assets
+are retained, while changed bytes require a new version tag.
 
 To publish manually instead of using the tag workflow:
 

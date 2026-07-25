@@ -143,6 +143,8 @@ pnpm run release:build
 pnpm run release:prepare -- --version v0.1.1 --status released
 ```
 
+Published version assets are immutable; corrections require a new version tag.
+
 Generated release files are written to:
 
 ```text

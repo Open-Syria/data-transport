@@ -15,6 +15,10 @@ Artifacts are generated from canonical JSON and include:
 Release builds currently publish `locations`, `status-snapshots`, and
 `route-snapshots` artifacts.
 
+Tag-driven release manifests use the tagged commit timestamp. Published assets
+are immutable: matching assets are retained on reruns and changed bytes require
+a new version tag.
+
 The public datasets API reads the JSON release artifacts for:
 
 - `/api/v1/transport/locations`

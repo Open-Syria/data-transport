@@ -10,6 +10,8 @@
       free of geometry or live routing details.
 - [ ] Release artifacts are prepared with the intended version, status, and
       public GitHub release asset URLs.
+- [ ] A rerun would retain byte-identical published assets; changed assets use
+      a new version tag rather than replacing an existing release.
 - [ ] `release-manifest.json` contains only approved sources and visible source
       license limitations.
 - [ ] `datasets-api/dataset-releases.json`, API docs, and

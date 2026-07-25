@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Make tag-driven release manifests reproducible from the tagged commit timestamp.
+- Prevent release workflow reruns from replacing published assets; matching assets are retained and changed bytes require a new version.
+- Align validation, CodeQL, and dependency-review workflow security and skip behavior with the other dataset repositories.
+- Apply the shared pnpm supply-chain policy, audit dependencies during validation, and pin the patched `fast-uri` release.
 - Documented a 2026-07-14 transport freshness review across OurAirports,
   UN/LOCODE, GeoNames, NGA World Port Index, and recent Logistics Cluster
   Syria documents, with no canonical data changes required.
