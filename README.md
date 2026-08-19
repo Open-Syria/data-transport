@@ -9,6 +9,8 @@ OpenSyria Data Transport is the canonical repository for public, non-personal
 Syrian transport and trade location reference data, plus dated public status
 and route snapshots when a reviewed source supports them.
 
+**Canonical public dataset page:** [Syrian Transport Locations, Status and Route Data](https://opensyria.org/datasets/transport)
+
 The repository publishes versioned release artifacts consumed by
 [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on
 stable public reference locations, not live routing, military, checkpoint,
@@ -173,8 +175,8 @@ deployed:
 - `GET https://api.opensyria.org/api/v1/transport/route-snapshots/{routeSnapshotId}`
 
 Filtered OpenAPI documentation is published at
-`https://api.opensyria.org/openapi/transport.json`, and the public dataset page
-is `https://opensyria.org/datasets/transport`.
+`https://api.opensyria.org/openapi/transport.json`. The public dataset page
+linked above provides human-readable context and download options.
 
 ## Source Policy
 
